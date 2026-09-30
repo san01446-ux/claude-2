@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>천하제일 무림</title>
 <link rel="icon" href="data:," />
+<link rel="stylesheet" href="assets/fonts/fonts.css" />
 <link rel="stylesheet" href="style.css" />
 <script type="importmap">
 { "imports": { "three": "./lib/three.module.js" } }
@@ -20,6 +21,7 @@
     <div class="name">청운검객 <span>靑雲劍客</span></div>
     <div class="bar hp"><div class="fill" id="hpFill"></div><span id="hpText"></span></div>
     <div class="bar qi"><div class="fill" id="qiFill"></div><span id="qiText"></span></div>
+    <div id="manuals"></div>
   </div>
   <div id="score">
     <div><b>제 <span id="waveNum">1</span> 파</b></div>
@@ -51,7 +53,17 @@
       <tr><td>Space</td><td>도약 · 공중에서 한 번 더 (경공)</td><td>Shift</td><td>보법 (회피)</td></tr>
       <tr><td>Q</td><td>천뢰검 (내공 100)</td><td>Esc</td><td>일시정지</td></tr>
     </table>
-    <button id="startBtn">입산하기</button>
+    <button id="startBtn" disabled>수련장 준비 중…</button>
+    <p id="best" class="best"></p>
+  </div>
+</div>
+
+<div id="upgrade" class="overlay hidden">
+  <div class="upgrade-box">
+    <div class="hanja">秘笈</div>
+    <h2>무공 비급을 얻었다</h2>
+    <p>하나를 골라 익히세요 (클릭 또는 1 · 2 · 3)</p>
+    <div id="cards"></div>
   </div>
 </div>
 

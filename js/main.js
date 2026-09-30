@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { sfx, initAudio } from './audio.js';
+import { loadAssets, assets, tex } from './assets.js';
 
 // ───────────────────────── utils ─────────────────────────
 const V3 = THREE.Vector3;
@@ -35,8 +36,15 @@ addEventListener('resize', () => {
   renderer.setSize(innerWidth, innerHeight);
 });
 
-// lights
-scene.add(new THREE.HemisphereLight(0xdde8ff, 0x5a4a30, 1.0));
+await loadAssets((f) => {
+  const btn = $('startBtn');
+  btn.textContent = `수련장 준비 중… ${Math.round(f * 100)}%`;
+});
+if (assets.env) scene.environment = assets.env;
+
+// lights (image-based light from the HDRI does part of the fill, so keep these moderate)
+const hemi = new THREE.HemisphereLight(0xdde8ff, 0x5a4a30, assets.env ? 0.45 : 1.0);
+scene.add(hemi);
 const sun = new THREE.DirectionalLight(0xfff0d8, 2.4);
 sun.position.set(30, 55, 20);
 sun.castShadow = true;
@@ -103,7 +111,7 @@ function buildWorld() {
   gg.rotateX(-Math.PI / 2);
   const p = gg.attributes.position;
   const col = [];
-  const c1 = new THREE.Color(0x6f8a48), c2 = new THREE.Color(0x98a060), c3 = new THREE.Color(0x7d7458);
+  const c1 = new THREE.Color(0xd6e0b8), c2 = new THREE.Color(0xfff4c8), c3 = new THREE.Color(0x9a8c70);
   for (let i = 0; i < p.count; i++) {
     const x = p.getX(i), z = p.getZ(i);
     const r = Math.hypot(x, z);
@@ -115,25 +123,25 @@ function buildWorld() {
   }
   gg.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
   gg.computeVertexNormals();
-  const ground = new THREE.Mesh(gg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }));
+  const ground = new THREE.Mesh(gg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, map: tex('grass', 110) }));
   ground.receiveShadow = true;
   scene.add(ground);
 
   // stone plaza with taegeuk
+  const PLAZA_TILES = 6;
   const plazaTex = canvasTex(1024, 1024, (g) => {
     const cx = 512, cy = 512;
-    g.fillStyle = '#9d9585'; g.fillRect(0, 0, 1024, 1024);
-    for (let r = 118, ring = 0; r < 512; r += 50, ring++) {
-      const n = Math.max(8, Math.floor(r * 0.1));
-      for (let i = 0; i < n; i++) {
-        const off = ring * 0.37;
-        const a0 = (i / n) * TAU + off, a1 = ((i + 1) / n) * TAU + off;
-        const s = 150 + rand(-16, 16);
-        g.fillStyle = `rgb(${s + 12},${s + 6},${s - 8})`;
-        g.beginPath(); g.arc(cx, cy, r + 50, a0, a1); g.arc(cx, cy, r, a1, a0, true); g.closePath(); g.fill();
-        g.strokeStyle = 'rgba(55,45,35,.55)'; g.lineWidth = 3; g.stroke();
-      }
+    const img = assets.tex.stone?.image;
+    if (img) {
+      // tile the stone floor photo PLAZA_TILES times so it lines up with the normal map
+      const step = 1024 / PLAZA_TILES;
+      for (let x = 0; x < PLAZA_TILES; x++) for (let y = 0; y < PLAZA_TILES; y++) g.drawImage(img, x * step, y * step, step, step);
+      g.fillStyle = 'rgba(214,200,170,.18)'; g.fillRect(0, 0, 1024, 1024);
+    } else {
+      g.fillStyle = '#9d9585'; g.fillRect(0, 0, 1024, 1024);
     }
+    g.strokeStyle = 'rgba(40,32,24,.45)'; g.lineWidth = 6;
+    for (let r = 118; r < 512; r += 100) { g.beginPath(); g.arc(cx, cy, r, 0, TAU); g.stroke(); }
     const R = 104;
     g.fillStyle = '#e9e1cd'; g.beginPath(); g.arc(cx, cy, R + 10, 0, TAU); g.fill();
     g.fillStyle = '#b3262b'; g.beginPath(); g.arc(cx, cy, R, 0, TAU); g.fill();
@@ -144,15 +152,38 @@ function buildWorld() {
     g.arc(cx, cy - R / 2, R / 2, Math.PI / 2, -Math.PI / 2, true);
     g.fill();
   });
-  const plaza = new THREE.Mesh(new THREE.CircleGeometry(16, 72), new THREE.MeshStandardMaterial({ map: plazaTex, roughness: 0.95 }));
+  const plaza = new THREE.Mesh(new THREE.CircleGeometry(16, 72), new THREE.MeshStandardMaterial({ map: plazaTex, normalMap: tex('stoneN', PLAZA_TILES), normalScale: new THREE.Vector2(0.8, 0.8), roughness: 0.9 }));
   plaza.rotation.x = -Math.PI / 2; plaza.rotation.z = Math.PI / 2;
   plaza.position.y = 0.02; plaza.receiveShadow = true;
   scene.add(plaza);
+  // dirt path ring around the plaza and toward the gate, with soft edges
+  const dirtMat = (alpha) => new THREE.MeshStandardMaterial({ map: tex('dirt', 6), alphaMap: alpha, transparent: true, depthWrite: false, roughness: 1, polygonOffset: true, polygonOffsetFactor: -1 });
+  const ringAlpha = canvasTex(256, 256, (g) => {
+    const gr = g.createRadialGradient(128, 128, 0, 128, 128, 128);
+    gr.addColorStop(0.80, '#000'); gr.addColorStop(0.84, '#fff'); gr.addColorStop(0.9, '#fff'); gr.addColorStop(1, '#000');
+    g.fillStyle = gr; g.fillRect(0, 0, 256, 256);
+  });
+  ringAlpha.colorSpace = THREE.NoColorSpace;
+  const dirtRing = new THREE.Mesh(new THREE.CircleGeometry(20, 72), dirtMat(ringAlpha));
+  dirtRing.rotation.x = -Math.PI / 2; dirtRing.position.y = 0.012; dirtRing.receiveShadow = true;
+  scene.add(dirtRing);
+  const pathAlpha = canvasTex(64, 4, (g) => {
+    const gr = g.createLinearGradient(0, 0, 64, 0);
+    gr.addColorStop(0, '#000'); gr.addColorStop(0.25, '#fff'); gr.addColorStop(0.75, '#fff'); gr.addColorStop(1, '#000');
+    g.fillStyle = gr; g.fillRect(0, 0, 64, 4);
+  });
+  pathAlpha.colorSpace = THREE.NoColorSpace;
+  const path = new THREE.Mesh(new THREE.PlaneGeometry(6, 16), dirtMat(pathAlpha));
+  path.material.map.repeat.set(1, 3);
+  path.rotation.x = -Math.PI / 2; path.position.set(0, 0.011, -24); path.receiveShadow = true;
+  scene.add(path);
+
   const rim = new THREE.Mesh(new THREE.TorusGeometry(16, 0.18, 6, 72), new THREE.MeshStandardMaterial({ color: 0x6d665a, roughness: 1 }));
   rim.rotation.x = -Math.PI / 2; rim.receiveShadow = true;
   scene.add(rim);
 
   // distant ink-wash mountains
+  const mountainTex = tex('rock', 5);
   for (let i = 0; i < 34; i++) {
     const a = (i / 34) * TAU + rand(-0.08, 0.08);
     const d = rand(170, 300);
@@ -164,7 +195,7 @@ function buildWorld() {
       if (mp.getY(j) < h / 2 - 0.01) { mp.setX(j, mp.getX(j) * rand(0.8, 1.2)); mp.setZ(j, mp.getZ(j) * rand(0.8, 1.2)); }
     }
     mg.computeVertexNormals();
-    const m = new THREE.Mesh(mg, new THREE.MeshStandardMaterial({ color: shade, roughness: 1, flatShading: true }));
+    const m = new THREE.Mesh(mg, new THREE.MeshStandardMaterial({ color: shade, map: mountainTex, roughness: 1, flatShading: true }));
     m.position.set(Math.cos(a) * d, h / 2 - 4, Math.sin(a) * d);
     m.rotation.y = rand(0, TAU);
     scene.add(m);
@@ -175,10 +206,12 @@ function buildWorld() {
     }
   }
 
-  const red = new THREE.MeshStandardMaterial({ color: 0x9c2a22, roughness: 0.7 });
-  const green = new THREE.MeshStandardMaterial({ color: 0x2f6b5a, roughness: 0.7 });
-  const tile = new THREE.MeshStandardMaterial({ color: 0x2c3438, roughness: 0.8, flatShading: true });
-  const stone = new THREE.MeshStandardMaterial({ color: 0x8e877a, roughness: 1 });
+  // lacquered wood (단청 red / green), roof tiles, carved stone
+  const red = new THREE.MeshStandardMaterial({ color: 0xe0584c, map: tex('wood', 1), roughness: 0.45 });
+  const green = new THREE.MeshStandardMaterial({ color: 0x6fc0a8, map: tex('wood', 1), roughness: 0.5 });
+  const tile = new THREE.MeshStandardMaterial({ color: 0x3a444a, map: tex('rock', 3), normalMap: tex('rockN', 3), roughness: 0.7, flatShading: true });
+  const stone = new THREE.MeshStandardMaterial({ color: 0xd8d0c0, map: tex('rock', 1), normalMap: tex('rockN', 1), roughness: 0.95 });
+  const paving = new THREE.MeshStandardMaterial({ color: 0xe8e0d0, map: tex('stone', 2), normalMap: tex('stoneN', 2), roughness: 0.9 });
   const add = (mesh, parent = scene) => { mesh.castShadow = true; mesh.receiveShadow = true; parent.add(mesh); return mesh; };
 
   // pavilion (정자)
@@ -186,7 +219,7 @@ function buildWorld() {
     const g = new THREE.Group();
     g.position.set(24, 0, -12);
     g.rotation.y = -0.5;
-    add(new THREE.Mesh(new THREE.BoxGeometry(8, 0.5, 8), stone), g).position.y = 0.25;
+    add(new THREE.Mesh(new THREE.BoxGeometry(8, 0.5, 8), paving), g).position.y = 0.25;
     for (const sx of [-3, 3]) for (const sz of [-3, 3]) {
       add(new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.26, 3.6, 10), red), g).position.set(sx, 2.3, sz);
     }
@@ -236,7 +269,7 @@ function buildWorld() {
       c.fillText('武', w / 2, h / 2);
     });
     for (const sx of [-8, 8]) {
-      add(new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.1, 8, 6), new THREE.MeshStandardMaterial({ color: 0x3a2a1a }))).position.set(sx, 4, -29);
+      add(new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.1, 8, 6), new THREE.MeshStandardMaterial({ color: 0x6a4a30, map: tex('wood', 1) }))).position.set(sx, 4, -29);
       const fg = new THREE.PlaneGeometry(1.3, 2.6, 12, 1);
       fg.translate(sx < 0 ? -0.65 : 0.65, 0, 0);
       const flag = new THREE.Mesh(fg, new THREE.MeshStandardMaterial({ map: flagTex, side: THREE.DoubleSide, roughness: 0.9 }));
@@ -295,7 +328,7 @@ function buildWorld() {
   scene.add(leafMesh);
 
   // cherry blossom trees
-  const bark = new THREE.MeshStandardMaterial({ color: 0x4a3226, roughness: 1 });
+  const bark = new THREE.MeshStandardMaterial({ color: 0x7a5a48, map: tex('rock', 1), normalMap: tex('rockN', 1), roughness: 1 });
   const bloom = new THREE.MeshStandardMaterial({ color: 0xf2b6c8, roughness: 0.9, flatShading: true });
   for (const [x, z] of [[-20, -6], [-14, 20], [18, 18]]) {
     const g = new THREE.Group(); g.position.set(x, 0, z);
@@ -321,6 +354,8 @@ function buildWorld() {
   }
 }
 buildWorld();
+$('startBtn').textContent = '입산하기';
+$('startBtn').disabled = false;
 
 function resolveCollisions(pos, radius) {
   for (const c of colliders) {
@@ -555,6 +590,8 @@ function resetPlayer() {
     attackT: 0, attackDur: 0, combo: 0, comboWindow: 0, queued: false, hitDone: false,
     castT: 0, castDur: 0, castType: null, castFired: false,
     dashT: 0, dashDir: new V3(), invuln: 0, flipT: 0, walkPhase: 0, spin: 0,
+    mods: { sword: 1, palm: 1, palmSize: 1, qiRegen: 1, lifesteal: 0, dashCost: 15, speed: 1, crit: 0.15, armor: 0, swordWave: 0 },
+    manuals: {},
   });
   player.pos.set(0, 0, 6);
   player.vel.set(0, 0, 0);
@@ -620,13 +657,14 @@ function slashHit(c) {
     if (dist > range + e.radius || Math.abs(e.pos.y - p.pos.y) > 2.5) continue;
     d.normalize();
     if (dist > 0.6 && d.dot(f) < minDot) continue;
-    const crit = Math.random() < 0.15;
-    const dmg = Math.round(base * rand(0.85, 1.15) * (crit ? 1.8 : 1));
+    const crit = Math.random() < p.mods.crit;
+    const dmg = Math.round(base * p.mods.sword * rand(0.85, 1.15) * (crit ? 1.8 : 1));
     hitEnemy(e, dmg, dist > 0.01 ? d : f, c === 2 ? 10 : 4.5, crit);
     hits++;
   }
   if (hits) { p.qi = Math.min(p.maxQi, p.qi + 4 * hits); hitstop = 0.055; shake = Math.max(shake, 0.18); }
   slashVfx(c);
+  if (c === 2 && p.mods.swordWave) fireSwordWave();
 }
 function slashVfx(c) {
   const full = c === 2;
@@ -656,18 +694,33 @@ function tryPalm() {
   p.castType = 'palm'; p.castDur = p.castT = 0.42; p.castFired = false;
   autoFace(18, camForward());
 }
+function launch(g, dir, { speed, life, dmg, knock, radius, color, spin = 0 }) {
+  g.position.copy(player.pos).addScaledVector(dir, 1.0); g.position.y += 1.35;
+  g.lookAt(g.position.clone().add(dir));
+  scene.add(g);
+  projectiles.push({ obj: g, vel: dir.clone().multiplyScalar(speed), life, dmg, knock, radius, color, spin, hitSet: new Set() });
+}
 function firePalm() {
   const f = facingVec(player.facing);
   const g = new THREE.Group();
   g.add(new THREE.Mesh(geo('palmCore', () => new THREE.SphereGeometry(0.32, 16, 12)), additive(0xffffff, 1)));
   g.add(new THREE.Mesh(geo('palmGlow', () => new THREE.SphereGeometry(0.75, 16, 12)), additive(0x3d9fff, 0.45)));
   g.add(new THREE.Mesh(geo('palmHalo', () => new THREE.TorusGeometry(0.8, 0.07, 6, 24)), additive(0x9fd6ff, 0.8)));
-  g.position.copy(player.pos).addScaledVector(f, 1.0); g.position.y += 1.35;
-  g.lookAt(g.position.clone().add(f));
-  scene.add(g);
-  projectiles.push({ obj: g, vel: f.multiplyScalar(24), life: 1.3, hitSet: new Set() });
+  const size = player.mods.palmSize;
+  g.scale.setScalar(size);
+  launch(g, f, { speed: 24, life: 1.3, dmg: [36, 46].map((d) => d * player.mods.palm), knock: 13, radius: 0.9 * size, color: 0x6fc0ff, spin: 10 });
   sfx.palm();
   burst(g.position, 20, 0x6fc0ff, 6, 0.4);
+}
+function fireSwordWave() {
+  const f = facingVec(player.facing);
+  const g = new THREE.Group();
+  // flat crescent centred on local +z (the travel direction after lookAt)
+  const arc = new THREE.Mesh(geo('waveArc', () => new THREE.RingGeometry(1.0, 1.7, 24, 1, -Math.PI / 2 - 0.9, 1.8)), additive(0xcfeaff, 0.9));
+  arc.rotation.x = -Math.PI / 2;
+  g.add(arc);
+  launch(g, f, { speed: 30, life: 0.55, dmg: [22, 28].map((d) => d * player.mods.sword * player.mods.swordWave), knock: 8, radius: 1.5, color: 0xcfeaff });
+  sfx.slash(2);
 }
 
 function tryUlt() {
@@ -711,8 +764,8 @@ function tryJump() {
 }
 function tryDash() {
   const p = player;
-  if (state !== 'playing' || p.dead || p.castT > 0 || p.dashT > 0 || p.qi < 15) return;
-  p.qi -= 15;
+  if (state !== 'playing' || p.dead || p.castT > 0 || p.dashT > 0 || p.qi < p.mods.dashCost) return;
+  p.qi -= p.mods.dashCost;
   const mv = inputDir();
   p.dashDir = mv.lengthSq() ? mv : facingVec(p.facing);
   p.facing = Math.atan2(p.dashDir.x, p.dashDir.z);
@@ -724,6 +777,7 @@ function tryDash() {
 function damagePlayer(dmg, from) {
   const p = player;
   if (p.dead || p.invuln > 0 || p.dashT > 0) return false;
+  dmg = Math.max(1, Math.round(dmg * (1 - p.mods.armor)));
   p.hp -= dmg; p.invuln = 0.55;
   floatText(p.pos.clone().setY(p.pos.y + 2.3), '-' + dmg, 'player');
   flash(p.h, 0xff2020, 1.2);
@@ -742,7 +796,7 @@ function updatePlayer(dt) {
   const p = player, h = p.h;
   p.invuln = Math.max(0, p.invuln - dt);
   p.comboWindow = Math.max(0, p.comboWindow - dt);
-  p.qi = Math.min(p.maxQi, p.qi + (p.castType === 'ult' ? 0 : 7) * dt);
+  p.qi = Math.min(p.maxQi, p.qi + (p.castType === 'ult' ? 0 : 7 * p.mods.qiRegen) * dt);
 
   const move = p.dead ? new V3() : inputDir();
   if (p.dashT > 0) {
@@ -752,8 +806,9 @@ function updatePlayer(dt) {
   } else {
     const mult = busy() ? 0.15 : 1;
     const k = p.onGround ? 14 : 4;
-    p.vel.x = damp(p.vel.x, move.x * 7.5 * mult, k, dt);
-    p.vel.z = damp(p.vel.z, move.z * 7.5 * mult, k, dt);
+    const run = 7.5 * p.mods.speed * mult;
+    p.vel.x = damp(p.vel.x, move.x * run, k, dt);
+    p.vel.z = damp(p.vel.z, move.z * run, k, dt);
     if (!busy() && move.lengthSq() && !p.dead) p.facing = dampAngle(p.facing, Math.atan2(move.x, move.z), 14, dt);
   }
   p.vel.y -= (p.castType === 'ult' ? 22 : 32) * dt;
@@ -908,6 +963,10 @@ function killEnemy(e, dir) {
   stats.kills++;
   stats.score += e.T.score * (1 + Math.floor(waves.n / 3));
   player.qi = Math.min(player.maxQi, player.qi + (e.boss ? 100 : 12));
+  if (player.mods.lifesteal && !player.dead) {
+    player.hp = Math.min(player.maxHp, player.hp + player.mods.lifesteal);
+    floatText(player.pos.clone().setY(player.pos.y + 2.2), '+' + player.mods.lifesteal, 'heal');
+  }
   sfx.kill();
   if (e.bar) { scene.remove(e.bar); disposeTree(e.bar); e.bar = null; }
   if (e.boss) {
@@ -1062,23 +1121,26 @@ function updateProjectiles(dt) {
     const pr = projectiles[i];
     pr.life -= dt;
     pr.obj.position.addScaledVector(pr.vel, dt);
-    pr.obj.children[2].rotation.z += dt * 10;
-    pr.obj.children[1].scale.setScalar(1 + Math.sin(performance.now() * 0.03) * 0.12);
-    burst(pr.obj.position, 2, 0x6fc0ff, 1.5, 0.35);
+    if (pr.spin) {
+      pr.obj.children[2].rotation.z += dt * pr.spin;
+      pr.obj.children[1].scale.setScalar(1 + Math.sin(performance.now() * 0.03) * 0.12);
+    }
+    burst(pr.obj.position, 2, pr.color, 1.5, 0.35);
     for (const e of enemies) {
       if (e.dead || pr.hitSet.has(e)) continue;
       const sc = e.h.root.scale.y;
       const d = Math.hypot(e.pos.x - pr.obj.position.x, e.pos.z - pr.obj.position.z);
-      if (d < 0.9 + e.radius && Math.abs(e.pos.y + 1.2 * sc - pr.obj.position.y) < 1.4 * sc) {
+      if (d < pr.radius + e.radius && Math.abs(e.pos.y + 1.2 * sc - pr.obj.position.y) < 1.4 * sc) {
         pr.hitSet.add(e);
-        hitEnemy(e, Math.round(rand(36, 46)), pr.vel.clone().normalize(), 13, Math.random() < 0.2);
+        const crit = Math.random() < player.mods.crit + 0.05;
+        hitEnemy(e, Math.round(rand(pr.dmg[0], pr.dmg[1]) * (crit ? 1.8 : 1)), pr.vel.clone().normalize(), pr.knock, crit);
         hitstop = 0.04; shake = Math.max(shake, 0.2);
-        shockRing(pr.obj.position.clone().setY(e.pos.y), 2.5, 0x6fc0ff, 0.3);
+        shockRing(pr.obj.position.clone().setY(e.pos.y), 2.5, pr.color, 0.3);
       }
     }
     const hitWall = colliders.some((c) => Math.hypot(c.x - pr.obj.position.x, c.z - pr.obj.position.z) < c.r);
     if (pr.life <= 0 || hitWall) {
-      burst(pr.obj.position, 24, 0x9fd6ff, 6, 0.45);
+      burst(pr.obj.position, 24, pr.color, 6, 0.45);
       scene.remove(pr.obj); disposeTree(pr.obj);
       projectiles.splice(i, 1);
     }
@@ -1124,6 +1186,11 @@ function startWave(n) {
 }
 function updateWaves(dt) {
   if (!waves.active) {
+    if (waves.upgradeT > 0) {
+      waves.upgradeT -= dt;
+      if (waves.upgradeT <= 0) openUpgrade();
+      return;
+    }
     waves.betweenT -= dt;
     if (waves.betweenT <= 0) startWave(waves.n + 1);
     return;
@@ -1133,13 +1200,75 @@ function updateWaves(dt) {
     waves.spawnT -= dt;
     if (waves.spawnT <= 0 && alive < 10) { spawnEnemy(waves.toSpawn.shift(), waves.n); waves.spawnT = rand(0.6, 1.3); }
   } else if (alive === 0) {
-    waves.active = false; waves.betweenT = 4;
+    waves.active = false; waves.betweenT = 3; waves.upgradeT = 1.6;
     const heal = 25;
     player.hp = Math.min(player.maxHp, player.hp + heal);
     floatText(player.pos.clone().setY(2.2), '+' + heal, 'heal');
     showBanner('격퇴 성공', `내상 회복 +${heal}`);
   }
 }
+
+// ───────────────────────── 무공 비급 (upgrades between waves) ─────────────────────────
+const MANUALS = [
+  { id: 'sword', name: '검기 강화', hanja: '劍氣', desc: '검법 피해 +20%', max: 5, apply: (p) => (p.mods.sword += 0.2) },
+  { id: 'body', name: '금강불괴', hanja: '金剛不壞', desc: '최대 체력 +25, 체력 25 회복', max: 4, apply: (p) => { p.maxHp += 25; p.hp = Math.min(p.maxHp, p.hp + 25); } },
+  { id: 'qi', name: '소주천 심법', hanja: '小周天', desc: '내공 회복 속도 +40%', max: 4, apply: (p) => (p.mods.qiRegen += 0.4) },
+  { id: 'leech', name: '흡성대법', hanja: '吸星大法', desc: '적을 처치할 때마다 체력 +3', max: 4, apply: (p) => (p.mods.lifesteal += 3) },
+  { id: 'step', name: '이형환위', hanja: '移形換位', desc: '이동 속도 +10%, 보법 내공 소모 -4', max: 3, apply: (p) => { p.mods.speed += 0.1; p.mods.dashCost -= 4; } },
+  { id: 'palm', name: '항룡장', hanja: '降龍掌', desc: '장풍 피해 +30%, 크기 +20%', max: 4, apply: (p) => { p.mods.palm += 0.3; p.mods.palmSize += 0.2; } },
+  { id: 'crit', name: '벽력검', hanja: '霹靂劍', desc: '치명타 확률 +8%', max: 4, apply: (p) => (p.mods.crit += 0.08) },
+  { id: 'guard', name: '호신강기', hanja: '護身罡氣', desc: '받는 피해 -12%', max: 3, apply: (p) => (p.mods.armor += 0.12) },
+  { id: 'wave', name: '검강', hanja: '劍罡', desc: '3타 회전베기가 관통하는 검기 파동을 날린다 (단계마다 피해 증가)', max: 3, apply: (p) => (p.mods.swordWave += 1) },
+];
+let offered = [];
+function openUpgrade() {
+  const pool = MANUALS.filter((m) => (player.manuals[m.id] || 0) < m.max);
+  offered = pool.sort(() => Math.random() - 0.5).slice(0, 3);
+  if (!offered.length) return;
+  state = 'upgrade';
+  for (const k in keys) keys[k] = false;
+  const box = $('cards');
+  box.innerHTML = '';
+  offered.forEach((m, i) => {
+    const lv = (player.manuals[m.id] || 0) + 1;
+    const el = document.createElement('button');
+    el.className = 'card';
+    el.innerHTML = `<kbd>${i + 1}</kbd><div class="hanja">${m.hanja}</div><b>${m.name}</b><small>${lv}성${lv === m.max ? ' (극성)' : ''}</small><p>${m.desc}</p>`;
+    el.addEventListener('click', () => chooseUpgrade(i));
+    box.appendChild(el);
+  });
+  $('upgrade').classList.remove('hidden');
+  sfx.gong();
+  if (document.pointerLockElement) document.exitPointerLock();
+}
+function chooseUpgrade(i) {
+  const m = offered[i];
+  if (state !== 'upgrade' || !m) return;
+  player.manuals[m.id] = (player.manuals[m.id] || 0) + 1;
+  m.apply(player);
+  offered = [];
+  $('upgrade').classList.add('hidden');
+  renderManuals();
+  showBanner(`${m.name} 습득`, m.desc);
+  burst(player.pos.clone().setY(1.2), 40, 0xffd34d, 6, 0.8, -2);
+  sfx.heal();
+  state = 'playing';
+  canvas.requestPointerLock?.();
+}
+function renderManuals() {
+  $('manuals').innerHTML = MANUALS.filter((m) => player.manuals[m.id])
+    .map((m) => `<span title="${m.name}: ${m.desc}">${m.hanja} <b>${player.manuals[m.id]}</b></span>`).join('');
+}
+
+// best score (per browser)
+const BEST_KEY = 'murim.best';
+function loadBest() { try { return JSON.parse(localStorage.getItem(BEST_KEY)) || null; } catch { return null; } }
+function saveBest(b) { try { localStorage.setItem(BEST_KEY, JSON.stringify(b)); } catch { /* storage unavailable */ } }
+function showBest() {
+  const b = loadBest();
+  $('best').textContent = b ? `최고 기록 — 제 ${b.wave} 파 · 명성 ${b.score.toLocaleString()}` : '';
+}
+showBest();
 let bannerTimer = 0;
 function showBanner(big, small) {
   const b = $('banner');
@@ -1187,6 +1316,7 @@ addEventListener('keydown', (e) => {
   if (e.code === 'KeyQ') tryUlt();
   if (e.code === 'ShiftLeft' || e.code === 'ShiftRight') tryDash();
   if (e.code === 'KeyP' && state === 'playing') pause();
+  if (state === 'upgrade' && /^Digit[123]$/.test(e.code)) chooseUpgrade(Number(e.code.slice(5)) - 1);
 });
 addEventListener('keyup', (e) => { keys[e.code] = false; });
 addEventListener('blur', () => { for (const k in keys) keys[k] = false; });
@@ -1236,7 +1366,8 @@ function startGame() {
   clearWorld();
   resetPlayer();
   stats.kills = 0; stats.score = 0;
-  waves.n = 0; waves.active = false; waves.betweenT = 1.2;
+  waves.n = 0; waves.active = false; waves.betweenT = 1.2; waves.upgradeT = 0;
+  renderManuals();
   cam.yaw = 0; cam.pitch = 0.38;
   $('title').classList.add('hidden');
   $('over').classList.add('hidden');
@@ -1247,7 +1378,11 @@ function startGame() {
 function gameOver() {
   state = 'over';
   if (document.pointerLockElement) document.exitPointerLock();
-  $('overStats').innerHTML = `제 ${waves.n} 파까지 버팀<br/>처치 ${stats.kills} · 명성 ${stats.score.toLocaleString()}`;
+  const best = loadBest();
+  const record = !best || stats.score > best.score;
+  if (record) saveBest({ wave: waves.n, score: stats.score, kills: stats.kills });
+  $('overStats').innerHTML = `제 ${waves.n} 파까지 버팀<br/>처치 ${stats.kills} · 명성 ${stats.score.toLocaleString()}` + (record && stats.score > 0 ? '<br/><b class="record">신기록!</b>' : '');
+  showBest();
   $('over').classList.remove('hidden');
 }
 $('startBtn').addEventListener('click', startGame);
@@ -1267,7 +1402,8 @@ function updateHud() {
   $('points').textContent = stats.score.toLocaleString();
   skillEls.palm.classList.toggle('off', p.qi < 25);
   skillEls.jump.classList.toggle('off', p.qi < 10);
-  skillEls.dash.classList.toggle('off', p.qi < 15);
+  skillEls.dash.classList.toggle('off', p.qi < p.mods.dashCost);
+  skillEls.dash.querySelector('small').textContent = `내공 ${p.mods.dashCost}`;
   skillEls.ult.classList.toggle('off', p.qi < p.maxQi);
   skillEls.ult.classList.toggle('ready', p.qi >= p.maxQi);
 }
@@ -1343,4 +1479,4 @@ function simulate(seconds, dt = 1 / 60) {
   }
   updateHud();
 }
-window.__murim = { player, enemies, waves, stats, keys, cam, startGame, simulate, tryAttack, tryPalm, tryUlt, tryJump, tryDash, get state() { return state; } };
+window.__murim = { player, enemies, waves, stats, keys, cam, chooseUpgrade, MANUALS, startGame, simulate, tryAttack, tryPalm, tryUlt, tryJump, tryDash, get state() { return state; } };

@@ -1,1 +1,1 @@
-{"mcpServers":{"pixai":{"command":"node","args":["pixai.mjs"]}}}
+{"mcpServers":{"pixai":{"command":"node","args":["pixai.mjs"],"env":{"NODE_USE_ENV_PROXY":"1"}}}}

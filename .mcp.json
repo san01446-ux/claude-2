@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pixai": {
+      "command": "node",
+      "args": ["pixai.mjs"],
+      "env": { "PIXAI_API_KEY": "${PIXAI_API_KEY}" }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import readline from 'node:readline';
 
-function getKey(){ const key=process.env.PIXAI_API_KEY?.trim(); if(!key)throw new Error('PIXAI_API_KEY 환경변수를 Claude Remote 환경에 설정하세요.'); return key; }
+function getKey(){ return process.env.PIXAI_API_KEY?.trim(); }
 async function api(endpoint,body){
-  const r=await fetch('https://api.pixai.art'+endpoint,{method:body?'POST':'GET',headers:{Authorization:'Bearer '+getKey(),...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{}),redirect:'error',signal:AbortSignal.timeout(30000)});
+  const r=await fetch('https://api.pixai.art'+endpoint,{method:body?'POST':'GET',headers:{...(getKey()?{Authorization:'Bearer '+getKey()}:{}),...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{}),redirect:'error',signal:AbortSignal.timeout(30000)});
   if(!r.ok)throw new Error('PixAI API HTTP '+r.status+(r.status===401?' — 키 인증 실패':r.status===402?' — 크레딧 확인 필요':''));
   return r.json();
 }

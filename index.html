@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>천하제일 무림</title>
+<link rel="icon" href="data:," />
+<link rel="stylesheet" href="style.css" />
+<script type="importmap">
+{ "imports": { "three": "./lib/three.module.js" } }
+</script>
+</head>
+<body>
+<div id="app"></div>
+<div id="fx"></div>
+<div id="hurt"></div>
+
+<div id="hud" class="hidden">
+  <div id="status">
+    <div class="name">청운검객 <span>靑雲劍客</span></div>
+    <div class="bar hp"><div class="fill" id="hpFill"></div><span id="hpText"></span></div>
+    <div class="bar qi"><div class="fill" id="qiFill"></div><span id="qiText"></span></div>
+  </div>
+  <div id="score">
+    <div><b>제 <span id="waveNum">1</span> 파</b></div>
+    <div>처치 <span id="kills">0</span></div>
+    <div>명성 <span id="points">0</span></div>
+  </div>
+  <div id="bossbar" class="hidden">
+    <div class="bossname">마교 교주 <span>魔敎敎主</span></div>
+    <div class="bar"><div class="fill" id="bossFill"></div></div>
+  </div>
+  <div id="skills">
+    <div class="skill" data-skill="attack"><kbd>좌클릭 / J</kbd><b>검법</b><small>3연격</small></div>
+    <div class="skill" data-skill="palm"><kbd>우클릭 / K</kbd><b>장풍</b><small>내공 25</small></div>
+    <div class="skill" data-skill="jump"><kbd>Space ×2</kbd><b>경공</b><small>내공 10</small></div>
+    <div class="skill" data-skill="dash"><kbd>Shift</kbd><b>보법</b><small>내공 15</small></div>
+    <div class="skill" data-skill="ult"><kbd>Q</kbd><b>천뢰검</b><small>내공 100</small></div>
+  </div>
+  <div id="banner"><div class="big"></div><div class="small"></div></div>
+</div>
+
+<div id="title" class="overlay">
+  <div class="panel">
+    <div class="hanja">天下第一武林</div>
+    <h1>천하제일 무림</h1>
+    <p class="lore">마교의 무리가 청운산을 침범했다.<br/>검 한 자루로 강호의 도를 지켜라.</p>
+    <table class="controls">
+      <tr><td>WASD</td><td>이동</td><td>마우스</td><td>시점</td></tr>
+      <tr><td>좌클릭 / J</td><td>검법 (3연격)</td><td>우클릭 / K</td><td>장풍</td></tr>
+      <tr><td>Space</td><td>도약 · 공중에서 한 번 더 (경공)</td><td>Shift</td><td>보법 (회피)</td></tr>
+      <tr><td>Q</td><td>천뢰검 (내공 100)</td><td>Esc</td><td>일시정지</td></tr>
+    </table>
+    <button id="startBtn">입산하기</button>
+  </div>
+</div>
+
+<div id="pause" class="overlay hidden">
+  <div class="panel small">
+    <h2>정좌 조식 中</h2>
+    <p>클릭하여 계속</p>
+  </div>
+</div>
+
+<div id="over" class="overlay hidden">
+  <div class="panel small">
+    <div class="hanja">敗</div>
+    <h2>강호에서 쓰러지다</h2>
+    <p id="overStats"></p>
+    <button id="restartBtn">다시 입산하기</button>
+  </div>
+</div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

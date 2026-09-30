@@ -1,0 +1,28 @@
+<div style="background:#0c0d12;border:1px solid #2b2d3a;border-radius:10px;padding:14px 16px;font-family:'Noto Sans KR',sans-serif;color:#c9ccd6;font-size:13px;line-height:1.5;">
+  <div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #23252f;padding-bottom:8px;margin-bottom:10px;">
+    <span style="color:#d8c27a;font-weight:700;letter-spacing:2px;">🌙 月影市</span>
+    <span style="color:#8b8fa3;">{{날짜}} · <b style="color:#eef0f6;">{{시각}}</b></span>
+  </div>
+  <div style="background:#2a1216;border:1px solid #5b2330;border-radius:6px;padding:6px 10px;margin-bottom:10px;color:#f0b8c0;font-size:12px;">📢 오늘 밤 경보 · <b>{{경보}}</b></div>
+  <div style="color:#8b8fa3;margin-bottom:10px;">📍 {{위치}}　🎒 {{소지품}}</div>
+  <div style="margin-bottom:6px;">
+    <div style="display:flex;justify-content:space-between;"><span>🧠 정신력</span><span>{{정신력}}/100</span></div>
+    <div style="background:#1c1e27;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{정신력}}%;height:100%;background:#6fa8c9;"></div></div>
+  </div>
+  <div style="margin-bottom:6px;">
+    <div style="display:flex;justify-content:space-between;"><span>❤️ 체력</span><span>{{체력}}/100</span></div>
+    <div style="background:#1c1e27;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{체력}}%;height:100%;background:#b34a4a;"></div></div>
+  </div>
+  <div style="margin-bottom:10px;">
+    <div style="display:flex;justify-content:space-between;"><span>🌙 월영 지수</span><span>{{월영지수}}/100</span></div>
+    <div style="background:#1c1e27;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{월영지수}}%;height:100%;background:#d8c27a;"></div></div>
+  </div>
+  <div style="margin-bottom:10px;">📖 괴담 도감 <b style="color:#eef0f6;">{{도감}}</b> / 100</div>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:5px;font-size:12px;border-top:1px solid #23252f;padding-top:10px;">
+    <div style="background:#14161e;border-radius:6px;padding:6px;text-align:center;">서린<br><b style="color:#eef0f6;">{{서린}}</b></div>
+    <div style="background:#14161e;border-radius:6px;padding:6px;text-align:center;">다온<br><b style="color:#eef0f6;">{{다온}}</b></div>
+    <div style="background:#14161e;border-radius:6px;padding:6px;text-align:center;">유나<br><b style="color:#eef0f6;">{{유나}}</b></div>
+    <div style="background:#14161e;border-radius:6px;padding:6px;text-align:center;">소월<br><b style="color:#eef0f6;">{{소월}}</b></div>
+    <div style="background:#14161e;border-radius:6px;padding:6px;text-align:center;">해리<br><b style="color:#eef0f6;">{{해리}}</b></div>
+  </div>
+</div>

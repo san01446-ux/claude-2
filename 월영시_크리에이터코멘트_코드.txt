@@ -1,0 +1,40 @@
+<div style="max-width:720px;margin:0 auto;background:#0b0b0e;color:#b9b3a8;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.9;padding:36px 26px 40px;border:1px solid #1f1d1b;border-radius:4px;">
+
+<div style="text-align:center;font-size:12px;letter-spacing:0.4em;color:#a3212b;">월 영 시 청 　 공 고 　 제 2 0 2 6 - 0 7 7 호</div>
+<div style="text-align:center;font-size:20px;letter-spacing:0.2em;color:#e9e2d4;margin-top:8px;">신규 전입자 안내문</div>
+
+<div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">생 존 　 요 령</div>
+<div style="margin-top:16px;font-size:15px;">
+<div style="margin-bottom:10px;"><span style="color:#a3212b;">一</span>　선택지는 없습니다. 하고 싶은 행동을 그대로 적으십시오. 숨는다, 대답하지 않는다, 소금을 뿌린다, 뒤돌아본다.</div>
+<div style="margin-bottom:10px;"><span style="color:#a3212b;">二</span>　괴담에는 반드시 규칙이 있습니다. 모르겠다면 도서관 사서, 산 아래 무당, 경찰서 지하 2층을 찾으십시오.</div>
+<div style="margin-bottom:10px;"><span style="color:#a3212b;">三</span>　정신력이 바닥나기 전에 달빛마트에 들르십시오. 삼각김밥은 1+1입니다.</div>
+<div style="margin-bottom:10px;"><span style="color:#a3212b;">四</span>　괴담을 퍼뜨리면 도시가 깨어납니다. 상태창의 <span style="color:#d8c27a;">월영 지수</span>를 주시하십시오.</div>
+<div><span style="color:#a3212b;">五</span>　괴이록에는 100편이 있습니다. 전부 모은 분은 아직 보고되지 않았습니다.</div>
+</div>
+
+<div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">협 조 자 에 　 관 하 여</div>
+<div style="margin-top:16px;font-size:15px;">
+<div>협조자들은 저마다 숨기는 것이 있습니다. 가까워질수록 하나씩 털어놓을 것입니다.</div>
+<div>마음을 여는 것도, 그 이상으로 나아가는 것도 언제나 당신의 선택입니다. 싫다고 하면 멈춥니다.</div>
+</div>
+
+<div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">퇴 거 　 경 로</div>
+<div style="margin-top:14px;background:#121114;border:1px solid #2a2622;padding:12px 16px;font-size:14px;line-height:2;">
+<div><b style="display:inline-block;width:110px;color:#d8cfbf;">마지막 이야기</b>도시를 잠재우고 떠나는 길</div>
+<div><b style="display:inline-block;width:110px;color:#d8cfbf;">첫차</b>괴담을 두고 도시를 떠나는 길</div>
+<div><b style="display:inline-block;width:110px;color:#d8cfbf;">기록자 · 무녀</b>이 도시에 남아 지키는 길</div>
+<div><b style="display:inline-block;width:110px;color:#d8cfbf;">연인</b>누군가의 곁에 남는 길</div>
+<div style="color:#a3212b;"><b style="display:inline-block;width:110px;">새 괴담</b>재난문자에 당신의 이름이 뜨는 길</div>
+</div>
+
+<div style="margin-top:34px;text-align:center;font-size:14px;color:#8f877b;">
+버그나 이상한 전개는 댓글로 제보해 주십시오.<br>
+단, 가장 믿는 사람이 "재밌는 얘기 하나 해 줄까?"라고 하면 댓글보다 도망이 먼저입니다.
+</div>
+
+<div style="margin-top:30px;text-align:center;">
+<span style="display:inline-block;border:2px solid #a3212b;color:#a3212b;padding:5px 14px;letter-spacing:0.3em;font-size:13px;transform:rotate(-4deg);">月影市長印</span>
+</div>
+<div style="margin-top:20px;text-align:center;font-size:12px;color:#5f574d;">🔞 모든 등장인물은 성인입니다 · 무사한 밤 되십시오</div>
+
+</div>

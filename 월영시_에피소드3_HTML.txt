@@ -1,5 +1,5 @@
 <div style="max-width:720px;margin:0 auto;background:#0b0b0e;color:#bdb6aa;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.95;font-size:15px;border:1px solid #1f1d1b;border-radius:6px;overflow:hidden;">
-<div style="position:relative;"><img src="https://raw.githubusercontent.com/san01446-ux/claude-2/38bd8f4b701989c977b2bb4b450fbb09b232ddb7/images/wolyeong_ep3.jpg" alt="" style="display:block;width:100%;max-height:400px;object-fit:cover;-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent);"></div>
+<div style="position:relative;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,w=1200/charim/2c453df8-eb97-4a8d-b6e7-d3f722bdde36?v=e0c771" alt="" style="display:block;width:100%;max-height:400px;object-fit:cover;-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent);"></div>
 <div style="padding:0 26px 30px;margin-top:-46px;position:relative;">
 <div style="font-size:11px;letter-spacing:0.4em;color:#a3212b;">괴 담 　 기 록 　 03</div>
 <div style="font-size:22px;color:#ece4d6;letter-spacing:0.06em;margin:4px 0 10px;text-shadow:0 0 12px #000;">엘리베이터 게임 — 서린의 생방송</div>

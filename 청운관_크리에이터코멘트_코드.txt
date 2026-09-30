@@ -1,0 +1,45 @@
+<div style="max-width:720px;margin:0 auto;background:#efe9dc;color:#3b352c;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.9;padding:40px 28px 44px;border-radius:4px;">
+
+<div style="text-align:center;letter-spacing:0.35em;font-size:20px;color:#2f2a22;">사 감 실 에 서 　 알 립 니 다</div>
+<div style="text-align:center;font-size:14px;color:#8a7f6d;margin-top:6px;">청운관에 입주하신 것을 환영합니다.</div>
+
+<div style="margin-top:40px;font-size:14px;letter-spacing:0.3em;color:#6b6152;border-bottom:1px solid #c9bfae;padding-bottom:8px;">생 활 　 안 내</div>
+<div style="margin-top:18px;font-size:15px;">
+<div style="margin-bottom:10px;"><span style="color:#9a5b4b;">一</span>　상태창의 <b>정신력</b>을 꼭 확인하십시오. 0이 되면 되돌릴 수 없습니다.</div>
+<div style="margin-bottom:10px;"><span style="color:#9a5b4b;">二</span>　생활수칙 일곱 개 중 하나는 거짓입니다. 무조건 믿지도, 무조건 어기지도 마십시오.</div>
+<div style="margin-bottom:10px;"><span style="color:#9a5b4b;">三</span>　낮에는 쉬고 조사하고, 밤에는 살아남으십시오. 국밥 한 그릇이 생각보다 큰 힘이 됩니다.</div>
+<div style="margin-bottom:10px;"><span style="color:#9a5b4b;">四</span>　선택지 대신 직접 행동을 적어도 됩니다. 세탁실, 공중전화, 라디오, 옥상. 청운관에는 숨은 곳이 많습니다.</div>
+<div><span style="color:#9a5b4b;">五</span>　엘리베이터 버튼에는 비밀이 하나 있습니다. 단서를 충분히 모은 뒤에 찾아보십시오.</div>
+</div>
+
+<div style="margin-top:36px;font-size:14px;letter-spacing:0.3em;color:#6b6152;border-bottom:1px solid #c9bfae;padding-bottom:8px;">입 주 자 들 에 　 대 하 여</div>
+<div style="margin-top:18px;font-size:15px;">
+<div>모든 입주자에게는 비밀이 있고, 가까워질수록 하나씩 털어놓습니다.</div>
+<div>마음을 여는 것도, 그 이상으로 나아가는 것도 언제나 당신의 선택입니다.</div>
+<div>싫다고 말하면, 그들은 멈춥니다. 4층의 그녀조차도.</div>
+</div>
+
+<div style="margin-top:36px;font-size:14px;letter-spacing:0.3em;color:#6b6152;border-bottom:1px solid #c9bfae;padding-bottom:8px;">퇴 사 　 안 내</div>
+<div style="margin-top:18px;font-size:15px;">
+<div>청운관을 떠나는 길은 다섯 갈래입니다.</div>
+<div style="margin:12px 0;background:#e6dcc4;border:1px solid #cdbf9f;box-shadow:inset 0 0 30px rgba(120,95,50,0.2);padding:12px 18px;font-size:14px;line-height:2;">
+<div><b style="display:inline-block;width:92px;">해원</b>누군가의 한을 풀고 떠나는 길</div>
+<div><b style="display:inline-block;width:92px;">탈출</b>혼자서라도 살아 나가는 길</div>
+<div><b style="display:inline-block;width:92px;">연인</b>그녀와 함께 남는 길</div>
+<div><b style="display:inline-block;width:92px;">대가</b>누군가를 대신 두고 가는 길</div>
+<div><b style="display:inline-block;width:92px;color:#8b2e2e;">새 거주자</b><span style="color:#8b2e2e;">떠나지 못하는 길</span></div>
+</div>
+<div>해원에 닿았다면, 1995년 첫눈 오던 밤 옥상에서 무슨 일이 있었는지 알게 될 것입니다.</div>
+</div>
+
+<div style="margin-top:36px;font-size:15px;text-align:center;color:#5a5245;">
+<div>버그나 이상한 전개가 있으면 댓글로 알려 주십시오.</div>
+<div>사감실 불이 켜져 있을 때 확인하겠습니다.</div>
+</div>
+
+<div style="margin-top:36px;text-align:center;">
+<span style="display:inline-block;border:2px solid #8b2e2e;color:#8b2e2e;padding:6px 14px;letter-spacing:0.3em;font-size:14px;transform:rotate(-4deg);opacity:0.85;">淸雲館 舍監</span>
+</div>
+<div style="margin-top:22px;text-align:center;font-size:13px;color:#7a6f5e;">🔞 모든 등장인물은 성인입니다 · 즐거운(?) 입주 되십시오</div>
+
+</div>

@@ -61,7 +61,7 @@ style.css       UI 스타일
 js/main.js      월드, 캐릭터, 전투, 적 AI, 웨이브, 카메라
 js/assets.js    텍스처·HDRI 로더
 js/audio.js     WebAudio 절차적 효과음 (에셋 파일 없음)
-assets/         텍스처(CC BY 4.0), HDRI(CC0), 한글 글꼴(OFL) — 출처는 CREDITS.md
+assets/         텍스처(CC BY 4.0), HDRI(CC0), 한글 글꼴(OFL), UI 일러스트(PixAI 생성) — 출처는 CREDITS.md
 lib/            three.js r160 + EXRLoader (MIT)
 tools/          글꼴 서브셋 스크립트
 ```

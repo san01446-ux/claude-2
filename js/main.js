@@ -1181,7 +1181,7 @@ function startWave(n) {
   waves.toSpawn = [];
   if (boss) waves.toSpawn.push('boss');
   for (let i = 0; i < count; i++) waves.toSpawn.push(Math.random() < blackChance ? 'blade' : 'bandit');
-  showBanner(`제 ${n} 파`, boss ? '마교 교주가 나타났다!' : `적 ${count}명 접근`);
+  showBanner(`제 ${n} 파`, boss ? '마교 교주가 나타났다!' : `적 ${count}명 접근`, boss);
   sfx.gong();
 }
 function updateWaves(dt) {
@@ -1233,8 +1233,9 @@ function openUpgrade() {
     const lv = (player.manuals[m.id] || 0) + 1;
     const el = document.createElement('button');
     el.className = 'card';
-    el.innerHTML = `<kbd>${i + 1}</kbd><div class="hanja">${m.hanja}</div><b>${m.name}</b><small>${lv}성${lv === m.max ? ' (극성)' : ''}</small><p>${m.desc}</p>`;
+    el.innerHTML = `<kbd>${i + 1}</kbd><img class="art" src="assets/images/manual_${m.id}.webp" alt="" /><div class="hanja">${m.hanja}</div><b>${m.name}</b><small>${lv}성${lv === m.max ? ' (극성)' : ''}</small><p>${m.desc}</p>`;
     el.addEventListener('click', () => chooseUpgrade(i));
+    bindArt(el.querySelector('img.art'));
     box.appendChild(el);
   });
   $('upgrade').classList.remove('hidden');
@@ -1269,9 +1270,22 @@ function showBest() {
   $('best').textContent = b ? `최고 기록 — 제 ${b.wave} 파 · 명성 ${b.score.toLocaleString()}` : '';
 }
 showBest();
+
+// PixAI UI art: the hanja/text next to each image stays as the fallback until the image loads.
+function bindArt(img) {
+  const ok = () => img.parentElement?.classList.add('has-art');
+  if (img.complete) img.naturalWidth ? ok() : img.remove();
+  else {
+    img.addEventListener('load', ok, { once: true });
+    img.addEventListener('error', () => img.remove(), { once: true });
+  }
+}
+document.querySelectorAll('img.art').forEach(bindArt);
+
 let bannerTimer = 0;
-function showBanner(big, small) {
+function showBanner(big, small, cutin = false) {
   const b = $('banner');
+  b.classList.toggle('cutin', cutin);
   b.querySelector('.big').textContent = big;
   b.querySelector('.small').textContent = small;
   b.classList.add('show');

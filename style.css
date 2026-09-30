@@ -87,10 +87,27 @@ button:disabled { opacity: .6; cursor: wait; background: #6d5a50; }
 .card small { color: #8a6a1a; font-weight: 700; }
 .card p { margin: 10px 0 0; line-height: 1.5; font-size: 15px; }
 
+/* PixAI UI art (assets/images). Each image is optional: the gradient / hanja fallback shows when it is missing. */
+#title { background: radial-gradient(ellipse at center, rgba(20,16,12,.25), rgba(10,8,6,.7)), url(assets/images/title.webp) center / cover no-repeat, #14100c; }
+#title .panel { background: rgba(239,230,210,.88); }
+#over { background: radial-gradient(ellipse at center, rgba(20,16,12,.3), rgba(10,8,6,.8)), url(assets/images/gameover.webp) center / cover no-repeat, #14100c; }
+.portrait { width: 44px; height: 44px; margin-right: 8px; vertical-align: middle; border-radius: 50%; object-fit: cover; object-position: 50% 30%; border: 2px solid var(--gold); box-shadow: 0 2px 6px #000; }
+#bossbar .portrait { width: 36px; height: 36px; border-color: var(--red); }
+#banner .cutin { display: none; }
+#banner.cutin .cutin { display: block; width: 168px; height: 168px; margin: 0 auto 10px; border-radius: 50%; object-fit: cover; object-position: 50% 30%; border: 3px solid var(--red); box-shadow: 0 0 0 4px rgba(212,175,55,.6), 0 0 36px rgba(179,38,43,.85); }
+#banner.cutin.show .cutin { animation: cutin .5s ease-out; }
+@keyframes cutin { from { transform: scale(1.4); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.skill .icon { display: block; width: 44px; height: 44px; margin: 0 auto 3px; object-fit: cover; border: 1px solid rgba(212,175,55,.5); border-radius: 3px; }
+.card .art { display: block; width: 112px; height: 112px; margin: 0 auto 6px; object-fit: cover; border: 1px solid var(--ink); box-shadow: 0 3px 8px rgba(0,0,0,.35); }
+.card.has-art > .hanja { display: none; }
+
 @media (max-width: 720px) {
   #skills { transform: translateX(-50%) scale(.75); transform-origin: bottom center; }
   #status { width: 200px; }
   h1 { font-size: 28px; }
+  .portrait { width: 34px; height: 34px; }
+  #bossbar { top: 124px; width: calc(100% - 40px); }
+  #banner.cutin .cutin { width: 120px; height: 120px; }
 }
 @media (max-height: 600px) {
   .panel { padding: 16px 20px; }
@@ -101,4 +118,7 @@ button:disabled { opacity: .6; cursor: wait; background: #6d5a50; }
   .controls td { padding: 2px 6px; }
   .card { width: 200px; padding: 12px; }
   .card .hanja { font-size: 28px; }
+  .card .art { width: 72px; height: 72px; }
+  .skill .icon { width: 32px; height: 32px; }
+  #banner.cutin .cutin { width: 96px; height: 96px; }
 }

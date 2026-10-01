@@ -4,7 +4,8 @@
     <span style="color:#8b8fa3;">{{날짜}} · <b style="color:#eef0f6;">{{시각}}</b></span>
   </div>
   <div style="background:#2a1216;border:1px solid #5b2330;border-radius:6px;padding:6px 10px;margin-bottom:10px;color:#f0b8c0;font-size:12px;">📢 오늘 밤 경보 · <b>{{경보}}</b></div>
-  <div style="color:#8b8fa3;margin-bottom:10px;">📍 {{위치}}　🎒 {{소지품}}</div>
+  <div style="color:#8b8fa3;margin-bottom:4px;">📍 {{위치}}　🎒 {{소지품}}</div>
+  <div style="color:#8b8fa3;margin-bottom:10px;">🏷 <b style="color:#d8c27a;">{{칭호}}</b>　💰 {{자금}}원</div>
   <div style="margin-bottom:6px;">
     <div style="display:flex;justify-content:space-between;"><span>🧠 정신력</span><span>{{정신력}}/100</span></div>
     <div style="background:#1c1e27;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{정신력}}%;height:100%;background:#6fa8c9;"></div></div>

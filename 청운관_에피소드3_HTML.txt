@@ -1,6 +1,5 @@
 <div style="max-width:720px;margin:0 auto;background:#141416;color:#cfc8bb;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.9;font-size:15px;border:1px solid #2a2724;border-radius:6px;overflow:hidden;">
-<div style="position:relative;"><img src="https://raw.githubusercontent.com/san01446-ux/claude-2/9a536e2de54f829e4e42c74810d52fe47be578b8/images/ep3_yunseol.jpg" alt="" style="display:block;width:100%;max-height:420px;object-fit:cover;object-position:center 0%;-webkit-mask-image:linear-gradient(#000 60%,transparent);mask-image:linear-gradient(#000 60%,transparent);"></div>
-<div style="padding:0 26px 28px;margin-top:-40px;position:relative;">
+<div style="padding:18px 26px 28px;">
 <div style="font-size:12px;letter-spacing:0.35em;color:#8a8175;">EPISODE 03</div>
 <div style="font-size:21px;color:#efe6d6;letter-spacing:0.08em;margin:4px 0 10px;">4층 버튼에 불이 들어왔다</div>
 <div style="font-size:12px;color:#8a8175;border-top:1px solid #2e2a26;border-bottom:1px solid #2e2a26;padding:6px 0;margin-bottom:22px;letter-spacing:0.1em;">🕒 D+19 · 02:13　　📍 청운관 엘리베이터</div>

@@ -1,0 +1,21 @@
+<div style="background:#121416;border:1px solid #2c3135;border-radius:12px;padding:12px 14px;font-family:'Noto Sans KR',sans-serif;color:#d6d3cf;font-size:12.5px;line-height:1.55;">
+<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #2a2e31;padding-bottom:7px;margin-bottom:8px;">
+<span style="color:#d0705f;font-weight:700;letter-spacing:2px;font-size:11px;">● D-DAY SURVIVOR</span>
+<span style="color:#e9e5df;font-weight:700;">{{일시}}</span>
+</div>
+<div style="display:grid;grid-template-columns:62px 1fr;gap:3px 8px;margin-bottom:8px;">
+<span style="color:#8b9296;">📍 위치</span><span>{{위치}}</span>
+<span style="color:#8b9296;">👥 동행</span><span>{{동행}}</span>
+<span style="color:#8b9296;">🩹 상태</span><span>{{상태}}</span>
+<span style="color:#8b9296;">🎒 물자</span><span>{{물자}}</span>
+</div>
+<div style="background:#2a1a1a;border:1px solid #5a2a28;border-radius:6px;padding:5px 9px;margin-bottom:6px;color:#f0b4a8;">⚠ {{위험}}</div>
+<div style="background:#1b2124;border-radius:6px;padding:5px 9px;margin-bottom:8px;color:#a9c3b8;">💡 {{팁}}</div>
+<details style="margin-bottom:5px;"><summary style="cursor:pointer;color:#9fb2bd;">📡 통신 · 수신 — {{통신}}</summary><div style="padding:5px 0 2px 12px;color:#c7c4bf;white-space:pre-line;">{{수신}}</div></details>
+<details style="margin-bottom:5px;"><summary style="cursor:pointer;color:#9fb2bd;">📋 생존자 게시판</summary><div style="padding:5px 0 2px 12px;color:#c7c4bf;white-space:pre-line;">{{게시판}}</div></details>
+<div style="border-top:1px solid #2a2e31;margin-top:7px;padding-top:7px;display:grid;grid-template-columns:62px 1fr;gap:3px 8px;">
+<span style="color:#8b9296;">🛒 거래</span><span>{{거래}}</span>
+<span style="color:#8b9296;"></span><span style="color:#b9b5af;white-space:pre-line;">{{거래내역}}</span>
+<span style="color:#8b9296;">🔍 수색</span><span>{{수색}}</span>
+</div>
+</div>

@@ -1,0 +1,9 @@
+<div style="max-width:720px;margin:0 auto;background:#efe4cc;color:#3b2f22;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.95;font-size:15px;border:1px solid #c9b48a;border-radius:4px;box-shadow:inset 0 0 50px rgba(110,80,30,0.25);padding:26px 26px 28px;">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid #b89e6e;padding-bottom:10px;margin-bottom:20px;">
+<div><div style="font-size:11px;letter-spacing:0.4em;color:#9b2c22;">楚 漢 志 　 第 1 回</div>
+<div style="font-size:22px;color:#2a1f14;letter-spacing:0.05em;margin-top:4px;">EP.01 — 대택향의 비</div>
+<div style="font-size:12px;color:#7a6548;margin-top:4px;">BC 209 · 가을 · 기현 대택향　·　<span style="color:#9b2c22;">진 2세 원년</span></div></div>
+<div style="flex:none;border:2px solid #9b2c22;color:#9b2c22;font-size:12px;padding:6px 7px;line-height:1.2;transform:rotate(4deg);margin-left:12px;">天下<br>爭霸</div>
+</div>
+<p style="margin:0 0 16px;">장맛비가 열흘째 그치지 않았다.<br><br>기현 대택향의 진흙 들판. 어양으로 수자리 가던 장정 구백 명이 비에 갇혀 발이 묶였다. 기한 안에 닿지 못하면 진의 법은 하나다. 모두 참수.</p><p style="margin:0 0 16px;">막사 안에는 젖은 짚 냄새와 쉰 땀 냄새가 고여 있었다. 누군가는 울었고, 누군가는 주먹밥 반쪽을 두고 칼을 만졌다.</p><p style="margin:0 0 16px;">그때 둔장 진승이 일어섰다. 마른 얼굴에 눈만 이글거렸다.</p><p style="margin:0 0 16px;padding-left:12px;border-left:2px solid #9b2c22;color:#3a2a1c;font-weight:bold;">&quot;어차피 늦으면 죽는다. 도망쳐도 죽는다. 같은 죽음이라면, 나라를 세우다 죽는 게 낫지 않겠는가!&quot;</p><p style="margin:0 0 16px;">옆에서 오광이 술 취한 척 장교의 칼을 걷어찼다. 칼이 진흙 위에 떨어졌다. 구백 개의 눈이 한꺼번에 그 칼을 보았다.</p><p style="margin:0 0 16px;padding-left:12px;border-left:2px solid #9b2c22;color:#3a2a1c;font-weight:bold;">&quot;왕후장상의 씨가 어찌 따로 있겠는가!&quot;</p><p style="margin:0 0 16px;">함성이 빗소리를 찢었다.<br><br>그리고 당신은 — 그 막사 한가운데 서 있다.</p>
+</div>

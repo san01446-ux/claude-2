@@ -1,0 +1,9 @@
+<div style="max-width:720px;margin:0 auto;background:#efe4cc;color:#3b2f22;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.95;font-size:15px;border:1px solid #c9b48a;border-radius:4px;box-shadow:inset 0 0 50px rgba(110,80,30,0.25);padding:26px 26px 28px;">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid #b89e6e;padding-bottom:10px;margin-bottom:20px;">
+<div><div style="font-size:11px;letter-spacing:0.4em;color:#9b2c22;">楚 漢 志 　 第 3 回</div>
+<div style="font-size:22px;color:#2a1f14;letter-spacing:0.05em;margin-top:4px;">EP.03 — 사면초가</div>
+<div style="font-size:12px;color:#7a6548;margin-top:4px;">BC 202 · 겨울 · 해하　·　<span style="color:#9b2c22;">한군 30만, 초군 10만 포위</span></div></div>
+<div style="flex:none;border:2px solid #9b2c22;color:#9b2c22;font-size:12px;padding:6px 7px;line-height:1.2;transform:rotate(4deg);margin-left:12px;">天下<br>爭霸</div>
+</div>
+<p style="margin:0 0 16px;">해하의 진영은 얼어붙어 있었다.<br><br>군량은 바닥났고, 병사들은 말의 안장 가죽을 삶아 먹었다. 한신의 군이 겹겹이 둘러싼 지 여러 날. 횃불이 산등성이마다 별처럼 박혀 있었다.</p><p style="margin:0 0 16px;">밤이 깊었을 때였다.<br><br>어디선가 노래가 들려왔다. 처음엔 한 줄기. 이어 동쪽에서, 서쪽에서, 남쪽에서, 북쪽에서.</p><p style="margin:0 0 16px;">초나라의 노래였다.<br><br>고향의 가락. 어머니가 부르던 노랫말.</p><p style="margin:0 0 16px;">막사 곳곳에서 창이 땅에 떨어지는 소리가 났다. 누군가 흐느꼈다. &quot;한이 벌써 초 땅을 다 얻었단 말인가. 어찌 초나라 사람이 저리도 많은가…&quot;</p><p style="margin:0 0 16px;">본진의 큰 장막 안에서 항우가 술을 따랐다. 곁에는 우희가 앉아 있었다. 오추마가 밖에서 길게 울었다.</p><p style="margin:0 0 16px;padding-left:12px;border-left:2px solid #9b2c22;color:#3a2a1c;font-weight:bold;">&quot;힘은 산을 뽑고 기개는 세상을 덮었건만…&quot;<br><br>노래는 그치지 않는다.<br><br>그리고 당신은 이 포위된 밤 속에 있다.</p>
+</div>

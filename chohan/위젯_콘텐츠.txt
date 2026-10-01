@@ -1,0 +1,22 @@
+<div style="background:#efe4cc;border:1px solid #c9b48a;border-radius:6px;padding:12px 14px;font-family:'Nanum Myeongjo','Noto Serif KR',serif;color:#3b2f22;font-size:13px;line-height:1.6;box-shadow:inset 0 0 30px rgba(110,80,30,0.2);">
+<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #b89e6e;padding-bottom:6px;margin-bottom:8px;">
+<span style="color:#9b2c22;font-weight:bold;letter-spacing:3px;">楚 漢 志</span>
+<span style="font-weight:bold;">{{연도}}</span>
+</div>
+<div style="display:grid;grid-template-columns:52px 1fr;gap:2px 8px;">
+<span style="color:#8a7352;">위치</span><span>{{위치}}</span>
+<span style="color:#8a7352;">신분</span><span><b>{{신분}}</b></span>
+<span style="color:#8a7352;">병력</span><span>{{병력}}</span>
+<span style="color:#8a7352;">군량</span><span>{{군량}}</span>
+<span style="color:#8a7352;">재물</span><span>{{금전}}</span>
+<span style="color:#8a7352;">명성</span><span>{{명성}}</span>
+<span style="color:#8a7352;">인연</span><span>{{관계}}</span>
+</div>
+<div style="margin-top:8px;padding:6px 9px;background:#e4d5b4;border-left:3px solid #9b2c22;">天下 · {{정세}}</div>
+<div style="margin-top:6px;font-size:12px;color:#5c4a33;white-space:pre-line;">📜 {{소식}}</div>
+<div style="margin-top:8px;display:flex;align-items:center;gap:8px;font-size:11px;color:#8a7352;">
+<span style="flex:none;">역사 변동도</span>
+<div style="flex:1;background:#d9c7a0;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{변동도}}%;height:100%;background:#9b2c22;"></div></div>
+<span style="flex:none;">{{변동도}}</span>
+</div>
+</div>

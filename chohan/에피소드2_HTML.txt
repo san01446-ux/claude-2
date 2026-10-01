@@ -1,0 +1,9 @@
+<div style="max-width:720px;margin:0 auto;background:#efe4cc;color:#3b2f22;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.95;font-size:15px;border:1px solid #c9b48a;border-radius:4px;box-shadow:inset 0 0 50px rgba(110,80,30,0.25);padding:26px 26px 28px;">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid #b89e6e;padding-bottom:10px;margin-bottom:20px;">
+<div><div style="font-size:11px;letter-spacing:0.4em;color:#9b2c22;">楚 漢 志 　 第 2 回</div>
+<div style="font-size:22px;color:#2a1f14;letter-spacing:0.05em;margin-top:4px;">EP.02 — 홍문연</div>
+<div style="font-size:12px;color:#7a6548;margin-top:4px;">BC 206 · 겨울 · 신풍 홍문　·　<span style="color:#9b2c22;">항우 40만 vs 패공 10만</span></div></div>
+<div style="flex:none;border:2px solid #9b2c22;color:#9b2c22;font-size:12px;padding:6px 7px;line-height:1.2;transform:rotate(4deg);margin-left:12px;">天下<br>爭霸</div>
+</div>
+<p style="margin:0 0 16px;">군막 안은 술 냄새와 숯불 연기로 뜨거웠다.<br><br>상석의 항우는 무릎 위에 손을 얹고 말이 없었다. 그 아래 패공 유방이 연신 고개를 숙였다. &quot;신이 먼저 관중에 든 것은 장군을 기다리기 위함이었습니다. 다른 뜻은 없었습니다.&quot;</p><p style="margin:0 0 16px;">범증이 허리에 찬 옥결을 들어 보였다. 한 번. 두 번. 세 번.<br><br>항우는 보지 못한 척 술잔을 비웠다.</p><p style="margin:0 0 16px;">범증이 조용히 자리를 떴다. 잠시 뒤 젊은 장수 항장이 칼을 뽑아 들고 들어왔다.</p><p style="margin:0 0 16px;padding-left:12px;border-left:2px solid #9b2c22;color:#3a2a1c;font-weight:bold;">&quot;군중에 즐길 거리가 없으니, 검무로 흥을 돋우겠습니다.&quot;</p><p style="margin:0 0 16px;">칼날이 숯불 빛을 받아 번쩍였다. 춤사위가 한 걸음, 또 한 걸음 패공의 자리로 다가간다. 그러자 항백이 칼을 뽑아 함께 춤을 추며 그 앞을 몸으로 막아섰다.</p><p style="margin:0 0 16px;">장막 너머에서는 장량이 막사 밖 어딘가로 급히 걸어 나가는 기척이 들렸다.<br><br>칼끝이 다시 패공 쪽으로 기운다.</p><p style="margin:0 0 16px;">그리고 당신은 이 장막 안에 있다.</p>
+</div>

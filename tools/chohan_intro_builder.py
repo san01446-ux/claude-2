@@ -13,7 +13,7 @@ cards=''.join(f'<div style="flex:1 1 150px;max-width:170px;background:#f6edda;bo
 h=f'''<div style="max-width:760px;margin:0 auto;background:#1c1712;{F}padding:16px;border-radius:8px;">
 
 <div style="{P}text-align:center;padding:34px 22px;">
-{('<img src="'+U['hero']+'" style="width:100%;max-height:420px;object-fit:cover;display:block;margin:-34px -22px 22px;width:calc(100% + 44px);">') if U.get('hero') else ''}
+{('<img src="'+U['hero']+'" style="width:100%;max-height:420px;object-fit:cover;display:block;margin:0 0 22px;border-radius:4px;">') if U.get('hero') else ''}
 <p style="font-size:12px;letter-spacing:0.6em;color:#9b2c22;margin:0;">天 下 爭 霸</p>
 <p style="font-size:44px;letter-spacing:0.25em;margin:8px 0 4px;color:#2a1f14;">楚 漢 志</p>
 <p style="font-size:15px;letter-spacing:0.3em;color:#6b5638;margin:0 0 18px;">초 한 지 　 천 하 쟁 패 　 시 뮬 레 이 터</p>

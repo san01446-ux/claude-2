@@ -1,0 +1,24 @@
+<div style="background:#faf6ee;border:1px solid #d9c9a3;border-top:4px solid #1d2340;border-radius:10px;padding:22px 20px;color:#2b2a33;font-family:'Noto Serif KR',serif;line-height:1.8;">
+
+<div style="text-align:center;font-size:12px;letter-spacing:0.45em;color:#a8842f;">宮 內 廳 　 告 知</div>
+<div style="text-align:center;font-size:20px;font-weight:700;color:#1d2340;margin-top:6px;">황궁 출입자 안내문</div>
+
+<div style="margin-top:22px;font-size:13px;letter-spacing:0.3em;color:#8a8696;border-bottom:1px solid #e4d8bc;padding-bottom:6px;">입 궁 　 방 법</div>
+<div style="margin-top:12px;font-size:14.5px;">
+<div style="margin-bottom:8px;"><span style="color:#a8842f;font-weight:700;">一</span>　페르소나나 첫 마디에 <b>누구로 들어올지</b> 적어 주세요.<br><span style="color:#6d6a78;">예) "카페 알바생, 22세" · "궁내청 홍보실 신입" · "대한일보 인턴 기자" · "한성그룹과 경쟁하는 재벌가 막내"</span></div>
+<div style="margin-bottom:8px;"><span style="color:#a8842f;font-weight:700;">二</span>　아무 말 없으면 <b>평범한 시민</b>으로 시작합니다.</div>
+<div><span style="color:#a8842f;font-weight:700;">三</span>　서장은 셋입니다. <b>플래시</b>(모든 것의 시작) · <b>석조전의 왈츠</b>(무도회) · <b>투표 전야</b>(마지막 밤).</div>
+</div>
+
+<div style="margin-top:22px;font-size:13px;letter-spacing:0.3em;color:#8a8696;border-bottom:1px solid #e4d8bc;padding-bottom:6px;">유 의 사 항</div>
+<div style="margin-top:12px;font-size:14.5px;">
+<div style="margin-bottom:8px;">· 상태창의 <b>지지율</b>이 35 아래로 내려가면 황실은 끝납니다. 당신이 원한다면요.</div>
+<div style="margin-bottom:8px;">· <b style="color:#a3283a;">스캔들 지수</b>가 높을수록 카메라가 따라붙고 궁 문은 좁아집니다.</div>
+<div style="margin-bottom:8px;">· 모두가 무언가를 숨깁니다. 단서를 모으면 <b>비밀 수첩</b>에 적힙니다.</div>
+<div>· 마음을 여는 것도, 거절하는 것도 언제나 당신의 선택입니다.</div>
+</div>
+
+<div style="margin-top:24px;text-align:center;font-size:15px;color:#1d2340;">왕관을 지킬 것인가, 벗겨 줄 것인가.</div>
+<div style="margin-top:8px;text-align:center;font-size:12px;letter-spacing:0.3em;color:#a8842f;">투표까지 D-30</div>
+
+</div>

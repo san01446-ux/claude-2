@@ -1,0 +1,21 @@
+<div style="background:#faf6ee;border:1px solid #d9c9a3;border-top:3px solid #1d2340;border-radius:8px;padding:12px 14px;font-family:'Noto Sans KR',sans-serif;color:#2b2a33;font-size:12.5px;line-height:1.6;">
+<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e4d8bc;padding-bottom:6px;margin-bottom:8px;">
+<span style="color:#a8842f;font-weight:700;letter-spacing:2px;font-size:11px;">♛ 大韓帝國 皇室</span>
+<span style="font-weight:700;color:#1d2340;">{{날짜}}</span>
+</div>
+<div style="display:flex;gap:8px;margin-bottom:8px;">
+<div style="flex:1;background:#1d2340;color:#f3e6c4;border-radius:6px;padding:6px 8px;text-align:center;"><div style="font-size:10px;color:#c9a24a;letter-spacing:1px;">국민투표</div><div style="font-size:16px;font-weight:700;">{{디데이}}</div></div>
+<div style="flex:2;background:#f1e9d6;border-radius:6px;padding:6px 8px;">
+<div style="display:flex;align-items:center;gap:6px;"><span style="flex:none;width:44px;color:#6d6a78;">지지율</span><div style="flex:1;background:#e2d6b8;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{지지율}}%;height:100%;background:#1d2340;"></div></div><span style="flex:none;width:34px;text-align:right;font-weight:700;">{{지지율}}%</span></div>
+<div style="display:flex;align-items:center;gap:6px;margin-top:4px;"><span style="flex:none;width:44px;color:#6d6a78;">스캔들</span><div style="flex:1;background:#e2d6b8;height:6px;border-radius:3px;overflow:hidden;"><div style="width:{{스캔들}}%;height:100%;background:#a3283a;"></div></div><span style="flex:none;width:34px;text-align:right;font-weight:700;color:#a3283a;">{{스캔들}}</span></div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:44px 1fr;gap:2px 8px;">
+<span style="color:#6d6a78;">장소</span><span>{{장소}}</span>
+<span style="color:#6d6a78;">신분</span><span><b>{{신분}}</b> <span style="font-size:11px;color:#a8842f;border:1px solid #c9a24a;border-radius:3px;padding:0 4px;">{{출입}}</span></span>
+<span style="color:#6d6a78;">인연</span><span>{{관계}}</span>
+<span style="color:#6d6a78;">일정</span><span>{{일정}}</span>
+</div>
+<div style="margin-top:8px;padding:5px 9px;background:#1d2340;color:#f3e6c4;border-radius:4px;font-size:12px;">📰 {{헤드라인}}</div>
+<details style="margin-top:6px;"><summary style="cursor:pointer;color:#a8842f;font-size:12px;">🔒 비밀 수첩</summary><div style="padding:4px 0 0 12px;color:#4a4757;">{{수첩}}</div></details>
+</div>

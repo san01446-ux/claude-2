@@ -1,0 +1,46 @@
+<div style="max-width:720px;margin:0 auto;background:#060607;border:1px solid #a3212b;box-shadow:0 0 18px #a3212b66;padding:28px 22px;color:#c9c1b4;font-family:'Noto Serif KR',serif;line-height:1.85;font-size:14.5px;">
+<div style="text-align:center;font-size:11px;letter-spacing:.4em;color:#a3212b;">月 影 市 · 世 界 觀</div>
+<div style="text-align:center;font-size:24px;color:#efe7da;margin:6px 0;text-shadow:0 0 10px #a3212b;">【이 도시에 전입한 당신에게】</div>
+<div style="border-top:1px dashed #5b2330;margin:14px 0;"></div>
+<p style="text-align:center;font-style:italic;color:#8f877b;margin:0 0 14px;">이 도시에서는, 사람들이 이야기하는 괴담이 실제로 걸어 다닙니다.</p>
+<p style="margin:0 0 10px;">산과 강에 둘러싸인 인구 40만의 지방 도시, 월영시. 안개가 잦고, 해가 지면 가게들이 일제히 셔터를 내립니다. 빨간 마스크가 골목을 걷고, 팔척귀신이 담장 너머로 고개를 내밀고, 막차는 가끔 노선도에 없는 역에 섭니다.</p>
+<p style="margin:0;">시민들은 그것을 <b style="color:#efe7da;">날씨처럼</b> 받아들이며 삽니다.</p>
+
+<div style="margin:18px 0;background:#140809;border:1px solid #5b2330;padding:12px 14px;font-family:sans-serif;font-size:13.5px;">
+<div style="color:#ff5a5f;font-weight:700;">⚠ 긴급재난문자 · 오후 7:00</div>
+<div style="color:#e9e2d4;">[월영시청] 오늘 23:00~04:00 구시가지 일대 <b style="color:#ff5a5f;">'빨간 마스크'</b> 출현 예보. 외출 자제, 사탕 소지 권고. 질문에는 신중히 답하십시오.</div></div>
+
+<div style="display:flex;flex-wrap:wrap;gap:12px;">
+<div style="flex:1 1 280px;border:1px solid #2d5b8a;box-shadow:0 0 10px #2d5b8a55;padding:14px;background:#08101a;">
+<div style="color:#7fb2ff;font-size:16px;text-align:center;border-bottom:1px solid #2d5b8a;padding-bottom:6px;">【규칙을 지키는 당신에게】</div>
+<p style="margin:8px 0 0;font-size:13.5px;">모든 괴담에는 규칙이 있습니다. 지키면 살고, 어기면 대가를 치릅니다. 도서관의 <b style="color:#7fb2ff;">괴이록</b>, 산 아래 <b style="color:#7fb2ff;">무당</b>, 경찰서 <b style="color:#7fb2ff;">지하 2층</b>. 규칙을 아는 사람이 아침을 맞습니다.</p></div>
+<div style="flex:1 1 280px;border:1px solid #a3212b;box-shadow:0 0 10px #a3212b55;padding:14px;background:#1a080a;">
+<div style="color:#ff6b7a;font-size:16px;text-align:center;border-bottom:1px solid #a3212b;padding-bottom:6px;">【이야기를 퍼뜨리는 당신에게】</div>
+<p style="margin:8px 0 0;font-size:13.5px;">믿는 사람이 많을수록 괴담은 강해집니다. 당신이 들려준 이야기는 내일 밤 <b style="color:#ff6b7a;">누군가의 현관 앞</b>에 서 있을지도 모릅니다. 그리고 가장 믿음직한 사람이 "재밌는 얘기 하나 해 줄까?"라고 하면, 듣지 마십시오.</p></div>
+</div>
+
+<div style="margin-top:20px;color:#a3212b;letter-spacing:.3em;font-size:12px;">生 活 守 則</div>
+<div style="font-size:13.5px;margin-top:6px;">
+一 저녁 7시, 재난문자를 확인하십시오.<br>
+二 골목 끝 24시 <b style="color:#d8c27a;">달빛마트</b>는 안전합니다. 이유는 묻지 마십시오.<br>
+三 막차가 노선도에 없는 역에 서면, 내리지 마십시오.<br>
+四 문밖에서 가족의 목소리가 이름을 불러도, 열지 마십시오.<br>
+五 당신의 이름이 재난문자에 뜨지 않도록 하십시오.</div>
+
+<div style="margin-top:20px;color:#a3212b;letter-spacing:.3em;font-size:12px;">協 助 者</div>
+<div style="font-size:13.5px;margin-top:6px;">
+<b style="color:#efe7da;">한서린</b> 괴담 유튜버 — 그녀가 찍은 괴담은 다음 날 더 선명해진다.<br>
+<b style="color:#efe7da;">강다온</b> 월하당 무당 — 부적값은 선불. 신당 안쪽 방엔 들어가지 말 것.<br>
+<b style="color:#efe7da;">차유나</b> 특수괴이대응팀 — 팀에 혼자 남았다. 그림자가 반 박자 늦다.<br>
+<b style="color:#efe7da;">백소월</b> 달빛마트 야간 — "아~ 그거요." 어떤 괴담도 문턱을 못 넘는다.<br>
+<b style="color:#efe7da;">윤해리</b> 괴이록 사서 — 규칙을 가장 많이 안다. 요즘 잠이 부족하다.<br>
+<b style="color:#ff5a5f;">이야기꾼</b> 신원 불명 — 당신이 가장 믿는 사람의 얼굴로 온다.</div>
+
+<div style="margin:20px 0 0;background:#140809;border-top:1px solid #a3212b;border-bottom:1px solid #a3212b;padding:14px;text-align:center;font-size:13.5px;">
+괴이록 <b style="color:#d8c27a;">100편</b> · 정신력 · 체력 · 괴담 도감 · <b style="color:#ff5a5f;">월영 지수</b><br>
+월영 지수가 100에 닿는 밤, 모든 괴담이 한꺼번에 걷습니다.</div>
+
+<p style="text-align:center;margin:22px 0 4px;color:#efe7da;font-size:16px;">이 글을 끝까지 읽은 당신에게,</p>
+<p style="text-align:center;margin:0;font-size:17px;color:#ff5a5f;text-shadow:0 0 8px #a3212b;">오늘 저녁 7시, 재난문자가 도착합니다.</p>
+<p style="text-align:center;font-size:11px;color:#5f574d;margin:16px 0 0;">🔞 모든 등장인물은 성인 · 가상의 도시입니다</p>
+</div>

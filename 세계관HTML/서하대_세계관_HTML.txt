@@ -1,0 +1,42 @@
+<div style="max-width:720px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border:1px solid #ff5d8f;box-shadow:0 0 18px #ff5d8f55;border-radius:22px;padding:28px 22px;color:#e6e1ff;font-family:'Pretendard','Noto Sans KR',sans-serif;line-height:1.8;font-size:14.5px;">
+<div style="text-align:center;font-size:11px;letter-spacing:.4em;color:#a99cff;">SEOHA UNIVERSITY · 2026 SPRING</div>
+<div style="text-align:center;font-size:24px;font-weight:900;color:#fff;margin:6px 0;text-shadow:0 0 12px #ff5d8f;">【서하대학교 합격을 축하합니다】</div>
+<div style="border-top:1px dashed #5a4f80;margin:14px 0;"></div>
+<p style="text-align:center;font-style:italic;color:#b9b4d6;margin:0 0 14px;">딱 한 학기. 누구 옆자리에 앉을지는, 당신이 정합니다.</p>
+<p style="margin:0 0 10px;">서울 서북쪽 언덕 위, 벚나무 오르막 <b style="color:#ffb3c8;">'봄길'</b> 끝에 서하대학교가 있습니다. 24시간 불이 꺼지지 않는 도서관 해솔관, 오리가 사는 호수 서하지, 동아리방이 늘어선 청람관. 후문 너머엔 자취촌 '골목'과 서하포차.</p>
+<p style="margin:0;">3월 2일 개강부터 6월 19일 종강까지, <b style="color:#fff;">16주</b>. 아는 사람은 거의 없고, 잔고는 32만 원입니다.</p>
+
+<div style="margin:18px 0;background:rgba(255,255,255,0.07);border-radius:14px;padding:12px 14px;font-size:13.5px;">
+<div style="color:#ffd166;font-weight:700;">💬 26 미컴 새내기방 · 48</div>
+<div><b style="color:#ffcf5c;">도유리(과대)</b> 📢 개총 목요일 7시 서하포차!! 불참자 사유서 제출ㅋ<br><b style="color:#8fd3ff;">박건우</b> 근데 에타 봄길 우산남 우리 과임?</div></div>
+
+<div style="display:flex;flex-wrap:wrap;gap:12px;">
+<div style="flex:1 1 280px;border:1px solid #7c5cff;box-shadow:0 0 10px #7c5cff55;border-radius:14px;padding:14px;background:#1d1a35;">
+<div style="color:#b9a8ff;font-size:16px;font-weight:800;text-align:center;border-bottom:1px solid #7c5cff;padding-bottom:6px;">【설렘을 찾는 당신에게】</div>
+<p style="margin:8px 0 0;font-size:13.5px;">총학 부회장의 완벽한 미소, 손 흔드는 과대 동기, 필름카메라의 선배, 31만 팔로워의 후배, 수영장의 에이스, 선을 지키는 조교, 그리고 벽 너머 기타 소리. <b style="color:#b9a8ff;">일곱 명</b>, 저마다 숨긴 이야기가 하나씩.</p></div>
+<div style="flex:1 1 280px;border:1px solid #ff5d8f;box-shadow:0 0 10px #ff5d8f55;border-radius:14px;padding:14px;background:#2a1530;">
+<div style="color:#ff9dbb;font-size:16px;font-weight:800;text-align:center;border-bottom:1px solid #ff5d8f;padding-bottom:6px;">【소문의 주인공이 될 당신에게】</div>
+<p style="margin:8px 0 0;font-size:13.5px;">에타 HOT게시판, 학교 제보 인스타, 과 단톡방. 당신의 행동은 <b style="color:#ff9dbb;">1시간 안에</b> 소문이 됩니다. 여러 명과 썸을 타면, 에타가 먼저 압니다.</p></div>
+</div>
+
+<div style="margin-top:20px;color:#a99cff;letter-spacing:.3em;font-size:12px;font-weight:700;">HEROINES</div>
+<div style="font-size:13.5px;margin-top:6px;">
+<b style="color:#a99cff;">백하린</b> 경영 3 · 총학 부회장 — "…이건 비밀이야. 나 오늘 세 시간 잤어."<br>
+<b style="color:#ffb347;">도유리</b> 미컴 1 · 과대 · 동기 — "너 내 옆자리 앉아! 출석 메이트임."<br>
+<b style="color:#d6d1f0;">서지안</b> 시디 4 · 사진동아리 — "움직이지 마. 빛 좋다, 지금."<br>
+<b style="color:#ff8fb1;">민아린</b> 연영 2 · 인플루언서 — "쌩얼인데 사진 찍으면 죽어요."<br>
+<b style="color:#6cc7ff;">강세나</b> 체교 3 · 수영부 — "너 몇 바퀴 돌 수 있어? 내기하자."<br>
+<b style="color:#9be0c4;">윤소희</b> 국문 대학원 · 조교 — "각주 틀렸어요. 이 문장은 좋았고요."<br>
+<b style="color:#e0a3f0;">이도아</b> 실음 1 · 옆집 — "혹시… 소리 시끄러웠어요?"</div>
+
+<div style="margin-top:20px;color:#a99cff;letter-spacing:.3em;font-size:12px;font-weight:700;">SCHEDULE</div>
+<div style="font-size:13.5px;margin-top:6px;">3/12 개강총회 · 3/27 과 MT · 4월 벚꽃 · 4/20 중간고사 · 5/6 체육대회 · 5/19 대동제 · 6/10 기말 · 6/19 종강파티</div>
+
+<div style="margin:20px 0 0;background:rgba(255,93,143,0.12);border-top:1px solid #ff5d8f;border-bottom:1px solid #ff5d8f;padding:14px;text-align:center;font-size:13.5px;">
+호감도 <b style="color:#ff9dbb;">모르는 사이 → 친구 → 썸 → 연인</b> · 잔고 · 학점 · 인싸력<br>
+⌨ /에타 /인스타 /톡 /단톡 /시간표 /지갑 /캘린더 /프로필 이름</div>
+
+<p style="text-align:center;margin:22px 0 4px;color:#fff;font-size:16px;font-weight:700;">자, 봄길을 올라 보세요.</p>
+<p style="text-align:center;margin:0;font-size:17px;font-weight:800;color:#ff5d8f;text-shadow:0 0 8px #7c5cff;">이번 학기, 누구 옆자리에 앉을래?</p>
+<p style="text-align:center;font-size:11px;color:#8a84a8;margin:16px 0 0;">모든 등장인물은 성인 · 가상의 학교입니다</p>
+</div>

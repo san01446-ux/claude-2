@@ -1,0 +1,15 @@
+<div style="max-width:420px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border-radius:26px;padding:18px;color:#eef;font-family:'Pretendard','Noto Sans KR',sans-serif;line-height:1.75;">
+<div style="text-align:center;font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA · 한 학기</div>
+<div style="text-align:center;font-size:19px;font-weight:800;margin:4px 0 14px;">📩 새내기 안내 문자</div>
+<div style="background:rgba(255,255,255,0.08);border-radius:16px;padding:12px 14px;font-size:14px;">
+<b style="color:#ffd166;">[서하대 학생지원팀]</b><br>
+입학을 축하합니다! 시작 전에 확인해 주세요.<br><br>
+① 페르소나에 <b>이름·학과·학년·성격</b>을 적으면 그대로 시작합니다. 비우면 미컴 1학년 새내기예요.<br>
+② <b>/에타 /인스타 /톡 /단톡 /시간표 /지갑 /캘린더 /프로필 이름</b> 명령어로 폰을 열 수 있어요.<br>
+③ 에피소드는 셋: <b>옆자리</b>(개강) · <b>MT의 밤</b> · <b>축제 마지막 날</b>.</div>
+<div style="background:#ff5d8f22;border-radius:16px;padding:12px 14px;font-size:14px;margin-top:8px;">
+💗 호감도는 진짜 있었던 일로만 오릅니다.<br>
+💬 여러 명과 썸을 타면 에타가 먼저 압니다.<br>
+💸 잔고는 진짜로 줄어듭니다. 학식은 5,500원.</div>
+<div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기. 누구 옆자리에 앉을래?</div>
+</div>

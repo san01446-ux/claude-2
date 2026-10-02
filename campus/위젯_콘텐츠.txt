@@ -1,0 +1,16 @@
+<div style="max-width:360px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border-radius:30px;padding:14px 14px 10px;color:#eef;font-family:'Pretendard','Noto Sans KR',sans-serif;font-size:12.5px;line-height:1.55;border:1px solid #3a3550;">
+<div style="display:flex;justify-content:space-between;font-size:11px;color:#b9b4d6;padding:0 6px;"><b>{{시간}}</b><span>5G ▮▮▮ 🔋</span></div>
+<div style="text-align:center;margin:10px 0 4px;"><div style="font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA · 한 학기</div><div style="font-size:38px;font-weight:800;letter-spacing:-1px;">{{시간}}</div><div style="color:#c9c3e8;font-size:12px;">{{날짜}}</div></div>
+<div style="background:rgba(255,255,255,0.08);border-radius:16px;padding:9px 12px;margin:10px 0;">📍 <b>{{위치}}</b><div style="color:#c9c3e8;font-size:12px;">{{상황}}</div></div>
+<div style="display:flex;gap:6px;text-align:center;margin-bottom:10px;">
+<div style="flex:1;background:rgba(255,255,255,0.06);border-radius:12px;padding:6px 2px;"><div style="font-size:10px;color:#a99cff;">잔고</div><b style="font-size:12px;">{{잔고}}</b></div>
+<div style="flex:1;background:rgba(255,255,255,0.06);border-radius:12px;padding:6px 2px;"><div style="font-size:10px;color:#a99cff;">인싸력</div><b>{{인싸력}}</b></div>
+<div style="flex:1;background:rgba(255,255,255,0.06);border-radius:12px;padding:6px 2px;"><div style="font-size:10px;color:#a99cff;">학점</div><b>{{학점}}</b></div></div>
+<details style="background:#ff5d8f22;border-radius:14px;padding:8px 12px;margin-bottom:6px;"><summary style="cursor:pointer;font-weight:700;color:#ff9dbb;">💗 HEART <span style="font-weight:400;color:#c9c3e8;font-size:11px;">· {{연애}}</span></summary><div style="padding-top:5px;">{{호감}}</div></details>
+<details style="background:#fee50022;border-radius:14px;padding:8px 12px;margin-bottom:6px;"><summary style="cursor:pointer;font-weight:700;color:#ffe873;">💬 TALK</summary><div style="padding-top:5px;">{{톡}}</div></details>
+<details style="background:#7c5cff26;border-radius:14px;padding:8px 12px;margin-bottom:6px;"><summary style="cursor:pointer;font-weight:700;color:#b9a8ff;">🗓 PLAN</summary><div style="padding-top:5px;">{{일정}}<div style="color:#c9c3e8;margin-top:3px;">{{할일}}</div></div></details>
+<details style="background:#ff6b3d22;border-radius:14px;padding:8px 12px;margin-bottom:6px;"><summary style="cursor:pointer;font-weight:700;color:#ffa27f;">🔥 에타 HOT</summary><div style="padding-top:5px;">{{에타}}</div></details>
+<details style="background:rgba(255,255,255,0.07);border-radius:14px;padding:8px 12px;margin-bottom:8px;"><summary style="cursor:pointer;font-weight:700;color:#d6d1f0;">📓 DIARY</summary><div style="padding-top:5px;font-style:italic;color:#e6e1ff;">{{일기}}</div><div style="margin-top:5px;color:#9be0c4;white-space:pre-line;">💭 {{속마음}}</div></details>
+<div style="background:rgba(0,0,0,0.25);border-radius:14px;padding:7px 10px;font-size:11px;color:#b9b4d6;text-align:center;">⌨ /에타 /인스타 /톡 /단톡 /시간표 /지갑 /캘린더 /프로필 이름</div>
+<div style="width:90px;height:4px;background:#8a84a8;border-radius:2px;margin:9px auto 0;"></div>
+</div>

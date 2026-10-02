@@ -1,0 +1,58 @@
+import json,os
+U=json.load(open(os.environ['CP_URLS']))
+F="font-family:'Pretendard','Noto Sans KR',sans-serif;"
+card="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"
+H=lambda e,t:f'<div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">{e}</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">{t}</div>'
+heroines=[('harin','백하린','경영 3 · 총학 부회장','#a99cff','새벽 편의점에서 마주치면, 모른 척해 주세요.'),('yuri','도유리','미컴 1 · 과대 · 동기','#ffb347','읽씹하면 조장 됩니다.'),('jian','서지안','시디 4 · 사진동아리','#c9c3e8','그녀의 필름에 당신이 찍히기 시작하면…'),('arin','민아린','연영 2 · 인플루언서','#ff8fb1','카메라를 치워 주는 사람을 좋아해요.'),('sena','강세나','체교 3 · 수영부','#6cc7ff','내기는 피하지 마세요. 절대로.'),('sohee','윤소희','국문 대학원 · 조교','#9be0c4','학기 중에는 선을 넘지 않아요. 학기 중에는.'),('doa','이도아','실음 1 · 옆집','#e0a3f0','벽을 두 번 두드려 보세요.')]
+hc=''.join(f'<div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="{U[k]}" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:{c};">{n}</b> <span style="font-size:11px;color:#b9b4d6;">{t}</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">{q}</div></div></div>' for k,n,t,c,q in heroines)
+cmds=[('/에타','익명 게시판 HOT 글'),('/인스타','학교 제보 계정·그녀들의 피드'),('/톡','최근 개인톡'),('/단톡','과 단톡방 실시간'),('/시간표','이번 학기 수업'),('/지갑','잔고와 지출'),('/캘린더','이번 달 일정'),('/프로필 이름','호감도·속마음 카드')]
+cm=''.join(f'<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">{a}</b><span style="color:#c9c3e8;">{b}</span></div>' for a,b in cmds)
+h=f'''<div style="max-width:440px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border-radius:28px;padding:16px;color:#eef;{F}line-height:1.7;border:1px solid #3a3550;">
+<div style="display:flex;justify-content:space-between;font-size:11px;color:#b9b4d6;padding:0 6px;"><b>PM 12:10</b><span>5G ▮▮▮ 🔋</span></div>
+<img src="{U['hero']}" style="width:100%;border-radius:18px;display:block;margin-top:10px;">
+<div style="text-align:center;margin:14px 0 4px;"><div style="font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA UNIVERSITY · 2026 SPRING</div><div style="font-size:30px;font-weight:900;letter-spacing:-1px;">한 학기</div><div style="font-size:13px;color:#c9c3e8;">누구 옆자리에 앉을래?</div></div>
+
+<div style="background:linear-gradient(135deg,#ff5d8f,#7c5cff);border-radius:16px;padding:14px 16px;margin-top:12px;">
+<div style="font-size:11px;letter-spacing:3px;font-weight:700;opacity:.9;">⚡ RECOMMENDED MODEL</div>
+<div style="font-size:20px;font-weight:900;margin:2px 0;">Gemini 2.5 Pro 강력 추천</div>
+<div style="font-size:13px;">히로인 7명 · 학사일정 · 호감도 · 잔고 · 소문까지 기억할 게 많은 시뮬레이터예요. 긴 기억력과 명령어 화면(HTML)이 가장 안정적인 <b>Gemini 2.5 Pro</b>를 추천해요. 그 밖에도 <b>긴 문맥을 지원하는 상위 모델</b>이면 좋아요. 가벼운 모델은 위젯 수치나 명령어 화면이 흐트러질 수 있어요.</div></div>
+
+<div style="{card}">{H('HOW TO START','📩 입학 안내')}
+<div style="font-size:13.5px;">① <b>페르소나</b>에 이름·학과·학년·성격을 적으면 그대로 시작해요. 비우면 <b>미컴 1학년 새내기(20세, 남)</b>.<br>
+② 에피소드를 골라요.<br>
+<span style="color:#ffd166;">EP.01 옆자리</span> — 개강 2일차, 앉은 자리가 한 학기 팀플 조<br>
+<span style="color:#ffd166;">EP.02 MT의 밤</span> — 진실게임 병이 당신 앞에서 멈춘다<br>
+<span style="color:#ffd166;">EP.03 축제 마지막 날</span> — 불꽃 10분 전, 톡이 세 개<br>
+③ 그다음은 자유롭게. 하고 싶은 행동을 그대로 적으세요. 선택지는 없어요.</div></div>
+
+<div style="{card}">{H('COMMANDS','⌨ 폰을 열면')}
+{cm}
+<div style="font-size:12px;color:#b9b4d6;margin-top:8px;">명령어 <b>한 줄만</b> 입력하면 앱 화면이 떠요. 그동안 시간은 멈춰 있어요.</div></div>
+
+<div style="{card}">{H('HEROINES','💗 이번 학기, 그녀들')}
+{hc}
+<div style="font-size:12px;color:#b9b4d6;margin-top:8px;">모두에게 숨긴 이야기가 하나씩 있어요. 친해질수록 하나씩.</div></div>
+
+<div style="{card}">{H('SYSTEM','📱 이 캠퍼스의 규칙')}
+<div style="font-size:13.5px;">💗 <b>호감도</b> 모르는 사이 → 아는 사이 → 친구 → 썸 → 연인. 진짜 있었던 일로만 올라요.<br>
+🔥 <b>소문</b> 여러 명과 썸을 타면 에타가 먼저 알아요.<br>
+💸 <b>잔고</b> 32만 원에서 시작. 학식 5,500원, 술자리 2만 원. 알바도 있어요.<br>
+📚 <b>학점</b> 수업 째면 출석이 깎여요. 조교님은 봐주지 않아요.<br>
+⭐ <b>인싸력</b> 행사·동아리·에타 화제로 쌓여요.<br>
+🗓 <b>학사일정</b> 개총 · MT · 벚꽃 · 중간 · 체육대회 · 축제 · 기말 · 종강이 진짜로 와요.</div></div>
+
+<div style="{card}">{H('TIPS','💡 새내기 꿀팁')}
+<div style="font-size:13px;">· 상태창의 <b>HEART · DIARY</b>를 눌러 보세요. 그녀들의 속마음이 한 줄씩 보여요.<br>
+· 생일을 챙기면 크게 오릅니다. 단톡과 인스타에 힌트가 있어요.<br>
+· "일주일 뒤로" 같은 시간 건너뛰기도 돼요. 대신 그 사이 결과는 남아요.<br>
+· 거절은 거절이에요. 몰아붙이면 관계도, 소문도 나빠져요.<br>
+· 막히면 <b>/프로필 이름</b>으로 지금 관계를 확인해 보세요.</div></div>
+
+<div style="background:#ff5d8f22;border-radius:16px;padding:12px 16px;margin-top:10px;font-size:12.5px;color:#ffd1df;">
+⚠ 모든 등장인물은 성인이며, 실존 인물·학교와 무관한 가상 세계입니다.<br>
+⚠ 호감도·수치가 이상하게 튀면 "상태 다시 확인해 줘"라고 한 줄 적어 주세요.</div>
+
+<div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기. 즐거운 캠퍼스 라이프 되세요 🌸</div>
+<div style="width:90px;height:4px;background:#8a84a8;border-radius:2px;margin:10px auto 0;"></div>
+</div>'''
+open('/home/user/claude-2/campus/크리에이터코멘트.txt','w').write(h);print(len(h))

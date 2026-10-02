@@ -1,15 +1,48 @@
-<div style="max-width:420px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border-radius:26px;padding:18px;color:#eef;font-family:'Pretendard','Noto Sans KR',sans-serif;line-height:1.75;">
-<div style="text-align:center;font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA · 한 학기</div>
-<div style="text-align:center;font-size:19px;font-weight:800;margin:4px 0 14px;">📩 새내기 안내 문자</div>
-<div style="background:rgba(255,255,255,0.08);border-radius:16px;padding:12px 14px;font-size:14px;">
-<b style="color:#ffd166;">[서하대 학생지원팀]</b><br>
-입학을 축하합니다! 시작 전에 확인해 주세요.<br><br>
-① 페르소나에 <b>이름·학과·학년·성격</b>을 적으면 그대로 시작합니다. 비우면 미컴 1학년 새내기예요.<br>
-② <b>/에타 /인스타 /톡 /단톡 /시간표 /지갑 /캘린더 /프로필 이름</b> 명령어로 폰을 열 수 있어요.<br>
-③ 에피소드는 셋: <b>옆자리</b>(개강) · <b>MT의 밤</b> · <b>축제 마지막 날</b>.</div>
-<div style="background:#ff5d8f22;border-radius:16px;padding:12px 14px;font-size:14px;margin-top:8px;">
-💗 호감도는 진짜 있었던 일로만 오릅니다.<br>
-💬 여러 명과 썸을 타면 에타가 먼저 압니다.<br>
-💸 잔고는 진짜로 줄어듭니다. 학식은 5,500원.</div>
-<div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기. 누구 옆자리에 앉을래?</div>
+<div style="max-width:440px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border-radius:28px;padding:16px;color:#eef;font-family:'Pretendard','Noto Sans KR',sans-serif;line-height:1.7;border:1px solid #3a3550;">
+<div style="display:flex;justify-content:space-between;font-size:11px;color:#b9b4d6;padding:0 6px;"><b>PM 12:10</b><span>5G ▮▮▮ 🔋</span></div>
+<img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/00_cover_1.jpg" style="width:100%;border-radius:18px;display:block;margin-top:10px;">
+<div style="text-align:center;margin:14px 0 4px;"><div style="font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA UNIVERSITY · 2026 SPRING</div><div style="font-size:30px;font-weight:900;letter-spacing:-1px;">한 학기</div><div style="font-size:13px;color:#c9c3e8;">누구 옆자리에 앉을래?</div></div>
+
+<div style="background:linear-gradient(135deg,#ff5d8f,#7c5cff);border-radius:16px;padding:14px 16px;margin-top:12px;">
+<div style="font-size:11px;letter-spacing:3px;font-weight:700;opacity:.9;">⚡ RECOMMENDED MODEL</div>
+<div style="font-size:20px;font-weight:900;margin:2px 0;">Gemini 2.5 Pro 강력 추천</div>
+<div style="font-size:13px;">히로인 7명 · 학사일정 · 호감도 · 잔고 · 소문까지 기억할 게 많은 시뮬레이터예요. 긴 기억력과 명령어 화면(HTML)이 가장 안정적인 <b>Gemini 2.5 Pro</b>를 추천해요. 그 밖에도 <b>긴 문맥을 지원하는 상위 모델</b>이면 좋아요. 가벼운 모델은 위젯 수치나 명령어 화면이 흐트러질 수 있어요.</div></div>
+
+<div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">HOW TO START</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">📩 입학 안내</div>
+<div style="font-size:13.5px;">① <b>페르소나</b>에 이름·학과·학년·성격을 적으면 그대로 시작해요. 비우면 <b>미컴 1학년 새내기(20세, 남)</b>.<br>
+② 에피소드를 골라요.<br>
+<span style="color:#ffd166;">EP.01 옆자리</span> — 개강 2일차, 앉은 자리가 한 학기 팀플 조<br>
+<span style="color:#ffd166;">EP.02 MT의 밤</span> — 진실게임 병이 당신 앞에서 멈춘다<br>
+<span style="color:#ffd166;">EP.03 축제 마지막 날</span> — 불꽃 10분 전, 톡이 세 개<br>
+③ 그다음은 자유롭게. 하고 싶은 행동을 그대로 적으세요. 선택지는 없어요.</div></div>
+
+<div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">COMMANDS</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">⌨ 폰을 열면</div>
+<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/에타</b><span style="color:#c9c3e8;">익명 게시판 HOT 글</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/인스타</b><span style="color:#c9c3e8;">학교 제보 계정·그녀들의 피드</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/톡</b><span style="color:#c9c3e8;">최근 개인톡</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/단톡</b><span style="color:#c9c3e8;">과 단톡방 실시간</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/시간표</b><span style="color:#c9c3e8;">이번 학기 수업</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/지갑</b><span style="color:#c9c3e8;">잔고와 지출</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/캘린더</b><span style="color:#c9c3e8;">이번 달 일정</span></div><div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.08);font-size:13px;"><b style="color:#ffd166;">/프로필 이름</b><span style="color:#c9c3e8;">호감도·속마음 카드</span></div>
+<div style="font-size:12px;color:#b9b4d6;margin-top:8px;">명령어 <b>한 줄만</b> 입력하면 앱 화면이 떠요. 그동안 시간은 멈춰 있어요.</div></div>
+
+<div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">HEROINES</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">💗 이번 학기, 그녀들</div>
+<div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/01_harin_a_1.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#a99cff;">백하린</b> <span style="font-size:11px;color:#b9b4d6;">경영 3 · 총학 부회장</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">새벽 편의점에서 마주치면, 모른 척해 주세요.</div></div></div><div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/02_yuri_a_1.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#ffb347;">도유리</b> <span style="font-size:11px;color:#b9b4d6;">미컴 1 · 과대 · 동기</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">읽씹하면 조장 됩니다.</div></div></div><div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/03_jian_a_1.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#c9c3e8;">서지안</b> <span style="font-size:11px;color:#b9b4d6;">시디 4 · 사진동아리</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">그녀의 필름에 당신이 찍히기 시작하면…</div></div></div><div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/04_arin_a_1.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#ff8fb1;">민아린</b> <span style="font-size:11px;color:#b9b4d6;">연영 2 · 인플루언서</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">카메라를 치워 주는 사람을 좋아해요.</div></div></div><div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/05_sena_a_2.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#6cc7ff;">강세나</b> <span style="font-size:11px;color:#b9b4d6;">체교 3 · 수영부</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">내기는 피하지 마세요. 절대로.</div></div></div><div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/06_sohee_a_1.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#9be0c4;">윤소희</b> <span style="font-size:11px;color:#b9b4d6;">국문 대학원 · 조교</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">학기 중에는 선을 넘지 않아요. 학기 중에는.</div></div></div><div style="display:flex;gap:10px;align-items:center;background:rgba(255,255,255,0.06);border-radius:14px;padding:8px;margin-top:8px;"><img src="https://ik.imagekit.io/abaddonmedia/New%20Folder2/07_doa_a_1.jpg" style="width:64px;height:84px;object-fit:cover;object-position:center top;border-radius:10px;flex:none;"><div><b style="font-size:15px;color:#e0a3f0;">이도아</b> <span style="font-size:11px;color:#b9b4d6;">실음 1 · 옆집</span><div style="font-size:12.5px;color:#e6e1ff;margin-top:3px;">벽을 두 번 두드려 보세요.</div></div></div>
+<div style="font-size:12px;color:#b9b4d6;margin-top:8px;">모두에게 숨긴 이야기가 하나씩 있어요. 친해질수록 하나씩.</div></div>
+
+<div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">SYSTEM</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">📱 이 캠퍼스의 규칙</div>
+<div style="font-size:13.5px;">💗 <b>호감도</b> 모르는 사이 → 아는 사이 → 친구 → 썸 → 연인. 진짜 있었던 일로만 올라요.<br>
+🔥 <b>소문</b> 여러 명과 썸을 타면 에타가 먼저 알아요.<br>
+💸 <b>잔고</b> 32만 원에서 시작. 학식 5,500원, 술자리 2만 원. 알바도 있어요.<br>
+📚 <b>학점</b> 수업 째면 출석이 깎여요. 조교님은 봐주지 않아요.<br>
+⭐ <b>인싸력</b> 행사·동아리·에타 화제로 쌓여요.<br>
+🗓 <b>학사일정</b> 개총 · MT · 벚꽃 · 중간 · 체육대회 · 축제 · 기말 · 종강이 진짜로 와요.</div></div>
+
+<div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">TIPS</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">💡 새내기 꿀팁</div>
+<div style="font-size:13px;">· 상태창의 <b>HEART · DIARY</b>를 눌러 보세요. 그녀들의 속마음이 한 줄씩 보여요.<br>
+· 생일을 챙기면 크게 오릅니다. 단톡과 인스타에 힌트가 있어요.<br>
+· "일주일 뒤로" 같은 시간 건너뛰기도 돼요. 대신 그 사이 결과는 남아요.<br>
+· 거절은 거절이에요. 몰아붙이면 관계도, 소문도 나빠져요.<br>
+· 막히면 <b>/프로필 이름</b>으로 지금 관계를 확인해 보세요.</div></div>
+
+<div style="background:#ff5d8f22;border-radius:16px;padding:12px 16px;margin-top:10px;font-size:12.5px;color:#ffd1df;">
+⚠ 모든 등장인물은 성인이며, 실존 인물·학교와 무관한 가상 세계입니다.<br>
+⚠ 호감도·수치가 이상하게 튀면 "상태 다시 확인해 줘"라고 한 줄 적어 주세요.</div>
+
+<div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기. 즐거운 캠퍼스 라이프 되세요 🌸</div>
+<div style="width:90px;height:4px;background:#8a84a8;border-radius:2px;margin:10px auto 0;"></div>
 </div>

@@ -15,7 +15,7 @@
 <div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">HOW TO START</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">📩 입학 안내</div>
 <div style="font-size:13.5px;">① <b>페르소나</b>에 이름·학과·학년·성격을 적으면 그대로 시작해요. 비우면 <b>미컴 1학년 새내기(20세, 남)</b>.<br>
 ② 에피소드를 골라요.<br>
-<span style="color:#ffd166;">EP.01 옆자리</span> — 개강 2일차, 앉은 자리가 한 학기 팀플 조<br>
+<span style="color:#ffd166;">EP.01 입학</span> — 새터 가는 버스, 아는 사람은 아무도 없다<br>
 <span style="color:#ffd166;">EP.02 MT의 밤</span> — 진실게임 병이 당신 앞에서 멈춘다<br>
 <span style="color:#ffd166;">EP.03 축제 마지막 날</span> — 불꽃 10분 전, 톡이 세 개<br>
 ③ 그다음은 자유롭게. 하고 싶은 행동을 그대로 적으세요. 선택지는 없어요.</div></div>

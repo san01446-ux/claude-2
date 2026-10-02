@@ -10,7 +10,7 @@ def ph(k,n,c):
 cards=''.join(f'<div style="flex:1 1 140px;max-width:165px;background:#fff;border:1px solid #f0dfe6;border-radius:14px;padding:6px;">{ph(k,n,c)}<p style="margin:6px 2px 0;font-size:15px;"><b>{n}</b></p><p style="margin:0 2px;font-size:11px;color:#8a8399;">{t}</p><p style="margin:4px 2px 2px;font-size:12px;color:{c};line-height:1.5;">{html.escape(q)}</p></div>' for k,n,t,q,c in ppl)
 cal=[('3/2','개강'),('3/12','개강총회'),('3/27','과 MT'),('4월 초','벚꽃 봄길'),('4/20','중간고사'),('5/6','체육대회'),('5/19','대동제'),('6/10','기말고사'),('6/19','종강파티')]
 cmds=[('/에타','익명 게시판 HOT 글'),('/인스타','@seoha.daily 제보'),('/톡','최근 개인톡'),('/단톡','과 단톡방'),('/시간표','이번 학기 수업'),('/지갑','잔고와 지출'),('/캘린더','이번 달 일정'),('/프로필 이름','호감·속마음 카드')]
-eps=[('3/3 · 개강 2일차','EP.01 — 옆자리','빈자리는 둘. 총학 부회장의 옆, 혹은 손 흔드는 과대의 옆. 앉은 자리가 한 학기 팀플 조가 된다.'),('3/27 · 과 MT','EP.02 — MT의 밤','진실게임 병목이 당신 앞에서 멈췄다. "이 중에 마음에 드는 사람, 있다 없다?"'),('5/21 · 대동제 마지막 날','EP.03 — 축제 마지막 날','불꽃 10분 전, 톡이 세 개 왔다. 갈 수 있는 곳은 한 곳뿐.')]
+eps=[('2/26 · 입학','EP.01 — 입학','아는 사람 하나 없는 새내기 배움터 출발 날. 확성기를 든 총학 부회장, 이름표를 보여 달라는 단발 동기, 그리고 어젯밤 벽 너머의 기타 소리.'),('3/27 · 과 MT','EP.02 — MT의 밤','진실게임 병목이 당신 앞에서 멈췄다. "이 중에 마음에 드는 사람, 있다 없다?"'),('5/21 · 대동제 마지막 날','EP.03 — 축제 마지막 날','불꽃 10분 전, 톡이 세 개 왔다. 갈 수 있는 곳은 한 곳뿐.')]
 hero=f'<img src="{U["hero"]}" style="width:100%;max-height:420px;object-fit:cover;display:block;margin:0 0 20px;border-radius:14px;">' if U.get('hero') else ''
 h=f'''<div style="max-width:760px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);{F}padding:16px;border-radius:22px;">
 

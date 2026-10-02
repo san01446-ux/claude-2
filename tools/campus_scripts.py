@@ -7,7 +7,7 @@ rd=lambda f:open(R+f).read()
 TITLE='한 학기: 서하대학교 캠퍼스 라이프'
 # 프로필
 s=open(CH+'프로필.txt').read()
-s=swap(s,'const D=',[["시뮬레이터 제목","input",TITLE],["등장인물 설명","textarea",rd('등장인물.txt').strip()],["세계관","textarea",rd('세계관.txt').strip()],["별도 설명 표시","textarea",rd('소개페이지.txt')]])
+s=swap(s,'const D=',[["시뮬레이터 제목","input",TITLE],["등장인물 설명","textarea",rd('등장인물.txt').strip()],["별도 설명 표시","textarea",rd('소개페이지.txt')]])
 open(R+'캠퍼스_자동입력_프로필.txt','w').write(s)
 # 에피소드
 E=json.load(open(R+'에피소드.json'))

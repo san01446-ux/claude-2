@@ -1,6 +1,6 @@
 <div style="max-width:360px;margin:0 auto;background:linear-gradient(170deg,#1b1d2b,#2b2140);border-radius:30px;padding:14px 14px 10px;color:#eef;font-family:'Pretendard','Noto Sans KR',sans-serif;font-size:12.5px;line-height:1.55;border:1px solid #3a3550;">
 <div style="display:flex;justify-content:space-between;font-size:11px;color:#b9b4d6;padding:0 6px;"><b>{{시간}}</b><span>5G ▮▮▮ 🔋</span></div>
-<div style="text-align:center;margin:10px 0 4px;"><div style="font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA · 한 학기</div><div style="font-size:38px;font-weight:800;letter-spacing:-1px;">{{시간}}</div><div style="color:#c9c3e8;font-size:12px;">{{날짜}}</div></div>
+<div style="text-align:center;margin:10px 0 4px;"><div style="font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA UNIVERSITY</div><div style="font-size:38px;font-weight:800;letter-spacing:-1px;">{{시간}}</div><div style="color:#c9c3e8;font-size:12px;">{{날짜}}</div></div>
 <div style="background:rgba(255,255,255,0.08);border-radius:16px;padding:9px 12px;margin:10px 0;">📍 <b>{{위치}}</b><div style="color:#c9c3e8;font-size:12px;">{{상황}}</div></div>
 <div style="display:flex;gap:6px;text-align:center;margin-bottom:10px;">
 <div style="flex:1;background:rgba(255,255,255,0.06);border-radius:12px;padding:6px 2px;"><div style="font-size:10px;color:#a99cff;">잔고</div><b style="font-size:12px;">{{잔고}}</b></div>

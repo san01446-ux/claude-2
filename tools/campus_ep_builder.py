@@ -15,7 +15,7 @@ def build(i,e):
 <div style="font-size:12px;color:#8a8399;margin-top:4px;">📍 {html.escape(e['tag'])}　<span style="background:#ffe4ec;color:#e0457a;border-radius:8px;padding:1px 7px;">{html.escape(e['warn'])}</span></div>
 </div>
 {ps}
-<div style="text-align:center;font-size:11px;letter-spacing:0.3em;color:#c3a6ff;">— 한 학기 · 서하대학교 —</div>
+<div style="text-align:center;font-size:11px;letter-spacing:0.3em;color:#c3a6ff;">— 서하대학교 —</div>
 </div>'''
 for i,e in enumerate(E,1):
     h=build(i,e);open(f'/home/user/claude-2/campus/에피소드{i}_HTML.txt','w').write(h);print(i,len(h),len(e['secret']))

@@ -4,7 +4,7 @@ def swap(s,marker,val):
     i=s.index(marker)+len(marker); _,e=json.JSONDecoder().raw_decode(s,i)
     return s[:i]+json.dumps(val,ensure_ascii=False)+s[e:]
 rd=lambda f:open(R+f).read()
-TITLE='한 학기: 서하대학교 캠퍼스 라이프'
+TITLE='서하대학교 캠퍼스 라이프 시뮬레이터'
 # 프로필
 s=open(CH+'프로필.txt').read()
 s=swap(s,'const D=',[["시뮬레이터 제목","input",TITLE],["등장인물 설명","textarea",rd('등장인물.txt').strip()],["별도 설명 표시","textarea",rd('소개페이지.txt')]])

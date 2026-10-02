@@ -16,8 +16,8 @@ h=f'''<div style="max-width:760px;margin:0 auto;background:linear-gradient(170de
 
 <div style="{P}text-align:center;padding:30px 22px;">
 {hero}<p style="font-size:11px;letter-spacing:0.5em;color:#ff5d8f;font-weight:700;margin:0;">SEOHA UNIVERSITY · 2026 SPRING</p>
-<p style="font-size:44px;font-weight:900;letter-spacing:-1px;margin:8px 0 2px;">한 학기</p>
-<p style="font-size:14px;color:#8a8399;margin:0 0 16px;">서하대학교 캠퍼스 라이프 시뮬레이터</p>
+<p style="font-size:44px;font-weight:900;letter-spacing:-1px;margin:8px 0 2px;">서하대학교</p>
+<p style="font-size:14px;color:#8a8399;margin:0 0 16px;">캠퍼스 라이프 시뮬레이터</p>
 <p style="font-size:15px;line-height:2;margin:0;">벚꽃 오르막, 24시 도서관, 과 단톡방, 에타 HOT게시판.<br>3월 2일 개강부터 6월 19일 종강까지 딱 16주.<br><b>누구 옆자리에 앉을지는, 당신이 정한다.</b></p>
 <div style="display:inline-block;margin-top:16px;background:#ff5d8f;color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;">D-DAY 3월 2일 개강 🌸</div>
 </div>

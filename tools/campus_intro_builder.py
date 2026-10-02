@@ -46,6 +46,7 @@ h=f'''<div style="max-width:760px;margin:0 auto;background:linear-gradient(170de
 
 <div style="{P}text-align:center;">
 <p style="font-size:15px;line-height:2;margin:0;">잔고 320,000원. 인싸력 10. 연애 상태 <b>솔로</b>.<br>그리고 아직 아무도 모르는 당신의 이름.</p>
+<a href="https://caveduck.io/ko/world-scenario-info/0ac192b5-c5ae-4d4f-9d00-15ae974e7984" target="_blank" style="display:inline-block;margin-top:14px;background:#ff5d8f;color:#fff;text-decoration:none;padding:9px 20px;border-radius:22px;font-size:14px;font-weight:700;">🗺 서하대학교 세계관 보러 가기 →</a>
 <p style="font-size:12px;color:#8a8399;margin:12px 0 0;">모든 등장인물은 성인입니다 · 실존 인물·학교와 무관한 가상 세계입니다</p>
 </div>
 

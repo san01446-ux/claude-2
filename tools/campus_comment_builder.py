@@ -12,6 +12,10 @@ h=f'''<div style="max-width:440px;margin:0 auto;background:linear-gradient(170de
 <img src="{U['hero']}" style="width:100%;border-radius:18px;display:block;margin-top:10px;">
 <div style="text-align:center;margin:14px 0 4px;"><div style="font-size:10px;letter-spacing:4px;color:#a99cff;">SEOHA UNIVERSITY · 2026 SPRING</div><div style="font-size:30px;font-weight:900;letter-spacing:-1px;">한 학기</div><div style="font-size:13px;color:#c9c3e8;">누구 옆자리에 앉을래?</div></div>
 
+<a href="https://caveduck.io/ko/world-scenario-info/0ac192b5-c5ae-4d4f-9d00-15ae974e7984" target="_blank" style="display:block;text-decoration:none;background:rgba(255,255,255,0.1);border:1px solid #a99cff;border-radius:16px;padding:12px 16px;margin-top:12px;text-align:center;color:#eef;">
+<div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;">SEOHA WORLD</div>
+<div style="font-size:17px;font-weight:800;margin-top:2px;">🗺 서하대학교 세계관 보러 가기 →</div>
+<div style="font-size:12px;color:#c9c3e8;">캠퍼스 지도 · 히로인 소개 · 학사일정 · 새내기 꿀팁</div></a>
 <div style="background:linear-gradient(135deg,#ff5d8f,#7c5cff);border-radius:16px;padding:14px 16px;margin-top:12px;">
 <div style="font-size:11px;letter-spacing:3px;font-weight:700;opacity:.9;">⚡ RECOMMENDED MODEL</div>
 <div style="font-size:20px;font-weight:900;margin:2px 0;">Gemini 2.5 Pro 강력 추천</div>
@@ -63,6 +67,7 @@ h=f'''<div style="max-width:440px;margin:0 auto;background:linear-gradient(170de
 ⚠ 모든 등장인물은 성인이며, 실존 인물·학교와 무관한 가상 세계입니다.<br>
 ⚠ 호감도·수치가 이상하게 튀면 "상태 다시 확인해 줘"라고 한 줄 적어 주세요.</div>
 
+<div style="text-align:center;margin-top:12px;"><a href="https://caveduck.io/ko/world-scenario-info/0ac192b5-c5ae-4d4f-9d00-15ae974e7984" target="_blank" style="color:#ffd166;font-size:14px;text-decoration:underline;">▶ 서하대학교 세계관 페이지로 이동</a></div>
 <div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기… 일단은요. 즐거운 캠퍼스 라이프 되세요 🌸<br><span style="font-size:11px;color:#8a84a8;">ver 1.0 · 2026.10 · 계속 업데이트 중</span></div>
 <div style="width:90px;height:4px;background:#8a84a8;border-radius:2px;margin:10px auto 0;"></div>
 </div>'''

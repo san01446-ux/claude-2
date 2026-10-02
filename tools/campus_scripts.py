@@ -21,7 +21,7 @@ s=swap(s,'const ROWS=',json.load(open(R+'위젯.json'))); s=swap(s,',HTML=',rd('
 open(R+'캠퍼스_자동입력_위젯.txt','w').write(s)
 # 로어북
 L=[]
-for f in ('_lore_A.json','_lore_B.json'):
+for f in ('_lore_A.json','_lore_B.json','_lore_C.json','_lore_D.json','_lore_E.json'):
     try: L+=json.load(open(R+f))
     except FileNotFoundError: print('missing',f)
 s=open(CH+'로어북.txt').read()
@@ -30,7 +30,7 @@ s=s.replace('초한지','캠퍼스')
 open(R+'캠퍼스_자동입력_로어북.txt','w').write(s)
 # 예시
 X=[dict(x,a=True) for x in json.load(open(R+'_ex_cmd.json'))]
-for f in ('_ex_A.json','_ex_B.json'):
+for f in ('_ex_A.json','_ex_B.json','_ex_C.json','_ex_D.json','_ex_E.json'):
     try: X+=json.load(open(R+f))
     except FileNotFoundError: print('missing',f)
 s=open(CH+'예시대화.txt').read()
@@ -41,3 +41,15 @@ open(R+'캠퍼스_자동입력_예시대화.txt','w').write(s)
 open(R+'로어북.md','w').write('# 한 학기 로어북 (%d개)\n\n'%len(L)+'\n'.join(f"## {i}. {x['name']}\n- 키워드: {', '.join(x['k'])}\n\n{x['c']}\n" for i,x in enumerate(L,1)))
 open(R+'예시대화.md','w').write('# 한 학기 예시 대화 (%d개)\n\n'%len(X)+'\n'.join(f"## {i}\n**사용자:** {x['u']}\n\n**캐릭터:**\n{x['c']}\n" for i,x in enumerate(X,1)))
 print('lore',len(L),'ex',len(X))
+
+# 추가분만 (이미 1차분을 넣은 사람용)
+L1=sum(len(json.load(open(R+f))) for f in ('_lore_A.json','_lore_B.json'))
+X1=8+sum(len(json.load(open(R+f))) for f in ('_ex_A.json','_ex_B.json'))
+s=open(CH+'로어북.txt').read()
+s=swap(s,'const NEW = ',[{"k":x['k'],"c":x['c']} for x in L[L1:]]).replace('초한지','캠퍼스')
+open(R+'캠퍼스_자동입력_로어북_추가.txt','w').write(s)
+s=open(CH+'예시대화.txt').read()
+s=swap(s,'const EX=',[[x['u'],x['c']] for x in X[X1:]])
+s=re.sub(r'초한지 예시 \d+개','캠퍼스 추가 예시 %d개'%len(X[X1:]),s).replace('초한지','캠퍼스')
+open(R+'캠퍼스_자동입력_예시대화_추가.txt','w').write(s)
+print('add lore',len(L[L1:]),'add ex',len(X[X1:]))

@@ -4,7 +4,7 @@
 <div style="border-top:1px dashed #5a4f80;margin:14px 0;"></div>
 <p style="text-align:center;font-style:italic;color:#b9b4d6;margin:0 0 14px;">딱 한 학기. 누구 옆자리에 앉을지는, 당신이 정합니다.</p>
 <p style="margin:0 0 10px;">서울 서북쪽 언덕 위, 벚나무 오르막 <b style="color:#ffb3c8;">'봄길'</b> 끝에 서하대학교가 있습니다. 24시간 불이 꺼지지 않는 도서관 해솔관, 오리가 사는 호수 서하지, 동아리방이 늘어선 청람관. 후문 너머엔 자취촌 '골목'과 서하포차.</p>
-<p style="margin:0;">3월 2일 개강부터 6월 19일 종강까지, <b style="color:#fff;">16주</b>. 아는 사람은 거의 없고, 잔고는 32만 원입니다.</p>
+<p style="margin:0;">2월 입학부터 12월 2학기 종강까지, <b style="color:#fff;">서하대의 1년</b>. 아는 사람은 거의 없고, 잔고는 32만 원입니다.</p>
 
 <div style="margin:18px 0;background:rgba(255,255,255,0.07);border-radius:14px;padding:12px 14px;font-size:13.5px;">
 <div style="color:#ffd166;font-weight:700;">💬 26 미컴 새내기방 · 48</div>
@@ -30,7 +30,7 @@
 <b style="color:#e0a3f0;">이도아</b> 실음 1 · 옆집 — "혹시… 소리 시끄러웠어요?"</div>
 
 <div style="margin-top:20px;color:#a99cff;letter-spacing:.3em;font-size:12px;font-weight:700;">SCHEDULE</div>
-<div style="font-size:13.5px;margin-top:6px;">3/12 개강총회 · 3/27 과 MT · 4월 벚꽃 · 4/20 중간고사 · 5/6 체육대회 · 5/19 대동제 · 6/10 기말 · 6/19 종강파티</div>
+<div style="font-size:13.5px;margin-top:6px;">🌸 2/26 입학·새터 · 3/27 과 MT · 4월 벚꽃 · 5/19 대동제 · 6/19 종강<br>🌊 7월 바다 여행 · 8월 본가 귀성<br>🍂 9/1 2학기 · 9/24 추석 · 10/31 할로윈 · 11월 서하제·총학 선거<br>❄ 첫눈 · 12/18 종강 · 12/24 크리스마스</div>
 
 <div style="margin:20px 0 0;background:rgba(255,93,143,0.12);border-top:1px solid #ff5d8f;border-bottom:1px solid #ff5d8f;padding:14px;text-align:center;font-size:13.5px;">
 호감도 <b style="color:#ff9dbb;">모르는 사이 → 친구 → 썸 → 연인</b> · 잔고 · 학점 · 인싸력<br>

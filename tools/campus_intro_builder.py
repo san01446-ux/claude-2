@@ -8,7 +8,7 @@ def ph(k,n,c):
     u=U.get(k)
     return f'<img src="{u}" style="width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center top;display:block;border-radius:12px;">' if u else f'<div style="width:100%;aspect-ratio:3/4;background:{c};border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:30px;color:#fff;font-weight:800;">{n[1:]}</div>'
 cards=''.join(f'<div style="flex:1 1 140px;max-width:165px;background:#fff;border:1px solid #f0dfe6;border-radius:14px;padding:6px;">{ph(k,n,c)}<p style="margin:6px 2px 0;font-size:15px;"><b>{n}</b></p><p style="margin:0 2px;font-size:11px;color:#8a8399;">{t}</p><p style="margin:4px 2px 2px;font-size:12px;color:{c};line-height:1.5;">{html.escape(q)}</p></div>' for k,n,t,q,c in ppl)
-cal=[('3/2','개강'),('3/12','개강총회'),('3/27','과 MT'),('4월 초','벚꽃 봄길'),('4/20','중간고사'),('5/6','체육대회'),('5/19','대동제'),('6/10','기말고사'),('6/19','종강파티')]
+cal=[('2/26','입학·새터'),('3/2','개강'),('3/27','과 MT'),('4월 초','벚꽃 봄길'),('5/19','대동제'),('6/19','1학기 종강'),('7~8월','바다·귀성'),('9/1','2학기 개강'),('9/24','추석'),('10/31','할로윈'),('11월','서하제·선거'),('12/24','크리스마스')]
 cmds=[('/에타','익명 게시판 HOT 글'),('/인스타','@seoha.daily 제보'),('/톡','최근 개인톡'),('/단톡','과 단톡방'),('/시간표','이번 학기 수업'),('/지갑','잔고와 지출'),('/캘린더','이번 달 일정'),('/프로필 이름','호감·속마음 카드')]
 eps=[('2/26 · 입학','EP.01 — 입학','아는 사람 하나 없는 새내기 배움터 출발 날. 확성기를 든 총학 부회장, 이름표를 보여 달라는 단발 동기, 그리고 어젯밤 벽 너머의 기타 소리.'),('3/27 · 과 MT','EP.02 — MT의 밤','진실게임 병목이 당신 앞에서 멈췄다. "이 중에 마음에 드는 사람, 있다 없다?"'),('5/21 · 대동제 마지막 날','EP.03 — 축제 마지막 날','불꽃 10분 전, 톡이 세 개 왔다. 갈 수 있는 곳은 한 곳뿐.')]
 hero=f'<img src="{U["hero"]}" style="width:100%;max-height:420px;object-fit:cover;display:block;margin:0 0 20px;border-radius:14px;">' if U.get('hero') else ''
@@ -18,7 +18,7 @@ h=f'''<div style="max-width:760px;margin:0 auto;background:linear-gradient(170de
 {hero}<p style="font-size:11px;letter-spacing:0.5em;color:#ff5d8f;font-weight:700;margin:0;">SEOHA UNIVERSITY · 2026 SPRING</p>
 <p style="font-size:44px;font-weight:900;letter-spacing:-1px;margin:8px 0 2px;">서하대학교</p>
 <p style="font-size:14px;color:#8a8399;margin:0 0 16px;">캠퍼스 라이프 시뮬레이터</p>
-<p style="font-size:15px;line-height:2;margin:0;">벚꽃 오르막, 24시 도서관, 과 단톡방, 에타 HOT게시판.<br>3월 2일 개강부터 6월 19일 종강까지 딱 16주.<br><b>누구 옆자리에 앉을지는, 당신이 정한다.</b></p>
+<p style="font-size:15px;line-height:2;margin:0;">벚꽃 오르막, 24시 도서관, 과 단톡방, 에타 HOT게시판.<br>2월 입학부터 12월 2학기 종강까지, 서하대의 1년.<br><b>누구 옆자리에 앉을지는, 당신이 정한다.</b></p>
 <div style="display:inline-block;margin-top:16px;background:#ff5d8f;color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;">D-DAY 3월 2일 개강 🌸</div>
 </div>
 
@@ -29,7 +29,7 @@ h=f'''<div style="max-width:760px;margin:0 auto;background:linear-gradient(170de
 </div>
 
 <div style="{P}">
-{H('한 학기 캘린더','SCHEDULE')}
+{H('서하대의 1년','SCHEDULE')}
 <div style="display:flex;flex-wrap:wrap;gap:6px;">{''.join(f'<div style="flex:1 1 90px;background:#fff;border:1px solid #f0dfe6;border-radius:12px;padding:8px;text-align:center;"><div style="font-size:11px;color:#ff5d8f;font-weight:700;">{a}</div><div style="font-size:13px;">{b}</div></div>' for a,b in cal)}</div>
 </div>
 

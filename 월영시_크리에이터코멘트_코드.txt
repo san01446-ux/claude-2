@@ -1,8 +1,13 @@
 <div style="max-width:720px;margin:0 auto;background:#0b0b0e;color:#b9b3a8;font-family:'Nanum Myeongjo','Noto Serif KR','Batang',serif;line-height:1.9;padding:36px 26px 40px;border:1px solid #1f1d1b;border-radius:4px;">
 
+<img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/81193d0a-9ed3-4127-82ee-c62ba81a404d?v=961a0b" alt="" style="display:block;width:100%;opacity:0.85;margin:-12px 0 22px;border:1px solid #1f1d1b;">
 <div style="text-align:center;font-size:12px;letter-spacing:0.4em;color:#a3212b;">월 영 시 청 　 공 고 　 제 2 0 2 6 - 0 7 7 호</div>
 <div style="text-align:center;font-size:20px;letter-spacing:0.2em;color:#e9e2d4;margin-top:8px;">신규 전입자 안내문</div>
 
+<div style="margin-top:26px;background:#1a0d0f;border:1px solid #a3212b;padding:14px 16px;">
+<div style="font-size:12px;letter-spacing:0.3em;color:#a3212b;">⚠ 긴급재난문자 [월영시청] · 권장 모델 안내</div>
+<div style="font-size:19px;color:#e9e2d4;margin:4px 0;">Gemini 2.5 Pro 강력 권고</div>
+<div style="font-size:14px;color:#c9c1b4;">괴담 100편의 규칙, 정신력·체력, 괴담 도감, 월영 지수, 협조자들의 비밀까지. 이 도시는 기억할 것이 많습니다. 긴 기억력이 강한 <b style="color:#e9e2d4;">Gemini 2.5 Pro</b>를 권장하며, 그 밖에도 <b style="color:#e9e2d4;">긴 문맥을 지원하는 상위 모델</b>이면 좋습니다. 가벼운 모델에서는 괴담의 규칙이 흐려질 수 있습니다. 규칙이 흐려진 괴담은… 더 위험합니다.</div></div>
 <div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">생 존 　 요 령</div>
 <div style="margin-top:16px;font-size:15px;">
 <div style="margin-bottom:10px;"><span style="color:#a3212b;">一</span>　선택지는 없습니다. 하고 싶은 행동을 그대로 적으십시오. 숨는다, 대답하지 않는다, 소금을 뿌린다, 뒤돌아본다.</div>
@@ -12,12 +17,21 @@
 <div><span style="color:#a3212b;">五</span>　괴이록에는 100편이 있습니다. 전부 모은 분은 아직 보고되지 않았습니다.</div>
 </div>
 
+<div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">협 조 자 　 명 부</div>
+<div style="margin-top:6px;"><div style="display:flex;gap:12px;align-items:center;background:#121114;border:1px solid #2a2622;padding:8px;margin-top:8px;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/024b2dab-967c-43ef-b3ba-12df5c05676d?v=ce97f8" alt="" style="width:62px;height:82px;object-fit:cover;object-position:center top;flex:none;border:1px solid #3a3530;"><div><b style="color:#e9e2d4;font-size:15px;">한서린</b> <span style="font-size:11px;color:#6b6258;">27 · 괴담 유튜버 · 밤의 서린</span><div style="font-size:13px;color:#b9b3a8;">카메라부터 들이민다. 그녀가 찍은 괴담은 다음 날 더 선명해진다.</div></div></div><div style="display:flex;gap:12px;align-items:center;background:#121114;border:1px solid #2a2622;padding:8px;margin-top:8px;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/7f8fbeed-7432-4d60-a9ef-2bc17dae223b?v=433361" alt="" style="width:62px;height:82px;object-fit:cover;object-position:center top;flex:none;border:1px solid #3a3530;"><div><b style="color:#e9e2d4;font-size:15px;">강다온</b> <span style="font-size:11px;color:#6b6258;">29 · 월하당 무당</span><div style="font-size:13px;color:#b9b3a8;">부적값은 선불. 신당 안쪽 방에는 들어가지 말 것.</div></div></div><div style="display:flex;gap:12px;align-items:center;background:#121114;border:1px solid #2a2622;padding:8px;margin-top:8px;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/3708fef8-907d-48b4-a29c-5b6b72149a06?v=01f0e1" alt="" style="width:62px;height:82px;object-fit:cover;object-position:center top;flex:none;border:1px solid #3a3530;"><div><b style="color:#e9e2d4;font-size:15px;">차유나</b> <span style="font-size:11px;color:#6b6258;">31 · 특수괴이대응팀 경위</span><div style="font-size:13px;color:#b9b3a8;">팀에 혼자 남았다. 그림자가 가끔 반 박자 늦게 돈다.</div></div></div><div style="display:flex;gap:12px;align-items:center;background:#121114;border:1px solid #2a2622;padding:8px;margin-top:8px;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/ff7b79cf-f8dc-4a89-82fa-460ef03f1833?v=81212f" alt="" style="width:62px;height:82px;object-fit:cover;object-position:center top;flex:none;border:1px solid #3a3530;"><div><b style="color:#e9e2d4;font-size:15px;">백소월</b> <span style="font-size:11px;color:#6b6258;">24 · 달빛마트 야간 알바</span><div style="font-size:13px;color:#b9b3a8;">"아~ 그거요." 어떤 괴담도 이 편의점 문턱은 넘지 못한다.</div></div></div><div style="display:flex;gap:12px;align-items:center;background:#121114;border:1px solid #2a2622;padding:8px;margin-top:8px;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/3d37c918-dce6-41ac-9e1f-7737d7033636?v=0cbfd4" alt="" style="width:62px;height:82px;object-fit:cover;object-position:center top;flex:none;border:1px solid #3a3530;"><div><b style="color:#e9e2d4;font-size:15px;">윤해리</b> <span style="font-size:11px;color:#6b6258;">26 · 시립도서관 사서</span><div style="font-size:13px;color:#b9b3a8;">괴담의 규칙을 가장 많이 안다. 요즘 잠이 부족하다.</div></div></div><div style="display:flex;gap:12px;align-items:center;background:#121114;border:1px solid #2a2622;padding:8px;margin-top:8px;"><img src="https://cdn.caveduck.io/cdn-cgi/image/anim=true,f=auto,fit=crop,g=top,w=400/charim/1e40d729-b6ce-48c8-a507-8e0cac5f45d1?v=b11691" alt="" style="width:62px;height:82px;object-fit:cover;object-position:center top;flex:none;border:1px solid #3a3530;filter:grayscale(1) contrast(1.2);"><div><b style="color:#a3212b;font-size:15px;">이야기꾼</b> <span style="font-size:11px;color:#6b6258;">? · 신원 확인 불가</span><div style="font-size:13px;color:#b9b3a8;">목격자마다 얼굴이 다르다. 당신이 가장 믿는 사람의 얼굴로 온다.</div></div></div></div>
 <div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">협 조 자 에 　 관 하 여</div>
 <div style="margin-top:16px;font-size:15px;">
 <div>협조자들은 저마다 숨기는 것이 있습니다. 가까워질수록 하나씩 털어놓을 것입니다.</div>
 <div>마음을 여는 것도, 그 이상으로 나아가는 것도 언제나 당신의 선택입니다. 싫다고 하면 멈춥니다.</div>
 </div>
 
+<div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">생 존 　 팁</div>
+<div style="margin-top:14px;font-size:14px;line-height:1.95;">
+· 저녁 7시 재난문자는 그날 밤의 예고편입니다. 무엇이 나올지 미리 준비하십시오.<br>
+· 규칙을 모르는 괴담과 마주치면, 싸우기보다 <b style="color:#d8cfbf;">살아서 도망치는 것</b>이 정답일 때가 많습니다.<br>
+· 소금, 사탕, 부적, 거울. 달빛마트와 월하당에서 미리 사 두면 목숨이 하나 늘어납니다.<br>
+· 정신력이 낮을수록 보이는 것이 많아집니다. 그중 무엇이 진짜인지는 장담할 수 없습니다.<br>
+· 막히면 "지금 상태와 알고 있는 규칙을 정리해 줘"라고 적어 보십시오.</div>
 <div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">퇴 거 　 경 로</div>
 <div style="margin-top:14px;background:#121114;border:1px solid #2a2622;padding:12px 16px;font-size:14px;line-height:2;">
 <div><b style="display:inline-block;width:110px;color:#d8cfbf;">마지막 이야기</b>도시를 잠재우고 떠나는 길</div>
@@ -27,6 +41,17 @@
 <div style="color:#a3212b;"><b style="display:inline-block;width:110px;">새 괴담</b>재난문자에 당신의 이름이 뜨는 길</div>
 </div>
 
+<div style="margin-top:30px;font-size:13px;letter-spacing:0.35em;color:#6b6258;border-bottom:1px solid #2a2622;padding-bottom:8px;">추 가 　 예 보</div>
+<div style="margin-top:14px;background:#121114;border:1px dashed #a3212b;padding:14px 16px;font-size:14px;line-height:2;">
+<div style="font-size:12px;color:#8f877b;margin-bottom:6px;">현재 <b style="color:#d8c27a;">괴이록 ver 1.0</b>. 이 도시의 이야기는 아직 다 쓰이지 않았습니다.</div>
+<span style="color:#d8c27a;">■ 현재</span>　괴담 100편 · 협조자 6명 · 멀티엔딩 5종<br>
+<span style="color:#a3212b;">■ 예보</span>　열람 제한된 <b>099 · 100</b>의 봉인 해제<br>
+<span style="color:#a3212b;">■ 예보</span>　괴이록 <b>101편 이후</b> 신규 괴담 추가 (계절 괴담 · 학교 괴담 · 독자 제보 괴담)<br>
+<span style="color:#6b6258;">■ 관측 중</span>　새로운 협조자의 전입 신고가 접수되었습니다<br>
+<span style="color:#6b6258;">■ 관측 중</span>　괴담별 삽화 · 협조자 추가 이미지<br>
+<span style="color:#6b6258;">■ 관측 중</span>　월영 지수 100의 밤, 그 이후의 이야기
+<div style="margin-top:10px;color:#c9a7a7;font-size:13px;">📮 "이 괴담도 넣어 주세요" 싶은 이야기가 있다면 댓글로 제보해 주십시오. 채택된 괴담은 괴이록에 등재됩니다.<br><span style="color:#6b6258;">(제보자의 이름이 재난문자에 뜨지는 않습니다. 아마도.)</span></div>
+</div>
 <div style="margin-top:34px;text-align:center;font-size:14px;color:#8f877b;">
 버그나 이상한 전개는 댓글로 제보해 주십시오.<br>
 단, 가장 믿는 사람이 "재밌는 얘기 하나 해 줄까?"라고 하면 댓글보다 도망이 먼저입니다.
@@ -35,6 +60,6 @@
 <div style="margin-top:30px;text-align:center;">
 <span style="display:inline-block;border:2px solid #a3212b;color:#a3212b;padding:5px 14px;letter-spacing:0.3em;font-size:13px;transform:rotate(-4deg);">月影市長印</span>
 </div>
-<div style="margin-top:20px;text-align:center;font-size:12px;color:#5f574d;">🔞 모든 등장인물은 성인입니다 · 무사한 밤 되십시오</div>
+<div style="margin-top:20px;text-align:center;font-size:12px;color:#5f574d;">🔞 모든 등장인물은 성인입니다 · 무사한 밤 되십시오<br>괴이록 ver 1.0 · 2026.10 · 계속 갱신 중</div>
 
 </div>

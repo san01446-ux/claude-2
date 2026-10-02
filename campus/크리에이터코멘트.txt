@@ -39,10 +39,21 @@
 · 거절은 거절이에요. 몰아붙이면 관계도, 소문도 나빠져요.<br>
 · 막히면 <b>/프로필 이름</b>으로 지금 관계를 확인해 보세요.</div></div>
 
+<div style="background:rgba(255,255,255,0.07);border-radius:16px;padding:14px 16px;margin-top:10px;border:1px dashed #a99cff;"><div style="font-size:11px;letter-spacing:3px;color:#a99cff;font-weight:700;margin-bottom:6px;">UPDATE ROADMAP</div><div style="font-size:17px;font-weight:800;margin-bottom:8px;">🚧 다음 학기도 준비 중</div>
+<div style="font-size:12px;color:#b9b4d6;margin-bottom:8px;">지금은 <b style="color:#ffd166;">ver 1.0 · 1학기 편</b>이에요. 서하대의 시간은 계속 흐릅니다.</div>
+<div style="font-size:13px;line-height:1.9;">
+<span style="background:#7c5cff;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">NOW</span> 1학기 16주 · 히로인 7명 · 명령어 8종 · 에피소드 3개<br>
+<span style="background:#ff5d8f;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">NEXT</span> 🌊 여름방학 편: 바다 여행, 계절학기, 알바, 박건우 입대 송별회<br>
+<span style="background:#ff5d8f;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">NEXT</span> 🍂 2학기 편: 추석 귀성, 할로윈 파티, 가을 축제 '서하제', 첫눈, 크리스마스<br>
+<span style="background:#3a3550;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">SOON</span> 📸 히로인별 엔딩 일러스트 & 상황별 이미지 추가<br>
+<span style="background:#3a3550;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">SOON</span> 📱 새 앱 명령어 (배달 앱, 캠퍼스 지도, 학교 공지 등)<br>
+<span style="background:#3a3550;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">SOON</span> 🎭 동아리 전용 이벤트와 숨겨진 히든 루트<br>
+<span style="background:#3a3550;color:#fff;border-radius:6px;padding:1px 7px;font-size:11px;">SOON</span> 💌 새로운 얼굴? 2학기에 누군가 전학 온다는 소문이…</div>
+<div style="font-size:12.5px;color:#ffd1df;margin-top:10px;">💬 플레이하다가 "이런 이벤트 있었으면" 싶은 게 있으면 댓글로 남겨 주세요. 다음 업데이트에 반영할게요!</div></div>
 <div style="background:#ff5d8f22;border-radius:16px;padding:12px 16px;margin-top:10px;font-size:12.5px;color:#ffd1df;">
 ⚠ 모든 등장인물은 성인이며, 실존 인물·학교와 무관한 가상 세계입니다.<br>
 ⚠ 호감도·수치가 이상하게 튀면 "상태 다시 확인해 줘"라고 한 줄 적어 주세요.</div>
 
-<div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기. 즐거운 캠퍼스 라이프 되세요 🌸</div>
+<div style="text-align:center;font-size:13px;color:#c9c3e8;margin-top:14px;">딱 한 학기… 일단은요. 즐거운 캠퍼스 라이프 되세요 🌸<br><span style="font-size:11px;color:#8a84a8;">ver 1.0 · 2026.10 · 계속 업데이트 중</span></div>
 <div style="width:90px;height:4px;background:#8a84a8;border-radius:2px;margin:10px auto 0;"></div>
 </div>

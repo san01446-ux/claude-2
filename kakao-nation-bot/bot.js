@@ -145,7 +145,7 @@ function createBot(io, nowFn, http) {
     if (citizen(r, name)) return name + "님은 이미 국민이에요. (국민번호 " + padNo(r.citizens[name].no) + ")";
     var c = r.citizens[name] = { no: r.nextNo++, joined: dayKey(now()), role: CONFIG.defaultRole, balance: CONFIG.startBalance, lastSalary: "", attend: { total: 0, streak: 0, last: "" } };
     addLedger(r, "국고", name, CONFIG.startBalance, "국민등록 지원금");
-    return "🎉 " + CONFIG.nation.name + "에 오신 것을 환영합니다!\n국민번호 " + padNo(c.no) + " · " + name + "\n정착 지원금 " + money(CONFIG.startBalance) + "을 지급했어요.\n!도움말 로 명령어를 확인하세요.";
+    return "🎉 " + CONFIG.nation.name + "에 오신 것을 환영합니다!\n국민번호 " + padNo(c.no) + " · " + name + "\n정착 지원금: " + money(CONFIG.startBalance) + " 지급\n!도움말 로 명령어를 확인하세요.";
   }
 
   function idCard(r, name, target) {

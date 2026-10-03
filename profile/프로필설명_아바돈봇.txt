@@ -1,0 +1,36 @@
+<div style="max-width:380px;margin:0 auto;font-family:inherit;color:#e5e7eb;">
+<div style="background:linear-gradient(180deg,#1a1a22,#0d0d12);border:1px solid #3b2a4d;border-radius:34px 34px 18px 18px;padding:14px 14px 18px;box-shadow:0 0 22px #7c3aed44,inset 0 0 0 3px #15151c;">
+<div style="display:flex;justify-content:space-between;font-size:10px;letter-spacing:2px;color:#a78bfa;font-weight:700;padding:0 8px 10px;"><span>ABADDON BOT ⛧</span><span style="color:#f87171;">● ONLINE</span></div>
+<div style="background:#050507;border:2px solid #2e1f3d;border-radius:18px;padding:16px 14px;box-shadow:inset 0 0 24px #7c3aed33;">
+<div style="text-align:center;font-size:30px;font-weight:900;letter-spacing:6px;color:#fff;text-shadow:0 0 12px #a855f7,0 0 2px #fff;">ABADDON</div>
+<div style="text-align:center;font-size:10px;letter-spacing:3px;color:#9ca3af;margin-top:2px;">GAME DEVELOPER · SIMULATOR ENGINE v1.1</div>
+<div style="margin-top:12px;font-family:monospace;font-size:11.5px;line-height:1.75;color:#86efac;background:#0b0f0b;border:1px solid #14532d;border-radius:8px;padding:8px 10px;">
+&gt; booting simulator engine......... <b style="color:#4ade80;">OK</b><br>
+&gt; loading status window............ <b style="color:#4ade80;">OK</b><br>
+&gt; lorebook 150 entries.............. <b style="color:#4ade80;">OK</b><br>
+&gt; choices[] ........................ <b style="color:#f87171;">NULL</b><br>
+&gt; <span style="color:#e5e7eb;">자유 행동 모드로 시작합니다_</span></div>
+<div style="margin-top:10px;font-size:10px;letter-spacing:2px;color:#a78bfa;font-weight:700;">TODAY'S LOG</div>
+<div style="font-size:12.5px;color:#d1d5db;margin-top:2px;">실제로 게임 봇을 만드는 사람이 만듭니다. 상태창, 능력치, 명령어, 멀티엔딩. 선택지 대신 당신이 적은 그대로 굴러가는 진짜 게임 같은 캐릭터 ⛧</div>
+</div></div>
+<div style="height:14px;margin:0 30px;background:linear-gradient(180deg,#2a1f38,#16121d);border-left:1px solid #3b2a4d;border-right:1px solid #3b2a4d;"></div>
+<div style="background:linear-gradient(180deg,#16121d,#0d0d12);border:1px solid #3b2a4d;border-radius:18px 18px 34px 34px;padding:16px 14px 20px;box-shadow:0 0 22px #7c3aed33;">
+<div style="display:flex;gap:6px;justify-content:center;margin-bottom:14px;">
+<span style="background:#1f1a2b;border:1px solid #4c3a66;border-radius:14px;padding:5px 12px;font-size:11px;font-weight:700;color:#c4b5fd;">⚡ Gemini 2.5 Pro</span>
+<span style="background:#2a1418;border:1px solid #7f1d1d;border-radius:14px;padding:5px 12px;font-size:11px;font-weight:700;color:#fca5a5;">🛠 버그는 댓글로</span></div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+<div style="background:#1b1625;border:1px solid #4c3a66;border-bottom:3px solid #ff5d8f;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#fff;">1</div><div style="font-size:10px;color:#f9a8d4;">🌸 서하대학교</div></div>
+<div style="background:#1b1625;border:1px solid #4c3a66;border-bottom:3px solid #dc2626;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#fff;">2</div><div style="font-size:10px;color:#fca5a5;">🌙 월영시</div></div>
+<div style="background:#1b1625;border:1px solid #4c3a66;border-bottom:3px solid #f97316;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#fff;">3</div><div style="font-size:10px;color:#fdba74;">🧟 D-DAY</div></div>
+<div style="background:#1b1625;border:1px solid #4c3a66;border-bottom:3px solid #eab308;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#fff;">4</div><div style="font-size:10px;color:#fde047;">⚔ 초한지</div></div>
+<div style="background:#24121a;border:1px solid #7f1d1d;border-bottom:3px solid #a855f7;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#fff;">5</div><div style="font-size:10px;color:#c4b5fd;">🔞 청운관</div></div>
+<div style="background:#110f16;border:1px dashed #3b2a4d;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#6b5a85;">6</div><div style="font-size:9px;letter-spacing:1px;color:#6b5a85;">LOADING...</div></div>
+<div style="background:#110f16;border:1px dashed #3b2a4d;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#6b5a85;">7</div><div style="font-size:9px;letter-spacing:1px;color:#6b5a85;">LOADING...</div></div>
+<div style="background:#110f16;border:1px dashed #3b2a4d;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#6b5a85;">8</div><div style="font-size:9px;letter-spacing:1px;color:#6b5a85;">LOADING...</div></div>
+<div style="background:#110f16;border:1px dashed #3b2a4d;border-radius:12px;padding:8px 4px;text-align:center;"><div style="font-size:15px;font-weight:800;color:#6b5a85;">9</div><div style="font-size:9px;letter-spacing:1px;color:#6b5a85;">LOADING...</div></div>
+</div>
+<div style="margin-top:14px;font-family:monospace;font-size:10.5px;color:#9ca3af;text-align:center;">[ * ] 상태창 · [ 0 ] 명령어 · [ # ] 멀티엔딩</div>
+<div style="width:70px;height:5px;background:#3b2a4d;border-radius:3px;margin:12px auto 0;"></div>
+</div>
+<div style="text-align:center;font-size:10px;color:#6b7280;margin-top:10px;">모든 등장인물은 성인 · 모든 작품은 가상의 이야기입니다</div>
+</div>

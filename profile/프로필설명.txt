@@ -30,10 +30,6 @@
 <div style="font-weight:800;">⚔ 초한지: 천하쟁패 시뮬레이터</div>
 <div style="font-size:12.5px;color:#9ca3af;">오리지널 · 실존 인물 · 빙의 회귀 3가지 모드 · 역사 변동도 · 실존 인물 150개 로어</div></div>
 
-<div style="background:#111827;border:1px solid #374151;border-left:3px solid #60a5fa;border-radius:10px;padding:10px 12px;margin-bottom:8px;">
-<div style="font-weight:800;">⚾ 방출 30경기 전 — 2군 외야수의 마지막 시즌</div>
-<div style="font-size:12.5px;color:#9ca3af;">타석마다 직접 선택하는 야구 성장 시뮬레이터</div></div>
-
 <div style="font-size:12px;letter-spacing:2px;color:#9ca3af;margin:18px 0 8px;">HOW TO PLAY · 이렇게 즐겨 주세요</div>
 <div style="font-size:13.5px;color:#d1d5db;">
 · 페르소나에 <b style="color:#fff;">이름·나이·성격</b>을 적으면 그 인물로 시작해요.<br>

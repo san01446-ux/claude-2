@@ -1,0 +1,55 @@
+<div style="font-family:inherit;color:#e5e7eb;line-height:1.7;max-width:560px;">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+<div style="width:44px;height:44px;border-radius:12px;background:#111827;border:1px solid #374151;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;">대</div>
+<div><div style="font-size:18px;font-weight:800;">개발자가 만드는 시뮬레이터</div><div style="font-size:11px;letter-spacing:2px;color:#9ca3af;">GAME DEVELOPER · SIMULATOR</div></div></div>
+
+<div style="font-size:14px;color:#d1d5db;">실제로 게임 봇을 개발하는 사람이 만듭니다.<br>상태창, 능력치, 명령어, 멀티엔딩이 있는 <b style="color:#fff;">진짜 게임 같은 캐릭터</b>를 올려요.</div>
+
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin:14px 0;">
+<span style="background:#1f2937;border:1px solid #374151;border-radius:20px;padding:3px 10px;font-size:12px;">📱 실시간 상태창</span>
+<span style="background:#1f2937;border:1px solid #374151;border-radius:20px;padding:3px 10px;font-size:12px;">⌨ 명령어 앱 화면</span>
+<span style="background:#1f2937;border:1px solid #374151;border-radius:20px;padding:3px 10px;font-size:12px;">📚 로어북 150개</span>
+<span style="background:#1f2937;border:1px solid #374151;border-radius:20px;padding:3px 10px;font-size:12px;">🎭 멀티엔딩</span>
+<span style="background:#1f2937;border:1px solid #374151;border-radius:20px;padding:3px 10px;font-size:12px;">🚫 선택지 없는 자유 행동</span></div>
+
+<div style="font-size:12px;letter-spacing:2px;color:#9ca3af;margin:18px 0 8px;">WORKS · 작품</div>
+
+<div style="background:#111827;border:1px solid #374151;border-left:3px solid #ff5d8f;border-radius:10px;padding:10px 12px;margin-bottom:8px;">
+<div style="font-weight:800;">🌸 서하대학교 캠퍼스 라이프</div>
+<div style="font-size:12.5px;color:#9ca3af;">캠퍼스 연애 시뮬 · 히로인 7명 · 입학부터 2학기 종강까지 1년 · /에타 /인스타 /톡 명령어</div></div>
+
+<div style="background:#111827;border:1px solid #374151;border-left:3px solid #a3212b;border-radius:10px;padding:10px 12px;margin-bottom:8px;">
+<div style="font-weight:800;">🌙 월영시: 괴담 생존 시뮬레이터</div>
+<div style="font-size:12.5px;color:#9ca3af;">괴담 100편 · 매일 저녁 7시 재난문자 · 정신력·도감·월영 지수 · 협조자 5명 · 멀티엔딩</div></div>
+
+<div style="background:#111827;border:1px solid #374151;border-left:3px solid #d0705f;border-radius:10px;padding:10px 12px;margin-bottom:8px;">
+<div style="font-weight:800;">🧟 D-DAY 좀비 시뮬레이터</div>
+<div style="font-size:12.5px;color:#9ca3af;">좀비 아포칼립스 생존 · 무전 주파수와 숨겨진 진실 · 생존자 게시판·거래·수색</div></div>
+
+<div style="background:#111827;border:1px solid #374151;border-left:3px solid #c9a24a;border-radius:10px;padding:10px 12px;margin-bottom:8px;">
+<div style="font-weight:800;">⚔ 초한지: 천하쟁패 시뮬레이터</div>
+<div style="font-size:12.5px;color:#9ca3af;">오리지널 · 실존 인물 · 빙의 회귀 3가지 모드 · 역사 변동도 · 실존 인물 150개 로어</div></div>
+
+<div style="background:#111827;border:1px solid #374151;border-left:3px solid #60a5fa;border-radius:10px;padding:10px 12px;margin-bottom:8px;">
+<div style="font-weight:800;">⚾ 방출 30경기 전 — 2군 외야수의 마지막 시즌</div>
+<div style="font-size:12.5px;color:#9ca3af;">타석마다 직접 선택하는 야구 성장 시뮬레이터</div></div>
+
+<div style="font-size:12px;letter-spacing:2px;color:#9ca3af;margin:18px 0 8px;">HOW TO PLAY · 이렇게 즐겨 주세요</div>
+<div style="font-size:13.5px;color:#d1d5db;">
+· 페르소나에 <b style="color:#fff;">이름·나이·성격</b>을 적으면 그 인물로 시작해요.<br>
+· 선택지 대신 하고 싶은 행동을 그대로 적어 주세요. 그게 정답이에요.<br>
+· 상태창은 눌러서 펼칠 수 있어요. 속마음과 비밀 수첩이 숨어 있어요.<br>
+· 수치가 이상하면 "상태 다시 확인해 줘" 한 줄이면 돌아와요.</div>
+
+<div style="background:linear-gradient(135deg,#ff5d8f33,#7c5cff33);border:1px solid #7c5cff;border-radius:10px;padding:10px 12px;margin-top:14px;font-size:13px;">
+⚡ <b>추천 모델: Gemini 2.5 Pro</b><br><span style="color:#d1d5db;">기억할 게 많은 시뮬레이터라 긴 문맥에 강한 상위 모델을 권장해요. 가벼운 모델은 상태창 수치나 명령어 화면이 흐트러질 수 있어요.</span></div>
+
+<div style="font-size:12px;letter-spacing:2px;color:#9ca3af;margin:18px 0 8px;">UPDATE · 업데이트 방식</div>
+<div style="font-size:13.5px;color:#d1d5db;">작품은 올리고 끝이 아니라 계속 고쳐요. 댓글로 들어온 버그와 아이디어를 모아 로어북·이벤트·이미지를 꾸준히 추가합니다. 각 작품 크리에이터 코멘트의 <b style="color:#fff;">업데이트 로드맵</b>에서 다음 계획을 확인할 수 있어요.</div>
+
+<div style="background:#111827;border:1px dashed #4b5563;border-radius:10px;padding:10px 12px;margin-top:14px;font-size:13px;color:#d1d5db;">
+💬 버그나 이상한 전개는 댓글로 알려 주세요. 바로 고칩니다. 🛠<br>
+💡 "이런 시뮬레이터 있었으면" 하는 아이디어도 환영해요. 다음 작품이 될 수 있어요.</div>
+
+<div style="text-align:center;font-size:11px;color:#6b7280;margin-top:14px;">모든 등장인물은 성인이며, 모든 작품은 가상의 이야기입니다.</div>
+</div>

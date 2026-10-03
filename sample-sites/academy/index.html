@@ -1,0 +1,124 @@
+<title>정답수학학원</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+/* Layout: grid-paper academy — headline over math-notebook grid, class roster table, curriculum steps, consult form. */
+:root {
+  --bg: #f6f7fb; --paper: #ffffff; --ink: #14203a; --muted: #5b6680; --line: #dfe3ee; --grid: #e7ebf5;
+  --navy: #1b2e5a; --orange: #f2762e; --on-navy: #f6f7fb;
+  --display: "Black Han Sans", "Noto Sans KR", sans-serif;
+  --sans: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e1424; --paper: #151d33; --ink: #e8ecf6; --muted: #a2acc4; --line: #273254; --grid: #1a2440; --navy: #2b4485; --orange: #f58a4c; --on-navy: #f6f7fb; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #0e1424; --paper: #151d33; --ink: #e8ecf6; --muted: #a2acc4; --line: #273254; --grid: #1a2440; --navy: #2b4485; --orange: #f58a4c; --on-navy: #f6f7fb; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.7; word-break: keep-all; }
+.concept { background: var(--ink); color: var(--bg); text-align: center; font-size: 13px; padding: 6px 16px; }
+.wrap { max-width: 1080px; margin-inline: auto; padding-inline: 20px; }
+nav { display: flex; justify-content: space-between; align-items: center; padding-block: 20px; }
+nav b { font-family: var(--display); font-weight: 400; font-size: 24px; }
+nav b span { color: var(--orange); }
+nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
+h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+.hero { border-radius: 26px; padding: 56px 44px; background: linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 28px 28px, linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 28px 28px, var(--paper); border: 1px solid var(--line); }
+.hero small { color: var(--orange); font-weight: 700; }
+.hero h1 { font-size: clamp(40px, 6.5vw, 74px); line-height: 1.12; margin-top: 10px; }
+.hero h1 u { text-decoration: none; box-shadow: inset 0 -0.28em 0 color-mix(in srgb, var(--orange) 45%, transparent); }
+.hero p { color: var(--muted); font-size: 17px; max-width: 34em; margin: 18px 0 0; }
+.stats { display: flex; gap: 32px; flex-wrap: wrap; margin-top: 28px; }
+.stats div { display: flex; flex-direction: column; }
+.stats b { font-family: var(--display); font-weight: 400; font-size: 32px; color: var(--navy); font-variant-numeric: tabular-nums; }
+.stats span { color: var(--muted); font-size: 14px; }
+section { padding-block: 56px; }
+h2 { font-size: clamp(30px, 4.5vw, 44px); margin-bottom: 22px; }
+.table-wrap { overflow-x: auto; background: var(--paper); border-radius: 18px; border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; }
+th, td { padding: 14px 18px; text-align: left; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+th { background: var(--navy); color: var(--on-navy); font-weight: 500; font-size: 14px; }
+tr:last-child td { border-bottom: 0; }
+.seat { color: var(--orange); font-weight: 700; }
+.steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; list-style: none; padding: 0; margin: 0; counter-reset: s; }
+.steps li { counter-increment: s; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+.steps li::before { content: "STEP " counter(s); color: var(--orange); font-weight: 700; font-size: 13px; display: block; }
+.steps b { display: block; font-size: 18px; margin: 4px 0; }
+.steps span { color: var(--muted); font-size: 14px; }
+.consult { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; background: var(--navy); color: var(--on-navy); border-radius: 26px; padding: 40px; }
+.consult p { opacity: 0.85; }
+form { display: grid; gap: 12px; }
+label { font-size: 14px; display: grid; gap: 6px; }
+input, select { font: inherit; padding: 11px 13px; border-radius: 10px; border: 0; background: var(--paper); color: var(--ink); }
+button { font: inherit; font-weight: 700; padding: 13px; border: 0; border-radius: 10px; background: var(--orange); color: #241000; cursor: pointer; }
+#done { font-size: 14px; background: color-mix(in srgb, var(--on-navy) 12%, transparent); padding: 10px 12px; border-radius: 10px; }
+footer { color: var(--muted); font-size: 13px; padding-block: 24px 40px; }
+@media (max-width: 800px) {
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .consult { grid-template-columns: minmax(0, 1fr); padding: 28px 22px; }
+  .hero { padding: 40px 24px; }
+  nav a { display: none; }
+}
+</style>
+<div class="concept">컨셉 디자인 · 실제 업체가 아닌 홈페이지 제작 샘플입니다</div>
+<div class="wrap">
+  <nav><b>정답<span>수학</span></b><span><a href="#class">반 안내</a><a href="#course">수업 방식</a><a href="#consult">상담 신청</a></span></nav>
+  <header class="hero">
+    <small>중등 · 고등 수학 전문</small>
+    <h1>틀린 문제를<br><u>다시 안 틀리게</u></h1>
+    <p>반마다 정원 8명. 매 수업 오답을 개인 노트로 정리하고, 한 달에 한 번 학부모님께 리포트를 보내 드려요.</p>
+    <div class="stats">
+      <div><b>8명</b><span>반별 최대 정원</span></div>
+      <div><b>주 3회</b><span>정규 수업</span></div>
+      <div><b>월 1회</b><span>학부모 리포트</span></div>
+    </div>
+  </header>
+
+  <section id="class">
+    <h2>반 안내</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>반</th><th>대상</th><th>요일 · 시간</th><th>수강료(월)</th><th>남은 자리</th></tr></thead>
+        <tbody>
+          <tr><td>중2 개념반</td><td>중학교 2학년</td><td>월수금 17:00–19:00</td><td>320,000원</td><td class="seat">2자리</td></tr>
+          <tr><td>중3 심화반</td><td>중학교 3학년</td><td>화목토 17:00–19:30</td><td>360,000원</td><td class="seat">1자리</td></tr>
+          <tr><td>고1 내신반</td><td>고등학교 1학년</td><td>월수금 19:30–22:00</td><td>420,000원</td><td class="seat">3자리</td></tr>
+          <tr><td>고2 수능반</td><td>고등학교 2학년</td><td>화목토 19:30–22:00</td><td>450,000원</td><td class="seat">마감</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="course">
+    <h2>수업 방식</h2>
+    <ol class="steps">
+      <li><b>진단 테스트</b><span>첫 상담 때 실력과 약점을 확인해요.</span></li>
+      <li><b>개념 수업</b><span>교과서 순서대로 원리부터 설명해요.</span></li>
+      <li><b>오답 노트</b><span>틀린 문제는 수업 안에서 다시 풀어요.</span></li>
+      <li><b>월간 리포트</b><span>성적과 태도를 학부모님께 보내 드려요.</span></li>
+    </ol>
+  </section>
+
+  <section id="consult">
+    <div class="consult">
+      <div>
+        <h2>상담 신청</h2>
+        <p>남겨 주시면 하루 안에 전화드려요. 상담과 진단 테스트는 무료예요.</p>
+        <p>서울 노원구 샘플로 00, 3층 · 02-000-0000</p>
+      </div>
+      <form id="f">
+        <label for="name">학생 이름<input id="name" required placeholder="홍길동"></label>
+        <label for="grade">학년<select id="grade"><option>중학교 2학년</option><option>중학교 3학년</option><option>고등학교 1학년</option><option>고등학교 2학년</option></select></label>
+        <label for="phone">학부모 연락처<input id="phone" required inputmode="tel" placeholder="010-0000-0000"></label>
+        <button type="submit">상담 신청하기</button>
+        <div id="done" hidden>샘플 사이트라 실제로 전송되지는 않아요. 실제 홈페이지에서는 원장님 휴대폰으로 알림이 갑니다.</div>
+      </form>
+    </div>
+  </section>
+  <footer>정답수학학원 · 컨셉 디자인 샘플</footer>
+</div>
+<script>
+document.getElementById("f").addEventListener("submit", function (e) {
+  e.preventDefault();
+  document.getElementById("done").hidden = false;
+});
+</script>

@@ -1,0 +1,109 @@
+<title>온당 커피</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+/* Layout: a roastery menu board — big serif name, menu as a priced board, then space, visit info. */
+:root {
+  --bg: #f1f3ec; --paper: #ffffff; --ink: #1d2a22; --muted: #5f6b62; --line: #d5dccf;
+  --green: #2f4a3a; --butter: #f2d27a; --on-green: #f1f3ec;
+  --serif: "Gowun Batang", "Nanum Myeongjo", serif;
+  --sans: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121914; --paper: #1a241d; --ink: #e8ede6; --muted: #a3b0a6; --line: #2d3a31; --green: #3f6450; --butter: #f2d27a; --on-green: #f1f3ec; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121914; --paper: #1a241d; --ink: #e8ede6; --muted: #a3b0a6; --line: #2d3a31; --green: #3f6450; --butter: #f2d27a; --on-green: #f1f3ec; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.7; word-break: keep-all; }
+.concept { background: var(--ink); color: var(--bg); text-align: center; font-size: 13px; padding: 6px 16px; }
+.wrap { max-width: 1080px; margin-inline: auto; padding-inline: 20px; }
+nav { display: flex; justify-content: space-between; align-items: center; padding-block: 22px; gap: 16px; }
+nav b { font-family: var(--serif); font-size: 22px; }
+nav div { display: flex; gap: 20px; font-size: 15px; flex-wrap: wrap; }
+nav a { color: var(--muted); text-decoration: none; }
+h1, h2 { font-family: var(--serif); font-weight: 700; text-wrap: balance; margin: 0; }
+.hero { background: var(--green); color: var(--on-green); border-radius: 28px; padding: 64px 48px; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 40px; align-items: end; }
+.hero small { letter-spacing: 0.2em; font-size: 12px; opacity: 0.8; }
+.hero h1 { font-size: clamp(44px, 7vw, 84px); line-height: 1.05; margin-top: 12px; }
+.hero p { opacity: 0.85; font-size: 17px; margin: 18px 0 0; }
+.cup { justify-self: end; width: min(100%, 260px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 50% 50%, #6b4a2f 0 38%, #a77b52 39% 44%, var(--butter) 45% 49%, transparent 50%), radial-gradient(circle, rgba(255,255,255,.08) 0 70%, transparent 71%); }
+.btn { display: inline-block; margin-top: 26px; background: var(--butter); color: #2a2200; padding: 12px 22px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+section { padding-block: 64px; }
+.head { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: 26px; }
+.head h2 { font-size: clamp(30px, 4vw, 40px); }
+.head p { color: var(--muted); margin: 0; }
+.board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; background: var(--paper); border-radius: 22px; padding: 18px 36px; }
+.item { display: flex; align-items: baseline; gap: 10px; padding: 16px 0; border-bottom: 1px dashed var(--line); }
+.item b { font-weight: 700; }
+.item span { color: var(--muted); font-size: 14px; }
+.item i { flex: 1; }
+.item em { font-style: normal; font-variant-numeric: tabular-nums; font-weight: 700; }
+.space { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.space div { background: var(--paper); border-radius: 18px; padding: 26px; }
+.space b { display: block; font-family: var(--serif); font-size: 21px; margin-bottom: 6px; }
+.space p { margin: 0; color: var(--muted); font-size: 15px; }
+.visit { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
+.visit dl { margin: 0; display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 12px 16px; background: var(--paper); border-radius: 18px; padding: 28px; }
+.visit dt { color: var(--muted); }
+.visit dd { margin: 0; font-weight: 500; }
+.map { border-radius: 18px; background: repeating-linear-gradient(0deg, transparent 0 38px, var(--line) 38px 40px), repeating-linear-gradient(90deg, transparent 0 38px, var(--line) 38px 40px), var(--paper); position: relative; min-height: 240px; }
+.map::after { content: "온당 커피"; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: var(--green); color: var(--on-green); padding: 8px 14px; border-radius: 999px; font-size: 14px; font-weight: 700; }
+footer { color: var(--muted); font-size: 13px; padding-block: 30px 40px; border-top: 1px solid var(--line); }
+@media (max-width: 760px) {
+  .hero { grid-template-columns: minmax(0, 1fr); padding: 44px 26px; }
+  .cup { justify-self: start; width: 160px; }
+  .board, .visit, .space { grid-template-columns: minmax(0, 1fr); }
+  .board { padding: 10px 22px; }
+  nav div { display: none; }
+}
+</style>
+<div class="concept">컨셉 디자인 · 실제 업체가 아닌 홈페이지 제작 샘플입니다</div>
+<div class="wrap">
+  <nav><b>온당 커피</b><div><a href="#menu">메뉴</a><a href="#space">공간</a><a href="#visit">오시는 길</a></div></nav>
+  <header class="hero">
+    <div>
+      <small>SPECIALTY ROASTERY · SINCE 2021</small>
+      <h1>매일 아침<br>직접 볶은 커피</h1>
+      <p>성수동 골목 2층, 로스터가 그날 아침 볶은 원두로만 내립니다.</p>
+      <a class="btn" href="#visit">찾아오는 길</a>
+    </div>
+    <div class="cup" role="img" aria-label="위에서 본 라떼 잔"></div>
+  </header>
+
+  <section id="menu">
+    <div class="head"><h2>메뉴</h2><p>원두는 매주 바뀌어요. 오늘의 원두는 매장에서 확인하세요.</p></div>
+    <div class="board">
+      <div class="item"><b>아메리카노</b><i></i><em>4,800</em></div>
+      <div class="item"><b>핸드드립</b><span>오늘의 원두</span><i></i><em>6,500</em></div>
+      <div class="item"><b>카페라떼</b><i></i><em>5,300</em></div>
+      <div class="item"><b>플랫화이트</b><i></i><em>5,500</em></div>
+      <div class="item"><b>바닐라빈 라떼</b><i></i><em>5,900</em></div>
+      <div class="item"><b>말차 라떼</b><i></i><em>5,900</em></div>
+      <div class="item"><b>바스크 치즈케이크</b><i></i><em>6,800</em></div>
+      <div class="item"><b>원두 200g</b><span>포장</span><i></i><em>16,000</em></div>
+    </div>
+  </section>
+
+  <section id="space">
+    <div class="head"><h2>공간</h2><p>오래 머물러도 괜찮은 곳으로 만들었어요.</p></div>
+    <div class="space">
+      <div><b>창가 바 좌석</b><p>8석. 자리마다 콘센트가 있어요.</p></div>
+      <div><b>로스팅 룸</b><p>유리창 너머로 로스팅 과정을 볼 수 있어요.</p></div>
+      <div><b>단체석</b><p>최대 8인. 하루 전 전화로 예약해 주세요.</p></div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="head"><h2>오시는 길</h2></div>
+    <div class="visit">
+      <dl>
+        <dt>주소</dt><dd>서울 성동구 샘플로 00, 2층</dd>
+        <dt>영업</dt><dd>매일 09:00 – 21:00<br>매주 화요일 휴무</dd>
+        <dt>주차</dt><dd>건물 뒤 공영주차장 (음료 주문 시 1시간 지원)</dd>
+        <dt>문의</dt><dd>02-000-0000</dd>
+      </dl>
+      <div class="map" role="img" aria-label="약도 자리"></div>
+    </div>
+  </section>
+  <footer>온당 커피 · 컨셉 디자인 샘플</footer>
+</div>

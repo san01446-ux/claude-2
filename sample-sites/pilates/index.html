@@ -1,0 +1,100 @@
+<title>코어라인 필라테스</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+/* Layout: studio timetable is the hero object — weekly class grid, then membership prices and instructors. */
+:root {
+  --bg: #eef3f7; --surface: #ffffff; --ink: #0f2233; --muted: #5a6b7a; --line: #d6e0e8;
+  --blue: #2563a8; --lime: #c7e84a; --lime-ink: #1d2600;
+  --display: "Do Hyeon", "Noto Sans KR", sans-serif;
+  --sans: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0c1620; --surface: #13212e; --ink: #e6eef5; --muted: #9fb0bf; --line: #24364a; --blue: #6ea8e8; --lime: #c7e84a; --lime-ink: #1d2600; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #0c1620; --surface: #13212e; --ink: #e6eef5; --muted: #9fb0bf; --line: #24364a; --blue: #6ea8e8; --lime: #c7e84a; --lime-ink: #1d2600; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.7; word-break: keep-all; }
+.concept { background: var(--ink); color: var(--bg); text-align: center; font-size: 13px; padding: 6px 16px; }
+.wrap { max-width: 1080px; margin-inline: auto; padding-inline: 20px; }
+nav { display: flex; justify-content: space-between; align-items: center; padding-block: 22px; }
+nav b { font-family: var(--display); font-weight: 400; font-size: 26px; color: var(--blue); }
+nav a { background: var(--lime); color: var(--lime-ink); padding: 9px 18px; border-radius: 999px; font-weight: 700; text-decoration: none; font-size: 14px; }
+h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+.hero { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 40px; align-items: center; padding-block: 30px 60px; }
+.hero h1 { font-size: clamp(46px, 7vw, 80px); line-height: 1.05; }
+.hero h1 em { font-style: normal; color: var(--blue); }
+.hero p { color: var(--muted); font-size: 17px; margin: 18px 0 0; }
+.trial { margin-top: 24px; display: inline-flex; gap: 10px; align-items: baseline; background: var(--surface); padding: 14px 20px; border-radius: 16px; }
+.trial b { font-family: var(--display); font-weight: 400; font-size: 28px; color: var(--blue); }
+.table-box { background: var(--surface); border-radius: 22px; padding: 20px; overflow-x: auto; }
+.table-box h3 { margin: 0 0 12px; font-size: 15px; color: var(--muted); font-weight: 500; }
+table { border-collapse: separate; border-spacing: 6px; width: 100%; min-width: 480px; font-size: 13px; }
+th { color: var(--muted); font-weight: 500; text-align: center; }
+td { text-align: center; padding: 8px 4px; border-radius: 8px; font-variant-numeric: tabular-nums; }
+td.time { color: var(--muted); text-align: left; }
+.c-mat { background: color-mix(in srgb, var(--blue) 16%, transparent); }
+.c-ref { background: var(--lime); color: var(--lime-ink); font-weight: 700; }
+.c-pri { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+section { padding-block: 56px; }
+h2 { font-size: clamp(32px, 4.5vw, 46px); margin-bottom: 24px; }
+.plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.plan { background: var(--surface); border-radius: 20px; padding: 26px; display: flex; flex-direction: column; gap: 4px; }
+.plan.best { outline: 3px solid var(--blue); }
+.plan small { color: var(--muted); }
+.plan b { font-family: var(--display); font-weight: 400; font-size: 34px; font-variant-numeric: tabular-nums; }
+.plan span { color: var(--muted); font-size: 14px; }
+.coaches { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.coach { background: var(--surface); border-radius: 20px; padding: 24px; }
+.coach b { font-size: 18px; }
+.coach p { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
+footer { color: var(--muted); font-size: 13px; padding-block: 24px 40px; }
+@media (max-width: 800px) {
+  .hero, .plans, .coaches { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+<div class="concept">컨셉 디자인 · 실제 업체가 아닌 홈페이지 제작 샘플입니다</div>
+<div class="wrap">
+  <nav><b>CORELINE</b><a href="#plans">체험 수업 신청</a></nav>
+  <header class="hero">
+    <div>
+      <h1>바른 자세는<br><em>코어</em>에서 시작해요</h1>
+      <p>정원 6명 그룹 레슨과 1:1 개인 레슨. 처음 오시는 분은 체험 수업으로 몸 상태부터 확인해요.</p>
+      <div class="trial"><span>첫 체험 수업</span><b>20,000원</b></div>
+    </div>
+    <div class="table-box">
+      <h3>이번 주 시간표</h3>
+      <table>
+        <thead><tr><th></th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th></tr></thead>
+        <tbody>
+          <tr><td class="time">07:00</td><td class="c-mat">매트</td><td class="c-ref">기구</td><td class="c-mat">매트</td><td class="c-ref">기구</td><td class="c-mat">매트</td><td></td></tr>
+          <tr><td class="time">10:00</td><td class="c-ref">기구</td><td class="c-pri">1:1</td><td class="c-ref">기구</td><td class="c-pri">1:1</td><td class="c-ref">기구</td><td class="c-ref">기구</td></tr>
+          <tr><td class="time">19:00</td><td class="c-ref">기구</td><td class="c-mat">매트</td><td class="c-ref">기구</td><td class="c-mat">매트</td><td class="c-ref">기구</td><td class="c-mat">매트</td></tr>
+          <tr><td class="time">20:30</td><td class="c-mat">매트</td><td class="c-ref">기구</td><td class="c-mat">매트</td><td class="c-ref">기구</td><td class="c-pri">1:1</td><td></td></tr>
+        </tbody>
+      </table>
+      <div class="legend"><span><i class="c-mat"></i>매트 그룹</span><span><i class="c-ref"></i>기구 그룹</span><span><i class="c-pri"></i>개인 레슨</span></div>
+    </div>
+  </header>
+
+  <section id="plans">
+    <h2>회원권</h2>
+    <div class="plans">
+      <div class="plan"><small>그룹 레슨</small><b>주 2회 · 1개월</b><span>8회 · 180,000원</span></div>
+      <div class="plan best"><small>가장 많이 선택해요</small><b>주 2회 · 3개월</b><span>24회 · 480,000원 (회당 20,000원)</span></div>
+      <div class="plan"><small>개인 레슨</small><b>1:1 · 10회</b><span>700,000원 · 시간 자유 예약</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>강사</h2>
+    <div class="coaches">
+      <div class="coach"><b>윤서 원장</b><p>재활 필라테스 · 거북목, 골반 교정 수업 담당</p></div>
+      <div class="coach"><b>하늘 강사</b><p>기구 그룹 · 근력과 체형 밸런스</p></div>
+      <div class="coach"><b>지안 강사</b><p>매트 그룹 · 호흡과 코어 기초</p></div>
+    </div>
+  </section>
+  <footer>코어라인 필라테스 · 서울 송파구 샘플로 00 · 02-000-0000 · 컨셉 디자인 샘플</footer>
+</div>

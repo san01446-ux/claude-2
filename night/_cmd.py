@@ -4,7 +4,7 @@ cmd=[]
 def add(u,h): cmd.append({"u":u,"c":h.replace('\n','').replace('"',"'")})
 M="background:#2a2a3a;padding:4px 9px;border-radius:10px;display:inline-block"
 add("/폰",f'''<div style="{B}background:#101018;color:#e8e6f0;border:1px solid #ff2d75">
-<div style="background:#1a1024;padding:8px 12px"><b style="color:#ff4d8d">💬 세린 · 에덴 MD</b> <small style="color:#7df9ff">AM 1:12</small></div>
+<div style="background:#1a1024;padding:8px 12px"><b style="color:#ff4d8d">💬 다은 · 에덴 MD</b> <small style="color:#7df9ff">AM 1:12</small></div>
 <div style="padding:10px 12px"><span style="{M}">오빠 오늘 에덴 와? 3번 테이블 비워 놨는데🥂</span><br><span style="{M}">높은 분들 온대. 오면 나한테 먼저 와</span> <small style="color:#888">읽지 않음 3</small>
 <div style="border-top:1px solid #333;margin-top:6px;padding-top:5px;font-size:12px;color:#aaa">📩 구 기사(대리): 오늘 몇 시 콜? 청담이면 할증ㅋ</div></div></div>''')
 add("/찌라시",f'''<div style="{B}background:#0d1a22;color:#d8f6ff;border:1px solid #00e5ff">
@@ -27,7 +27,7 @@ add("/지갑",f'''<div style="{B}background:#14121c;color:#eee;border:1px solid 
 add("/인맥",f'''<div style="{B}background:#120f1a;color:#e8e6f0;border:1px solid #a855f7">
 <div style="padding:8px 12px;border-bottom:1px solid #2e2440"><b style="color:#c4b5fd">👥 인맥 수첩</b> <small style="color:#888">총 11명</small></div>
 <div style="padding:8px 12px;font-size:12.5px;line-height:1.85">
-<b style="color:#ff4d8d">세린</b> 에덴 MD · 친한 사이 · 테이블 꽂아 줌<br>
+<b style="color:#ff4d8d">다은</b> 에덴 MD · 친한 사이 · 테이블 꽂아 줌<br>
 <b style="color:#ffd166">윤 사장</b> 블루문 사장 · 아는 사이 · 아직 경계<br>
 <b style="color:#7df9ff">포차 이모</b> 을지 포차 · 친한 사이 · 외상 1번<br>
 <b>구 기사</b> 대리기사 · 단골 · 새벽 콜 전담<br>

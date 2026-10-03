@@ -485,23 +485,40 @@ function createBot(io, nowFn, http) {
 
   /* --- 도움말 --- */
   function help(r, name) {
+    // 휴대폰에서 줄 중간이 끊기지 않도록 한 줄을 짧게 유지한다.
     var lines = [
-      "🏛️ " + CONFIG.nation.name + " 봇 명령어",
+      "🏛️ " + CONFIG.nation.name + " 명령어",
       "",
-      "[국민] !국민등록 · !신분증 · !국민목록",
-      "[돈] !잔고 · !송금 닉네임 금액 · !월급 · !재산순위",
+      "[국민]",
+      "!국민등록 · !신분증",
+      "!국민목록",
+      "",
+      "[돈]",
+      "!잔고 · !월급 · !재산순위",
+      "!송금 닉네임 금액",
+      "",
       "[출석] !출석 · !출석현황",
-      "[나라] !국가정보 · !헌법 · !공지 · !관직목록",
+      "",
+      "[나라]",
+      "!국가정보 · !헌법",
+      "!공지 · !관직목록",
+      "",
       "[투표] !투표현황 · !투표 번호",
-      "[선거] !선거현황 · !출마 · !선거투표 후보",
-      "[요약] !요약 (내가 마지막으로 말한 뒤 대화) · !요약 100"
+      "",
+      "[선거]",
+      "!선거현황 · !출마",
+      "!선거투표 후보",
+      "",
+      "[요약]",
+      "!요약 → 내가 마지막으로 말한 뒤",
+      "!요약 100 → 최근 100개"
     ];
     var admin = [];
-    if (can(r, name, "notice")) admin.push("!공지등록 내용 · !공지삭제 번호");
-    if (can(r, name, "money")) admin.push("!지급 닉네임 금액 · !회수 닉네임 금액");
-    if (can(r, name, "appoint")) admin.push("!관직임명 닉네임 관직 · !관직해임 닉네임");
-    if (can(r, name, "vote")) admin.push("!투표생성 제목 | 항목1 | 항목2 · !투표종료");
-    if (can(r, name, "election")) admin.push("!선거시작 관직 · !선거종료");
+    if (can(r, name, "notice")) admin.push("!공지등록 내용", "!공지삭제 번호");
+    if (can(r, name, "money")) admin.push("!지급 닉네임 금액", "!회수 닉네임 금액");
+    if (can(r, name, "appoint")) admin.push("!관직임명 닉네임 관직", "!관직해임 닉네임");
+    if (can(r, name, "vote")) admin.push("!투표생성 제목|항목|항목", "!투표종료");
+    if (can(r, name, "election")) admin.push("!선거시작 관직", "!선거종료");
     if (admin.length) lines.push("", "[관리 · 내 권한]", admin.join("\n"));
     return lines.join("\n");
   }

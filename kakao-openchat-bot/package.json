@@ -1,0 +1,9 @@
+{
+  "name": "kakao-openchat-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "오픈채팅방 관리 봇 (메신저봇R 스크립트): 출석, 미출석, 비활동, 끝말잇기, 초성게임",
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "kakao-chatbot-sample",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "카카오톡 채널 상담 챗봇 (카카오 i 오픈빌더 스킬 서버) 샘플",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

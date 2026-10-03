@@ -1,0 +1,25 @@
+<div style="max-width:720px;margin:0 auto;background:#07070c;border:1px solid #ff2d75;box-shadow:0 0 18px #ff2d7566;border-radius:16px;padding:28px 22px;color:#e6e3ee;font-family:'Noto Sans KR',sans-serif;line-height:1.8;font-size:14.5px;">
+<div style="text-align:center;font-size:11px;letter-spacing:.4em;color:#7df9ff;">SEOUL · NIGHT CITY</div>
+<div style="text-align:center;font-size:24px;font-weight:900;color:#fff;margin:6px 0;text-shadow:0 0 12px #ff2d75;">【불이 꺼지지 않는 도시에 온 당신에게】</div>
+<div style="border-top:1px dashed #3a2140;margin:14px 0;"></div>
+<p style="text-align:center;font-style:italic;color:#a59cb8;margin:0 0 14px;">해가 지면 깨어나는 도시. 오늘 밤, 당신은 어디까지 갈 수 있을까.</p>
+<p style="margin:0 0 10px;">2026년 서울. 밤 9시가 되면 을지로 포차 골목에 김이 오르고, 강남 클럽 앞에 줄이 늘어서고, 청담 라운지의 불이 켜진다. 포장마차 소주 한 잔부터 지하 카지노의 칩 한 장까지, 이 도시의 밤에는 <b style="color:#ff8fb3;">등급</b>이 있다.</p>
+<div style="margin:16px 0;background:#0d1a22;border:1px solid #1f4a5a;border-radius:10px;padding:12px 14px;font-size:13.5px;">
+<div style="color:#7df9ff;font-weight:700;">📢 실시간 찌라시 · AM 0:40</div>
+<div>[강남] 클럽 VIP룸에 재벌 2세 떴다는 목격담<br>[을지로] 포차 골목에 검은 승용차 두 대<br>[청담] 회원제 라운지 지분 매각설</div></div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;">
+<div style="flex:1 1 280px;border:1px solid #00b8d4;box-shadow:0 0 10px #00e5ff44;border-radius:12px;padding:14px;background:#08141a;">
+<div style="color:#7df9ff;font-size:16px;font-weight:800;text-align:center;border-bottom:1px solid #00b8d4;padding-bottom:6px;">【밤을 즐기려는 당신에게】</div>
+<p style="margin:8px 0 0;font-size:13.5px;">★1 포차와 코인노래방부터 ★5 요트와 하이롤러 룸까지. 마사지, 노래방, 라운지, 에스테틱 — 모든 업종에 <b style="color:#7df9ff;">프라이빗 버전</b>이 있다. 그리고 도쿄에서 라스베이거스까지, 세계의 밤 16곳.</p></div>
+<div style="flex:1 1 280px;border:1px solid #ff2d75;box-shadow:0 0 10px #ff2d7544;border-radius:12px;padding:14px;background:#1a0812;">
+<div style="color:#ff8fb3;font-size:16px;font-weight:800;text-align:center;border-bottom:1px solid #ff2d75;padding-bottom:6px;">【밤의 세계에 발을 들일 당신에게】</div>
+<p style="margin:8px 0 0;font-size:13.5px;">을지로의 옛 조직, 강남의 신흥 조직, 재벌의 돈, 광수대의 눈. 가입은 강제가 아니다. 다만 <b style="color:#ff8fb3;">들어가긴 쉬워도 나오긴 어렵다.</b></p></div></div>
+<div style="margin-top:20px;color:#ff4d8d;letter-spacing:.3em;font-size:12px;font-weight:700;">PEOPLE</div>
+<div style="font-size:13.5px;margin-top:6px;">정해진 주인공은 없다. 가게에 들어서면 그곳의 사람들이 나타난다. 무뚝뚝한 포차 이모, 잔에 비밀을 묻는 바텐더, 실적에 쫓기는 MD, 손님인 척하는 형사. <b style="color:#fff;">한 번 엮인 사람은 당신을 기억한다.</b></div>
+<div style="margin-top:20px;color:#ff4d8d;letter-spacing:.3em;font-size:12px;font-weight:700;">ROUTES</div>
+<div style="font-size:13.5px;margin-top:6px;">A 한량 · B 밤일 시작 · C 조직 입문 · D 사업가 · E 연예인 · F 일반인</div>
+<div style="margin:20px 0 0;background:rgba(255,45,117,0.1);border-top:1px solid #ff2d75;border-bottom:1px solid #ff2d75;padding:14px;text-align:center;font-size:13.5px;">현금 · 평판 · 인맥 · 소속 · 영향력 · 주량 · 컨디션<br>⌨ /폰 /찌라시 /지갑 /인맥 /지도 /프로필 이름</div>
+<p style="text-align:center;margin:22px 0 4px;color:#fff;font-size:16px;font-weight:700;">밤은 비싸고, 소문은 빠르다.</p>
+<p style="text-align:center;margin:0;font-size:17px;font-weight:800;color:#ff4d8d;text-shadow:0 0 8px #ff2d75;">그래도 — 불은 꺼지지 않는다.</p>
+<p style="text-align:center;font-size:11px;color:#6a6080;margin:16px 0 0;">🔞 모든 등장인물은 성인 · 가상의 도시입니다</p>
+</div>

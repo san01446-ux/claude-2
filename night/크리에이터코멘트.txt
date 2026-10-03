@@ -1,0 +1,40 @@
+<div style="max-width:440px;margin:0 auto;background:linear-gradient(170deg,#0b0b14,#1a0b1f 55%,#0b1420);border:1px solid #ff2d75;border-radius:22px;padding:18px;color:#e6e3ee;font-family:'Noto Sans KR',sans-serif;line-height:1.7;box-shadow:0 0 22px #ff2d7544;">
+<div style="text-align:center;"><div style="font-size:10px;letter-spacing:4px;color:#7df9ff;">SEOUL · NIGHT CITY SIMULATOR</div><div style="font-size:34px;font-weight:900;letter-spacing:8px;color:#fff;text-shadow:0 0 12px #ff2d75;">不夜城</div><div style="font-size:13px;color:#ff8fb3;">불야성 · 서울의 밤</div></div>
+
+<div style="background:linear-gradient(135deg,#ff2d75,#7c3aed);border-radius:14px;padding:13px 15px;margin-top:14px;">
+<div style="font-size:11px;letter-spacing:3px;font-weight:700;">⚡ RECOMMENDED MODEL</div>
+<div style="font-size:19px;font-weight:900;">Gemini 2.5 Pro 강력 추천</div>
+<div style="font-size:13px;">가게·사람·돈·평판·소문까지 기억할 게 많은 시뮬레이터예요. 긴 문맥에 강한 <b>Gemini 2.5 Pro</b> 또는 상위 모델을 권장해요. 가벼운 모델은 상태창과 명령어 카드가 흐트러질 수 있어요.</div></div>
+
+<div style="background:rgba(255,255,255,0.05);border:1px solid #2e2440;border-radius:14px;padding:13px 15px;margin-top:10px;">
+<div style="font-size:11px;letter-spacing:3px;color:#ff4d8d;font-weight:700;">HOW TO START</div>
+<div style="font-size:13.5px;margin-top:4px;">① 페르소나에 <b>이름·나이·직업·시작 루트</b>를 적어 주세요.<br>
+<span style="color:#ff8fb3;">A 한량 · B 밤일 · C 조직 · D 사업가 · E 연예인 · F 일반인</span><br>
+② 에피소드를 골라요: <b>첫날 밤</b>(강남 클럽) · <b>을지로의 밤</b>(포차 골목) · <b>로열 스위트</b>(청담 카지노)<br>
+③ 그다음은 자유. 가고 싶은 가게, 하고 싶은 일을 그대로 적으세요.</div></div>
+
+<div style="background:rgba(255,255,255,0.05);border:1px solid #2e2440;border-radius:14px;padding:13px 15px;margin-top:10px;">
+<div style="font-size:11px;letter-spacing:3px;color:#ffd166;font-weight:700;">THE NIGHT</div>
+<div style="font-size:13.5px;margin-top:4px;">🍢 <b>★1</b> 포차·호프·코인노래방·발마사지<br>🍻 <b>★2</b> 헌팅포차·감성주점·노래방 룸<br>🍸 <b>★3</b> 클럽·칵테일 바·재즈·호텔 스파<br>🥂 <b>★4</b> 회원제 라운지·룸 접대·VIP 에스테틱<br>🎰 <b>★5</b> 카지노 하이롤러·요트·전용기·비공개 살롱<br>✈ 도쿄부터 라스베이거스, 모나코까지 세계의 밤 16곳</div></div>
+
+<div style="background:rgba(255,255,255,0.05);border:1px solid #2e2440;border-radius:14px;padding:13px 15px;margin-top:10px;">
+<div style="font-size:11px;letter-spacing:3px;color:#7df9ff;font-weight:700;">COMMANDS</div>
+<div style="font-size:13px;margin-top:4px;"><b style="color:#7df9ff;">/폰</b> 받은 메시지 · <b style="color:#7df9ff;">/찌라시</b> 실시간 소문 · <b style="color:#7df9ff;">/지갑</b> 현금과 지출<br><b style="color:#7df9ff;">/인맥</b> 알게 된 사람 · <b style="color:#7df9ff;">/지도</b> 오늘 밤 서울 · <b style="color:#7df9ff;">/프로필 이름</b> 만난 사람 카드</div></div>
+
+<div style="background:rgba(255,255,255,0.05);border:1px solid #2e2440;border-radius:14px;padding:13px 15px;margin-top:10px;">
+<div style="font-size:11px;letter-spacing:3px;color:#c084fc;font-weight:700;">TIPS</div>
+<div style="font-size:13px;margin-top:4px;">· 정해진 히로인은 없어요. 가게에 가면 그 가게 사람이 나와요. 다시 가면 당신을 기억해요.<br>· 밤은 비싸요. 현금이 바닥나면 밤일을 하거나, 내기를 하거나, 빚을 지게 돼요.<br>· 마시면 취해요. 필름이 끊기면 다음 날 '어젯밤'이 조각조각 돌아와요.<br>· 조직은 강제가 아니에요. 들어가긴 쉬워도 나오긴 어려워요.<br>· 막히면 "/지도"로 오늘 밤 분위기를 확인해 보세요.</div></div>
+
+<div style="background:rgba(255,255,255,0.04);border:1px dashed #ff4d8d;border-radius:14px;padding:13px 15px;margin-top:10px;">
+<div style="font-size:11px;letter-spacing:3px;color:#ff4d8d;font-weight:700;">UPDATE ROADMAP</div>
+<div style="font-size:12px;color:#a59cb8;">지금은 <b style="color:#ffd166;">ver 1.0 · 서울과 세계의 밤</b>이에요.</div>
+<div style="font-size:13px;line-height:1.95;margin-top:4px;">
+<span style="background:#7c3aed;border-radius:5px;padding:1px 6px;font-size:11px;">NOW</span> 서울 6구역 · 세계 16도시 · ★1~★5 · 명령어 6종<br>
+<span style="background:#ff2d75;border-radius:5px;padding:1px 6px;font-size:11px;">NEXT</span> 🏪 내 가게 키우기: 인수·인테리어·직원 고용·매출 정산<br>
+<span style="background:#ff2d75;border-radius:5px;padding:1px 6px;font-size:11px;">NEXT</span> 🌏 세계 투어 시즌: 도시별 전용 이벤트와 현지 인연<br>
+<span style="background:#3a3050;border-radius:5px;padding:1px 6px;font-size:11px;">SOON</span> 🎰 카지노 미니게임 카드 · 📸 가게별 이미지 · 🗝 숨겨진 가상 업소 추가</div>
+<div style="font-size:12.5px;color:#ffc2d6;margin-top:6px;">💬 "이런 가게도 있었으면" 하는 곳을 댓글로 남겨 주세요. 다음 업데이트에 지도에 올릴게요.</div></div>
+
+<div style="background:#2a0f1a;border-radius:12px;padding:10px 14px;margin-top:10px;font-size:12px;color:#ffc2d6;">⚠ 모든 등장인물은 성인이며 실존 업소·인물·조직과 무관한 가상 세계입니다.<br>⚠ 수치가 이상하면 "상태 다시 확인해 줘" 한 줄이면 돌아와요.</div>
+<div style="text-align:center;font-size:13px;color:#c9c0d8;margin-top:12px;">오늘 밤도 불은 꺼지지 않습니다 🌃<br><span style="font-size:11px;color:#6a6080;">ver 1.0 · 2026.10 · 계속 업데이트 중</span></div>
+</div>

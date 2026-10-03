@@ -1,0 +1,18 @@
+<div style="max-width:380px;margin:0 auto;background:linear-gradient(160deg,#0b0b14,#1a0b1f 60%,#0b1420);border:1px solid #ff2d75;border-radius:16px;padding:12px 14px;color:#e8e6f0;font-family:'Noto Sans KR',sans-serif;font-size:12.5px;line-height:1.6;box-shadow:0 0 16px #ff2d7544;">
+<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #3a2140;padding-bottom:6px;margin-bottom:8px;">
+<span style="font-weight:900;letter-spacing:3px;color:#ff4d8d;text-shadow:0 0 8px #ff2d75;">不夜城</span>
+<span style="font-weight:700;color:#7df9ff;text-shadow:0 0 6px #00e5ff;">{{시간}}</span></div>
+<div style="background:rgba(255,45,117,0.1);border:1px solid #5a2140;border-radius:10px;padding:6px 10px;margin-bottom:8px;">📍 <b>{{장소}}</b><div style="color:#c9b8d8;font-size:12px;">👥 {{동행}}</div></div>
+<div style="display:flex;gap:6px;margin-bottom:8px;text-align:center;">
+<div style="flex:1.3;background:#121220;border:1px solid #2a2a40;border-radius:10px;padding:5px;"><div style="font-size:10px;color:#ffd166;">💰 현금</div><b style="font-size:12px;">{{현금}}</b></div>
+<div style="flex:1;background:#121220;border:1px solid #2a2a40;border-radius:10px;padding:5px;"><div style="font-size:10px;color:#ff4d8d;">⭐ 평판</div><b style="font-size:12px;">{{평판}}</b></div></div>
+<div style="display:grid;grid-template-columns:52px 1fr;gap:2px 8px;">
+<span style="color:#8a80a0;">소속</span><span>{{소속}}</span>
+<span style="color:#8a80a0;">인맥</span><span>{{인맥}}</span>
+<span style="color:#8a80a0;">영향력</span><span>{{영향력}}</span>
+<span style="color:#8a80a0;">주량</span><span>🍸 {{주량}}</span>
+<span style="color:#8a80a0;">컨디션</span><span>{{컨디션}}</span></div>
+<details style="margin-top:8px;background:rgba(255,77,141,0.08);border-radius:10px;padding:6px 10px;"><summary style="cursor:pointer;font-weight:700;color:#ff8fb3;">💋 HEART</summary><div style="padding-top:4px;">{{호감}}</div></details>
+<div style="margin-top:8px;background:#0d1a22;border:1px solid #1f4a5a;border-radius:8px;padding:5px 9px;color:#7df9ff;font-size:12px;">📢 {{찌라시}}</div>
+<div style="margin-top:8px;font-size:10.5px;color:#7a7090;text-align:center;">/폰 /찌라시 /지갑 /인맥 /지도 /프로필 이름</div>
+</div>

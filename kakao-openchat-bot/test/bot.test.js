@@ -109,3 +109,19 @@ test('메신저봇R response(): 개인톡·다른 방 무시', () => {
   ctx.response('방', '!도움말', '철수', true, replier);
   assert.equal(replies.length, 1);
 });
+
+test('게임은 하나씩만: 다른 게임을 시작하면 진행 중인 게임은 끝난다', () => {
+  const { say, io } = setup();
+  say('철수', '!끝말잇기');
+  say('철수', '사과');
+  const chosung = say('영희', '!초성게임');
+  assert.match(chosung, /^\(진행 중이던 끝말잇기는 종료했어요\. 이어진 단어 1개\)\n\n🎯 초성게임 시작/);
+  assert.equal(say('민수', '과일'), null);
+  const state = JSON.parse(io.read(CONFIG.dataPath));
+  assert.equal(state.wordchain['방'].active, false);
+  const answer = state.chosung['방'].answer;
+  assert.match(say('철수', '!끝말잇기'), new RegExp(`^\\(진행 중이던 초성게임은 종료했어요\\. 정답: ${answer}\\)`));
+  // 초성게임은 끝났으니 정답을 쳐도 점수가 아니라 끝말잇기 첫 단어가 된다
+  assert.match(say('영희', answer), /⭕ 영희 \+1점\n다음:/);
+  assert.match(say('영희', '!끝말잇기'), /이미 끝말잇기 중이에요! '.+'\(으\)로 시작/);
+});

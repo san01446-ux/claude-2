@@ -151,7 +151,7 @@ function createBot(io, nowFn, http) {
   function idCard(r, name, target) {
     var who = target || name;
     var c = citizen(r, who);
-    if (!c) return who + "님은 아직 국민이 아니에요.";
+    if (!c) return who + "님은 아직 국민이 아니에요." + (who === name ? "\n!국민등록 으로 먼저 등록해 주세요." : "");
     return "🪪 " + CONFIG.nation.name + " 국민증\n" +
       "────────────\n" +
       "이름  " + who + "\n" +
@@ -175,7 +175,7 @@ function createBot(io, nowFn, http) {
   function balance(r, name, target) {
     var who = target || name;
     var c = citizen(r, who);
-    if (!c) return who + "님은 아직 국민이 아니에요.";
+    if (!c) return who + "님은 아직 국민이 아니에요." + (who === name ? "\n!국민등록 으로 먼저 등록해 주세요." : "");
     return "💰 " + who + "님의 잔고: " + money(c.balance);
   }
 
